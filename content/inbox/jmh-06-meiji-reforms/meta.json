@@ -1,0 +1,57 @@
+{
+  "title": "폐번치현과 메이지의 3대 개혁",
+  "subtitle": "번이 사라진 날에서 학제·징병령·지조 개정까지 (1869–1873)",
+  "summary": "1871년의 폐번치현으로 중앙집권 국가가 들어서는 과정, 정부 수뇌부가 구미 12개국을 돌아본 이와쿠라 사절단, 그리고 유수 정부가 밀어붙인 학제·징병령·지조 개정과 신분제 해체, 식산흥업과 문명개화를 살펴봅니다.",
+  "period": "1869–1873",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "폐번치현이 저항 없이 이루어진 이유를 설명할 수 있다",
+    "이와쿠라 사절단의 목적과 성과를 정리한다",
+    "학제·징병령·지조 개정의 내용과 그에 대한 저항을 안다",
+    "사민평등과 식산흥업·문명개화가 사회에 미친 영향을 이해한다"
+  ],
+  "suggestedCourse": {
+    "id": "japan-modern-history",
+    "title": "일본근대사",
+    "subtitle": "흑선에서 패전까지, 1853–1945"
+  },
+  "suggestedOrder": 6,
+  "createdAt": "2026-11-20T02:00:00Z",
+  "references": [
+    {
+      "author": "앤드루 고든",
+      "year": 2005,
+      "title": "현대 일본의 역사: 도쿠가와 시대에서 현대까지",
+      "publisher": "이산 (김우영 옮김)"
+    },
+    {
+      "author": "Marius B. Jansen",
+      "year": 2000,
+      "title": "The Making of Modern Japan",
+      "publisher": "Harvard University Press"
+    },
+    {
+      "author": "牧原憲夫",
+      "year": 2006,
+      "title": "民権と憲法 (シリーズ日本近現代史 2)",
+      "publisher": "岩波新書"
+    },
+    {
+      "author": "田中彰",
+      "year": 2002,
+      "title": "岩倉使節団『米欧回覧実記』",
+      "publisher": "岩波現代文庫"
+    },
+    {
+      "author": "久米邦武 (편)",
+      "year": 1878,
+      "title": "特命全権大使 米欧回覧実記",
+      "note": "이와쿠라 사절단의 공식 보고서"
+    },
+    {
+      "author": "福沢諭吉",
+      "year": 1872,
+      "title": "学問のすゝめ"
+    }
+  ]
+}

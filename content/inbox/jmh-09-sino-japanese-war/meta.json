@@ -1,0 +1,58 @@
+{
+  "title": "조약 개정과 청일전쟁",
+  "subtitle": "로쿠메이칸에서 시모노세키 조약과 을미사변까지 (1879–1895)",
+  "summary": "불평등조약 개정을 위한 30년의 노력과 영일통상항해조약, 조선을 둘러싼 청·일의 대립(임오군란·갑신정변·톈진 조약), 동학농민운동과 청일전쟁, 시모노세키 조약과 삼국간섭, 대만 식민지화와 을미사변을 살펴봅니다.",
+  "period": "1879–1895",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "조약 개정 교섭의 과정과 영일통상항해조약의 의미를 설명할 수 있다",
+    "임오군란·갑신정변·톈진 조약으로 이어진 청·일 대립을 이해한다",
+    "동학농민운동과 청일전쟁의 전개를 정리한다",
+    "시모노세키 조약과 삼국간섭, 대만 식민지화, 을미사변의 의미를 안다"
+  ],
+  "suggestedCourse": {
+    "id": "japan-modern-history",
+    "title": "일본근대사",
+    "subtitle": "흑선에서 패전까지, 1853–1945"
+  },
+  "suggestedOrder": 9,
+  "createdAt": "2026-11-20T02:00:00Z",
+  "references": [
+    {
+      "author": "앤드루 고든",
+      "year": 2005,
+      "title": "현대 일본의 역사: 도쿠가와 시대에서 현대까지",
+      "publisher": "이산 (김우영 옮김)"
+    },
+    {
+      "author": "Marius B. Jansen",
+      "year": 2000,
+      "title": "The Making of Modern Japan",
+      "publisher": "Harvard University Press"
+    },
+    {
+      "author": "陸奥宗光",
+      "year": 1896,
+      "title": "蹇蹇録",
+      "note": "청일전쟁기 외무대신의 회고록 (岩波文庫)"
+    },
+    {
+      "author": "原田敬一",
+      "year": 2007,
+      "title": "日清・日露戦争 (シリーズ日本近現代史 3)",
+      "publisher": "岩波新書"
+    },
+    {
+      "author": "大谷正",
+      "year": 2014,
+      "title": "日清戦争",
+      "publisher": "中公新書"
+    },
+    {
+      "author": "역사학연구소",
+      "year": 2004,
+      "title": "함께 보는 한국근현대사",
+      "publisher": "서해문집"
+    }
+  ]
+}

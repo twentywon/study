@@ -1,0 +1,59 @@
+{
+  "title": "자유민권운동과 메이지 헌법",
+  "subtitle": "민선의원 건백서에서 제국의회 개원까지 (1874–1890)",
+  "summary": "민선의원 설립 건백서로 시작된 자유민권운동의 확대와 사의 헌법, 메이지 14년 정변과 정당의 탄생, 마쓰카타 디플레이션과 지치부 사건, 그리고 이토 히로부미가 설계한 대일본제국헌법의 구조와 첫 선거·제국의회·교육칙어를 살펴봅니다.",
+  "period": "1874–1890",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "자유민권운동의 주체와 요구, 전개 과정을 설명할 수 있다",
+    "메이지 14년 정변의 배경과 결과를 이해한다",
+    "마쓰카타 재정과 격화 사건의 관계를 안다",
+    "대일본제국헌법의 구조와 특징(천황 주권, 통수권 독립, 신민의 권리)을 설명할 수 있다",
+    "첫 총선거와 제국의회, 교육칙어의 의미를 정리한다"
+  ],
+  "suggestedCourse": {
+    "id": "japan-modern-history",
+    "title": "일본근대사",
+    "subtitle": "흑선에서 패전까지, 1853–1945"
+  },
+  "suggestedOrder": 8,
+  "createdAt": "2026-11-20T02:00:00Z",
+  "references": [
+    {
+      "author": "앤드루 고든",
+      "year": 2005,
+      "title": "현대 일본의 역사: 도쿠가와 시대에서 현대까지",
+      "publisher": "이산 (김우영 옮김)"
+    },
+    {
+      "author": "Marius B. Jansen",
+      "year": 2000,
+      "title": "The Making of Modern Japan",
+      "publisher": "Harvard University Press"
+    },
+    {
+      "author": "牧原憲夫",
+      "year": 2006,
+      "title": "民権と憲法 (シリーズ日本近現代史 2)",
+      "publisher": "岩波新書"
+    },
+    {
+      "author": "坂野潤治",
+      "year": 2008,
+      "title": "日本憲政史",
+      "publisher": "東京大学出版会"
+    },
+    {
+      "author": "瀧井一博",
+      "year": 2003,
+      "title": "文明史のなかの明治憲法",
+      "publisher": "講談社選書メチエ"
+    },
+    {
+      "author": "色川大吉",
+      "year": 1981,
+      "title": "自由民権",
+      "publisher": "岩波新書"
+    }
+  ]
+}
