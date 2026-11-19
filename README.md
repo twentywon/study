@@ -2,7 +2,16 @@
 
 Claude가 생성한 강의를 **검토함**에서 읽어 보고, 마음에 들면 강좌에 **N강으로 넣고**, 아니면 **반려**하는 개인용 학습 플랫폼입니다.
 
-## 실행
+## 바로 쓰기 (링크)
+
+claude.ai 아티팩트로 게시된 단일 HTML 앱: https://claude.ai/artifact/H4FC3VRkyrYLXzgtWNhiek
+
+- 원본 파일: [artifact/study.html](artifact/study.html)
+- 강좌·강의는 아티팩트 저장소(db)에 저장됩니다: `courses`, `lectures`(정보·상태), `bodies`(본문)
+- 사진은 아티팩트 자료 저장소에 올리고 본문에서 `src: asset:<ID>`로 씁니다
+- 새 강의 넣기: `content/inbox/<ID>/`에 작성 → `node scripts/export-for-artifact.js <출력폴더> <ID>` → 저장소에 기록
+
+## 로컬 서버판 실행 (선택)
 
 ```bash
 npm install
