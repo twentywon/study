@@ -1,0 +1,19 @@
+{
+  "name": "study-platform",
+  "version": "0.1.0",
+  "private": true,
+  "description": "강의 검토·게시 플랫폼: 생성된 강의를 검토해 강좌에 넣거나 반려합니다.",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node scripts/check-content.js"
+  },
+  "dependencies": {
+    "chart.js": "4.6.1",
+    "marked": "18.1.2",
+    "mermaid": "12.2.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

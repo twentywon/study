@@ -1,0 +1,24 @@
+{
+  "title": "[샘플] 강의 형식 미리보기",
+  "subtitle": "사진·연표·표·도식·차트가 실제 강의에서 어떻게 보이는지 확인하는 견본",
+  "summary": "플랫폼 동작 확인용 견본 강의입니다. 승인·반려·복원 기능을 시험해 본 뒤 반려하거나 지우셔도 됩니다.",
+  "period": "1831–1890년대",
+  "estimatedMinutes": 5,
+  "objectives": [
+    "사진·사료(figure)에 출처와 라이선스가 어떻게 표시되는지 본다",
+    "연표, 비교표, 도식, 차트의 모양을 확인한다"
+  ],
+  "suggestedCourse": {
+    "id": "sample-course",
+    "title": "샘플 강좌"
+  },
+  "suggestedOrder": 1,
+  "createdAt": "2026-11-19T00:00:00Z",
+  "references": [
+    {
+      "title": "Wikimedia Commons: The Great Wave off Kanagawa",
+      "url": "https://commons.wikimedia.org/wiki/File:Tsunami_by_hokusai_19th_century.jpg",
+      "note": "그림 1 원본"
+    }
+  ]
+}

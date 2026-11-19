@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>강의 서재</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%232f4a3a'/><path d='M8 9h7a3 3 0 0 1 3 3v12a2.5 2.5 0 0 0-2.5-2.5H8zM24 9h-4a3 3 0 0 0-3 3v12a2.5 2.5 0 0 1 2.5-2.5H24z' fill='%23f3efe4'/></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Noto+Serif+KR:wght@500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#/">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span>강의 서재</span>
+    </a>
+    <nav class="nav">
+      <a href="#/" data-nav="library">강좌</a>
+      <a href="#/inbox" data-nav="inbox">검토함 <span class="badge" id="inbox-badge" hidden></span></a>
+      <a href="#/rejected" data-nav="rejected">반려함</a>
+      <a href="#/guide" data-nav="guide">작성 규격</a>
+    </nav>
+    <button class="theme-toggle" id="theme-toggle" type="button" aria-label="화면 밝기 전환">◐</button>
+  </header>
+  <div class="progress" id="read-progress"></div>
+  <main id="app" tabindex="-1"></main>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <dialog id="lightbox" class="lightbox">
+    <button class="lightbox-close" type="button" aria-label="닫기">×</button>
+    <img alt="">
+    <div class="lightbox-caption"></div>
+  </dialog>
+
+  <script src="/vendor/marked.js"></script>
+  <script src="/vendor/chart.js"></script>
+  <script src="/vendor/mermaid.js"></script>
+  <script type="module" src="/js/app.js"></script>
+</body>
+</html>
