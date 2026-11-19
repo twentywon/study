@@ -423,6 +423,11 @@ async function renderMarkdown(container, body) {
     code({ text, lang }) { return blockHTML(String(lang || '').trim().toLowerCase(), text, store) ?? false; },
     image({ href, text }) { return `<img src="${esc(resolveSrc(href))}" alt="${esc(text)}" loading="lazy">`; },
     html({ text }) { return esc(text); },
+    // 한국어의 범위 표기(6~7%, 1806~07)가 취소선이 되지 않도록: ~~두 개~~만 취소선으로 처리
+    del(token) {
+      const inner = this.parser.parseInline(token.tokens);
+      return String(token.raw).startsWith('~~') ? `<del>${inner}</del>` : `~${inner}~`;
+    },
   } });
   container.innerHTML = md.parse(body || '');
   container.querySelectorAll('a[href^="http"]').forEach((a) => { a.target = '_blank'; a.rel = 'noopener'; });

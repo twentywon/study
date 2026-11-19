@@ -67,6 +67,11 @@ export async function renderLecture(container, { body, assetBase = '' }) {
       code({ text, lang }) {
         return blockHTML(String(lang || '').trim().toLowerCase(), text, assetBase, store) ?? false;
       },
+      // 한국어의 범위 표기(6~7%)가 취소선이 되지 않도록: ~~두 개~~만 취소선
+      del(token) {
+        const inner = this.parser.parseInline(token.tokens);
+        return String(token.raw).startsWith('~~') ? `<del>${inner}</del>` : `~${inner}~`;
+      },
       image({ href, title, text }) {
         return `<img src="${esc(resolveSrc(href, assetBase))}" alt="${esc(text)}"${title ? ` title="${esc(title)}"` : ''} loading="lazy">`;
       },
