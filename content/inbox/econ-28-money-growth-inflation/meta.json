@@ -1,0 +1,54 @@
+{
+  "title": "화폐 증가와 인플레이션",
+  "subtitle": "화폐 수량설, 고전적 이분법, 인플레이션 세금과 하이퍼인플레이션, 피셔 효과, 인플레이션의 비용",
+  "summary": "돈의 양과 물가의 관계를 다룹니다. 1923년 독일의 하이퍼인플레이션으로 시작해, 돈의 수요와 공급으로 돈의 가치와 물가가 정해지는 원리, 고전적 이분법과 화폐의 중립성, 화폐 수량 방정식(MV=PY)과 16세기 가격 혁명을 살펴봅니다. 정부가 돈을 찍어 걷는 인플레이션 세금과 독일·헝가리·짐바브웨·베네수엘라의 하이퍼인플레이션, 한국의 화폐 개혁, 피셔 효과를 정리하고, 구두창 비용·메뉴 비용·부의 재분배 등 인플레이션의 비용과 디플레이션의 위험, 그리고 19세기 미국의 은 논쟁을 배웁니다.",
+  "period": "16세기–현재",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "돈의 수요와 공급으로 물가가 정해지는 원리를 설명할 수 있다",
+    "고전적 이분법과 화폐의 중립성, 화폐 수량 방정식을 이해한다",
+    "인플레이션 세금과 하이퍼인플레이션의 원인을 설명할 수 있다",
+    "피셔 효과로 명목 이자율과 인플레이션의 관계를 설명할 수 있다",
+    "인플레이션과 디플레이션의 비용을 구체적으로 말할 수 있다"
+  ],
+  "suggestedCourse": {
+    "id": "economics-principles",
+    "title": "경제학원론",
+    "subtitle": "희소성과 선택에서 시장, 경기 변동까지"
+  },
+  "suggestedOrder": 28,
+  "createdAt": "2026-11-20T19:30:00Z",
+  "references": [
+    {
+      "author": "Adam Fergusson",
+      "year": 1975,
+      "title": "When Money Dies: The Nightmare of the Weimar Collapse",
+      "publisher": "William Kimber"
+    },
+    {
+      "author": "Steve H. Hanke, Nicholas Krus",
+      "year": 2012,
+      "title": "World Hyperinflations",
+      "publisher": "Cato Working Paper No. 8"
+    },
+    {
+      "author": "Milton Friedman",
+      "year": 1992,
+      "title": "Money Mischief: Episodes in Monetary History",
+      "publisher": "Harcourt Brace"
+    },
+    {
+      "author": "Hugh Rockoff",
+      "year": 1990,
+      "title": "The 'Wizard of Oz' as a Monetary Allegory",
+      "publisher": "Journal of Political Economy 98(4)"
+    },
+    {
+      "author": "N. Gregory Mankiw",
+      "year": 2024,
+      "title": "Principles of Economics, 10th ed.",
+      "publisher": "Cengage",
+      "note": "30장 화폐 증가와 인플레이션"
+    }
+  ]
+}
