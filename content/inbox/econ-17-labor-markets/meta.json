@@ -1,0 +1,53 @@
+{
+  "title": "노동 시장과 생산 요소",
+  "subtitle": "한계 생산물 가치와 노동 수요, 일과 여가, 임금 격차의 원인, 지대와 이자",
+  "summary": "우리 소득의 대부분을 결정하는 노동 시장을 살펴봅니다. 1914년 포드의 하루 5달러 임금으로 시작해, 파생 수요와 한계 생산물 가치에 따른 고용 결정, 노동 수요를 이동시키는 요인과 기술 변화, 일과 여가의 선택으로서의 노동 공급을 익힙니다. 보상적 임금 격차, 인적 자본, 슈퍼스타 현상, 효율 임금, 노동조합, 차별과 남녀 임금 격차, 수요 독점, 지대와 이자, 전태일과 한국 노동사도 다룹니다.",
+  "period": "1833–현재",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "한계 생산물 가치로 기업의 고용 결정을 설명하고 노동 수요 곡선을 도출할 수 있다",
+    "노동 수요와 노동 공급을 이동시키는 요인을 예를 들어 설명할 수 있다",
+    "임금 격차의 여러 원인(보상적 격차, 인적 자본, 슈퍼스타, 효율 임금, 노동조합, 차별)을 구분할 수 있다",
+    "남녀 임금 격차의 현황과 원인에 대한 연구를 이해한다",
+    "지대와 이자, 기능적 소득 분배의 의미를 안다"
+  ],
+  "suggestedCourse": {
+    "id": "economics-principles",
+    "title": "경제학원론",
+    "subtitle": "희소성과 선택에서 시장, 경기 변동까지"
+  },
+  "suggestedOrder": 17,
+  "createdAt": "2026-11-20T12:30:00Z",
+  "references": [
+    {
+      "author": "Daniel M. G. Raff, Lawrence H. Summers",
+      "year": 1987,
+      "title": "Did Henry Ford Pay Efficiency Wages?",
+      "publisher": "Journal of Labor Economics 5(4)"
+    },
+    {
+      "author": "Gary S. Becker",
+      "year": 1957,
+      "title": "The Economics of Discrimination",
+      "publisher": "University of Chicago Press"
+    },
+    {
+      "author": "Sherwin Rosen",
+      "year": 1981,
+      "title": "The Economics of Superstars",
+      "publisher": "American Economic Review 71(5)"
+    },
+    {
+      "author": "Claudia Goldin",
+      "year": 2021,
+      "title": "Career and Family: Women's Century-Long Journey toward Equity",
+      "publisher": "Princeton University Press"
+    },
+    {
+      "author": "조영래",
+      "year": 1983,
+      "title": "전태일 평전",
+      "publisher": "돌베개"
+    }
+  ]
+}
