@@ -1,0 +1,60 @@
+{
+  "title": "인플레이션과 실업의 단기 상충 관계",
+  "subtitle": "필립스 곡선, 자연 실업률 가설, 스태그플레이션, 희생률과 합리적 기대, 볼커의 디스인플레이션",
+  "summary": "물가와 실업 사이의 관계를 둘러싼 반세기의 논쟁을 다룹니다. 수력 컴퓨터 모니악을 만든 빌 필립스의 1958년 발견으로 시작해, 새뮤얼슨·솔로의 '정책 메뉴', 프리드먼과 펠프스의 자연 실업률 가설과 수직인 장기 필립스 곡선을 배웁니다. 1970년대 예상 인플레이션의 상승과 석유 파동으로 필립스 곡선이 무너진 과정, 희생률과 합리적 기대 이론, 1979~1983년 볼커의 디스인플레이션, 그리고 중앙은행의 독립성과 물가 안정 목표제, 2021~2022년의 인플레이션까지 미국 자료와 함께 정리합니다.",
+  "period": "1958–현재",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "필립스 곡선과 총수요·총공급 모형의 관계를 설명할 수 있다",
+    "자연 실업률 가설과 수직인 장기 필립스 곡선을 이해한다",
+    "예상 인플레이션과 공급 충격이 단기 필립스 곡선을 이동시키는 원리를 설명할 수 있다",
+    "희생률과 합리적 기대 이론, 볼커의 디스인플레이션을 설명할 수 있다",
+    "중앙은행의 신뢰와 물가 안정 목표제가 기대를 고정하는 원리를 이해한다"
+  ],
+  "suggestedCourse": {
+    "id": "economics-principles",
+    "title": "경제학원론",
+    "subtitle": "희소성과 선택에서 시장, 경기 변동까지"
+  },
+  "suggestedOrder": 32,
+  "createdAt": "2026-11-20T21:30:00Z",
+  "references": [
+    {
+      "author": "A. W. Phillips",
+      "year": 1958,
+      "title": "The Relation between Unemployment and the Rate of Change of Money Wage Rates in the United Kingdom, 1861–1957",
+      "publisher": "Economica 25(100)"
+    },
+    {
+      "author": "Paul A. Samuelson, Robert M. Solow",
+      "year": 1960,
+      "title": "Analytical Aspects of Anti-Inflation Policy",
+      "publisher": "American Economic Review 50(2)"
+    },
+    {
+      "author": "Milton Friedman",
+      "year": 1968,
+      "title": "The Role of Monetary Policy",
+      "publisher": "American Economic Review 58(1)"
+    },
+    {
+      "author": "Thomas J. Sargent",
+      "year": 1982,
+      "title": "The Ends of Four Big Inflations",
+      "publisher": "Inflation: Causes and Effects, University of Chicago Press"
+    },
+    {
+      "author": "Paul A. Volcker, Christine Harper",
+      "year": 2018,
+      "title": "Keeping At It: The Quest for Sound Money and Good Government",
+      "publisher": "PublicAffairs"
+    },
+    {
+      "author": "N. Gregory Mankiw",
+      "year": 2024,
+      "title": "Principles of Economics, 10th ed.",
+      "publisher": "Cengage",
+      "note": "35장 인플레이션과 실업의 단기 상충 관계"
+    }
+  ]
+}
