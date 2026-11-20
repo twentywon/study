@@ -1,0 +1,53 @@
+{
+  "title": "조세 제도와 정부의 역할",
+  "subtitle": "한국의 세금과 정부 지출, 효율성과 공평성, 누진세와 부가가치세",
+  "summary": "정부가 세금을 어떻게 걷고 쓰는지, 좋은 세금의 조건은 무엇인지 살펴봅니다. 영국의 창문세로 시작해, 한국의 국세 구성과 국민 부담률, 정부 지출의 구조를 보고, 세금의 비용인 자중 손실과 행정 부담, 평균 세율과 한계 세율, 정액세를 익힙니다. 편익 원칙과 능력 원칙, 누진세·비례세·역진세, 부가가치세 도입(1977)과 법인세의 귀착, 대동법을 비롯한 세금의 역사도 다룹니다.",
+  "period": "1215–현재",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "한국의 주요 세금과 국민 부담률, 정부 지출의 구조를 설명할 수 있다",
+    "세금의 비용(자중 손실, 행정 부담)을 이해하고 평균 세율과 한계 세율을 구분할 수 있다",
+    "구간별 누진 세율로 소득세를 계산할 수 있다",
+    "편익 원칙과 능력 원칙, 수직적·수평적 공평을 설명할 수 있다",
+    "누진세·비례세·역진세를 구분하고 세금 귀착의 관점에서 공평성을 평가할 수 있다"
+  ],
+  "suggestedCourse": {
+    "id": "economics-principles",
+    "title": "경제학원론",
+    "subtitle": "희소성과 선택에서 시장, 경기 변동까지"
+  },
+  "suggestedOrder": 11,
+  "createdAt": "2026-11-20T09:30:00Z",
+  "references": [
+    {
+      "author": "기획재정부",
+      "year": 2025,
+      "title": "2024회계연도 국가결산 보고서",
+      "note": "국세 수입 구성"
+    },
+    {
+      "author": "OECD",
+      "year": 2024,
+      "title": "Revenue Statistics 2024",
+      "note": "국민 부담률 비교"
+    },
+    {
+      "author": "Wallace E. Oates, Robert M. Schwab",
+      "year": 2015,
+      "title": "The Window Tax: A Case Study in Excess Burden",
+      "publisher": "Journal of Economic Perspectives 29(1)"
+    },
+    {
+      "author": "이정철",
+      "year": 2010,
+      "title": "대동법: 조선 최고의 개혁",
+      "publisher": "역사비평사"
+    },
+    {
+      "author": "Joel Slemrod, Jon Bakija",
+      "year": 2017,
+      "title": "Taxing Ourselves (5th ed.)",
+      "publisher": "MIT Press"
+    }
+  ]
+}

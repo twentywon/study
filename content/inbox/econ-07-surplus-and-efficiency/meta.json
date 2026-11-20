@@ -1,0 +1,53 @@
+{
+  "title": "소비자 잉여, 생산자 잉여와 시장의 효율성",
+  "subtitle": "지불 용의와 잉여, 보이지 않는 손의 효율성, 세금의 자중 손실과 래퍼 곡선",
+  "summary": "거래가 만들어 내는 이득을 재는 소비자 잉여와 생산자 잉여를 배웁니다. 지불 용의와 비용, 총잉여의 의미를 익히고, 자애로운 사회 계획가와 비교해 경쟁 시장의 균형이 왜 효율적인지, 그 전제와 한계(시장 실패, 형평성, 파레토 효율)는 무엇인지 살펴봅니다. 세금과 가격 규제가 남기는 자중 손실, 탄력성과 세율에 따른 손실의 크기, 래퍼 곡선도 다룹니다.",
+  "period": "1844–현재",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "지불 용의와 소비자 잉여, 비용과 생산자 잉여를 정의하고 그래프의 넓이로 나타낼 수 있다",
+    "총잉여가 구매자의 가치에서 판매자의 비용을 뺀 것임을 이해한다",
+    "경쟁 시장의 균형이 효율적인 이유와 그 전제를 설명할 수 있다",
+    "세금과 가격 규제가 낳는 자중 손실을 설명하고, 탄력성과 세율에 따라 그 크기가 어떻게 달라지는지 안다",
+    "효율성과 형평성, 파레토 효율의 차이를 설명할 수 있다"
+  ],
+  "suggestedCourse": {
+    "id": "economics-principles",
+    "title": "경제학원론",
+    "subtitle": "희소성과 선택에서 시장, 경기 변동까지"
+  },
+  "suggestedOrder": 7,
+  "createdAt": "2026-11-20T07:30:00Z",
+  "references": [
+    {
+      "author": "Jules Dupuit",
+      "year": 1844,
+      "title": "De la mesure de l'utilité des travaux publics",
+      "publisher": "Annales des ponts et chaussées"
+    },
+    {
+      "author": "Vilfredo Pareto",
+      "year": 1906,
+      "title": "Manuale di economia politica",
+      "publisher": "Società Editrice Libraria"
+    },
+    {
+      "author": "Henry George",
+      "year": 1879,
+      "title": "Progress and Poverty",
+      "publisher": "D. Appleton"
+    },
+    {
+      "author": "Arthur B. Laffer",
+      "year": 2004,
+      "title": "The Laffer Curve: Past, Present, and Future",
+      "publisher": "Heritage Foundation Backgrounder"
+    },
+    {
+      "author": "N. Gregory Mankiw",
+      "year": 2024,
+      "title": "Principles of Economics (10th ed.)",
+      "publisher": "Cengage"
+    }
+  ]
+}

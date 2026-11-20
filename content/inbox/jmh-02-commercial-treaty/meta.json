@@ -1,0 +1,31 @@
+{
+  "title": "통상조약과 막부의 동요",
+  "subtitle": "해리스의 통상 요구에서 사쿠라다문 밖의 변까지 (1856–1860)",
+  "summary": "해리스의 부임과 통상 교섭, 칙허 문제와 쇼군 후계 다툼, 이이 나오스케의 무칙허 조인과 안세이 대옥, 개항 이후의 무역과 금 유출, 견미사절단, 그리고 이이 암살까지를 따라가며 통상조약이 막부 체제를 어떻게 흔들었는지 살펴봅니다.",
+  "period": "1856–1860",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "해리스의 설득 논리와 막부 관료들의 교섭 전략을 설명할 수 있다",
+    "미일수호통상조약의 내용과 '불평등조약'이라 불리는 이유(영사재판권, 관세자주권 결여, 편무적 최혜국 대우)를 안다",
+    "칙허 문제와 쇼군 후계 문제(히토쓰바시파 대 난키파)가 얽힌 구조를 이해한다",
+    "무오 밀칙과 안세이 대옥, 사쿠라다문 밖의 변의 의미를 정리한다",
+    "개항 이후 무역 구조와 금 유출·물가 폭등의 원인을 설명할 수 있다"
+  ],
+  "suggestedCourse": {
+    "id": "japan-modern-history",
+    "title": "일본근대사",
+    "subtitle": "흑선에서 패전까지, 1853–1945"
+  },
+  "suggestedOrder": 2,
+  "createdAt": "2026-11-19T20:00:00Z",
+  "references": [
+    { "author": "앤드루 고든", "year": 2005, "title": "현대 일본의 역사: 도쿠가와 시대에서 현대까지", "publisher": "이산 (김우영 옮김)" },
+    { "author": "Marius B. Jansen", "year": 2000, "title": "The Making of Modern Japan", "publisher": "Harvard University Press" },
+    { "author": "井上勝生", "year": 2006, "title": "幕末・維新 (シリーズ日本近現代史 1)", "publisher": "岩波新書" },
+    { "author": "石井孝", "year": 1944, "title": "幕末貿易史の研究", "publisher": "日本評論社", "note": "개항기 무역 통계의 기본 연구" },
+    { "author": "加藤祐三", "year": 2012, "title": "幕末外交と開国", "publisher": "講談社学術文庫" },
+    { "author": "Townsend Harris", "year": 1930, "title": "The Complete Journal of Townsend Harris, First American Consul General and Minister to Japan", "publisher": "Doubleday (Mario E. Cosenza 편)" },
+    { "author": "母利美和", "year": 2006, "title": "井伊直弼", "publisher": "吉川弘文館" },
+    { "title": "Treaty of Amity and Commerce between the United States and Japan (1858) 본문", "url": "https://en.wikisource.org/wiki/Treaty_of_Amity_and_Commerce_(United_States%E2%80%93Japan)", "note": "조약 영문본" }
+  ]
+}

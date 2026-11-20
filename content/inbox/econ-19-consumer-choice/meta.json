@@ -1,0 +1,53 @@
+{
+  "title": "소비자 선택 이론",
+  "subtitle": "예산선과 무차별 곡선, 최적 선택, 소득 효과와 대체 효과, 기펜재",
+  "summary": "수요 곡선 뒤에 있는 소비자의 선택을 깊이 들여다봅니다. 중국 후난성의 쌀 실험(기펜재)으로 시작해, 예산선과 그 이동, 선호를 나타내는 무차별 곡선과 한계 대체율, 예산선과 무차별 곡선이 맞닿는 최적 선택을 그래프로 익힙니다. 가격 변화를 대체 효과와 소득 효과로 나누어 정상재·열등재·기펜재를 구분하고, 임금과 노동 공급, 이자율과 저축, 현금 지원과 현물 지원에 적용합니다.",
+  "period": "1881–현재",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "예산선을 그리고 소득과 가격 변화에 따른 이동을 설명할 수 있다",
+    "무차별 곡선의 성질과 한계 대체율의 의미를 안다",
+    "예산선과 무차별 곡선으로 소비자의 최적 선택을 찾을 수 있다",
+    "가격 변화를 대체 효과와 소득 효과로 나누고 기펜재를 설명할 수 있다",
+    "소비자 선택 이론을 노동 공급, 저축, 현금·현물 지원 문제에 적용할 수 있다"
+  ],
+  "suggestedCourse": {
+    "id": "economics-principles",
+    "title": "경제학원론",
+    "subtitle": "희소성과 선택에서 시장, 경기 변동까지"
+  },
+  "suggestedOrder": 19,
+  "createdAt": "2026-11-20T13:30:00Z",
+  "references": [
+    {
+      "author": "Robert T. Jensen, Nolan H. Miller",
+      "year": 2008,
+      "title": "Giffen Behavior and Subsistence Consumption",
+      "publisher": "American Economic Review 98(4)"
+    },
+    {
+      "author": "John R. Hicks",
+      "year": 1939,
+      "title": "Value and Capital",
+      "publisher": "Clarendon Press"
+    },
+    {
+      "author": "Francis Y. Edgeworth",
+      "year": 1881,
+      "title": "Mathematical Psychics",
+      "publisher": "C. Kegan Paul"
+    },
+    {
+      "author": "Eugen Slutsky",
+      "year": 1915,
+      "title": "Sulla teoria del bilancio del consumatore",
+      "publisher": "Giornale degli Economisti"
+    },
+    {
+      "author": "N. Gregory Mankiw",
+      "year": 2024,
+      "title": "Principles of Economics (10th ed.)",
+      "publisher": "Cengage"
+    }
+  ]
+}

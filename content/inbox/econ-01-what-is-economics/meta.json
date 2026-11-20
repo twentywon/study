@@ -1,0 +1,60 @@
+{
+  "title": "경제학이란 무엇인가",
+  "subtitle": "희소성과 선택, 기회비용, 유인, 그리고 시장 (경제학원론 입문)",
+  "summary": "경제학의 출발점인 희소성과 선택에서 시작해 기회비용과 매몰비용, 한계적 사고, 유인을 배우고, 애덤 스미스의 분업과 '보이지 않는 손', 희소한 자원을 나누는 여러 방법, 정부의 역할, 생산성과 생활수준, 통화량과 인플레이션을 차례로 살펴봅니다. 미시경제학과 거시경제학, 실증 경제학과 규범 경제학의 구분과 경제학의 짧은 역사도 함께 정리합니다.",
+  "period": "1776–현재",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "희소성이 왜 선택을 낳는지, 경제학이 무엇을 연구하는지 설명할 수 있다",
+    "기회비용과 매몰비용을 구분하고 일상의 선택에 적용할 수 있다",
+    "한계적 사고와 유인의 개념을 예를 들어 설명할 수 있다",
+    "분업과 시장, 정부가 희소한 자원의 배분에서 하는 역할을 이해한다",
+    "미시경제학과 거시경제학, 실증 경제학과 규범 경제학을 구분할 수 있다"
+  ],
+  "suggestedCourse": {
+    "id": "economics-principles",
+    "title": "경제학원론",
+    "subtitle": "희소성과 선택에서 시장, 경기 변동까지"
+  },
+  "suggestedOrder": 1,
+  "createdAt": "2026-11-20T03:30:00Z",
+  "references": [
+    {
+      "author": "Adam Smith",
+      "year": 1776,
+      "title": "An Inquiry into the Nature and Causes of the Wealth of Nations",
+      "publisher": "W. Strahan and T. Cadell",
+      "note": "『국부론』"
+    },
+    {
+      "author": "Lionel Robbins",
+      "year": 1932,
+      "title": "An Essay on the Nature and Significance of Economic Science",
+      "publisher": "Macmillan"
+    },
+    {
+      "author": "Alfred Marshall",
+      "year": 1890,
+      "title": "Principles of Economics",
+      "publisher": "Macmillan"
+    },
+    {
+      "author": "Friedrich A. Hayek",
+      "year": 1945,
+      "title": "The Use of Knowledge in Society",
+      "publisher": "American Economic Review 35(4)"
+    },
+    {
+      "author": "N. Gregory Mankiw",
+      "year": 2024,
+      "title": "Principles of Economics (10th ed.)",
+      "publisher": "Cengage"
+    },
+    {
+      "author": "World Bank",
+      "year": 2024,
+      "title": "World Development Indicators: GDP per capita (current US$)",
+      "note": "한국 1인당 GDP 차트"
+    }
+  ]
+}

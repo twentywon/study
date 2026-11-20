@@ -1,0 +1,55 @@
+{
+  "title": "완전경쟁시장",
+  "subtitle": "가격 수용자, 가격 = 한계 비용, 조업 중단과 퇴출, 장기 경제적 이윤 0",
+  "summary": "수많은 기업이 같은 상품을 파는 완전경쟁시장에서 기업의 결정을 살펴봅니다. 탕후루 가게의 급증과 폐업으로 시작해, 완전경쟁의 조건과 가격 수용자, 한계 수입 = 한계 비용(가격 = 한계 비용)의 이윤 극대화, 한계 비용 곡선이 공급 곡선이 되는 이유를 익힙니다. 단기의 조업 중단과 장기의 퇴출, 진입과 퇴출로 경제적 이윤이 0이 되는 장기 균형, 정상 이윤, 장기 공급 곡선, 창조적 파괴도 다룹니다.",
+  "period": "현대",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "완전경쟁시장의 조건과 가격 수용자의 의미를 설명할 수 있다",
+    "가격 = 한계 비용의 원리로 이윤을 극대화하는 생산량을 구할 수 있다",
+    "단기 조업 중단(평균 가변 비용)과 장기 퇴출(평균 총비용)의 기준을 구분할 수 있다",
+    "진입과 퇴출로 장기 경제적 이윤이 0이 되는 과정을 설명할 수 있다",
+    "경제적 이윤 0과 정상 이윤, 장기 공급 곡선의 모양을 이해한다"
+  ],
+  "suggestedCourse": {
+    "id": "economics-principles",
+    "title": "경제학원론",
+    "subtitle": "희소성과 선택에서 시장, 경기 변동까지"
+  },
+  "suggestedOrder": 13,
+  "createdAt": "2026-11-20T10:30:00Z",
+  "references": [
+    {
+      "author": "Alfred Marshall",
+      "year": 1890,
+      "title": "Principles of Economics",
+      "publisher": "Macmillan",
+      "note": "장기와 단기의 구분"
+    },
+    {
+      "author": "Frank H. Knight",
+      "year": 1921,
+      "title": "Risk, Uncertainty and Profit",
+      "publisher": "Houghton Mifflin"
+    },
+    {
+      "author": "Joseph A. Schumpeter",
+      "year": 1942,
+      "title": "Capitalism, Socialism and Democracy",
+      "publisher": "Harper & Brothers",
+      "note": "창조적 파괴"
+    },
+    {
+      "author": "N. Gregory Mankiw",
+      "year": 2024,
+      "title": "Principles of Economics (10th ed.)",
+      "publisher": "Cengage"
+    },
+    {
+      "author": "통계청",
+      "year": 2024,
+      "title": "전국사업체조사 / 기업생멸행정통계",
+      "note": "업종별 창업·폐업"
+    }
+  ]
+}

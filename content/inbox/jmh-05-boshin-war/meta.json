@@ -1,0 +1,64 @@
+{
+  "title": "보신 전쟁과 메이지 신정부의 출발",
+  "subtitle": "도바·후시미에서 판적봉환까지 (1868–1869)",
+  "summary": "도바·후시미 전투로 시작해 에도성 무혈 개성, 동북의 오우에쓰 열번동맹과 아이즈 전쟁, 하코다테 고료카쿠의 최후로 끝나는 보신 전쟁의 전개와, 그 사이 5개조 서문·도쿄 천도·메이지 개원·판적봉환으로 새 국가가 출발하는 과정을 살펴봅니다.",
+  "period": "1868–1869",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "도바·후시미 전투에서 신정부군이 이긴 이유(비단 깃발의 의미)를 설명할 수 있다",
+    "에도성 무혈 개성의 과정과 관련 인물의 역할을 안다",
+    "오우에쓰 열번동맹과 아이즈 전쟁, 하코다테 전쟁의 전개를 정리한다",
+    "5개조 서문의 내용과 5방의 게시가 보여 주는 신정부의 성격을 이해한다",
+    "판적봉환이 바꾼 것과 바꾸지 못한 것을 설명할 수 있다"
+  ],
+  "suggestedCourse": {
+    "id": "japan-modern-history",
+    "title": "일본근대사",
+    "subtitle": "흑선에서 패전까지, 1853–1945"
+  },
+  "suggestedOrder": 5,
+  "createdAt": "2026-11-19T22:00:00Z",
+  "references": [
+    {
+      "author": "앤드루 고든",
+      "year": 2005,
+      "title": "현대 일본의 역사: 도쿠가와 시대에서 현대까지",
+      "publisher": "이산 (김우영 옮김)"
+    },
+    {
+      "author": "Marius B. Jansen",
+      "year": 2000,
+      "title": "The Making of Modern Japan",
+      "publisher": "Harvard University Press"
+    },
+    {
+      "author": "井上勝生",
+      "year": 2006,
+      "title": "幕末・維新 (シリーズ日本近現代史 1)",
+      "publisher": "岩波新書"
+    },
+    {
+      "author": "佐々木克",
+      "year": 1977,
+      "title": "戊辰戦争: 敗者の明治維新",
+      "publisher": "中公新書"
+    },
+    {
+      "author": "保谷徹",
+      "year": 2007,
+      "title": "戊辰戦争 (戦争の日本史 18)",
+      "publisher": "吉川弘文館"
+    },
+    {
+      "author": "星亮一",
+      "year": 2005,
+      "title": "会津落城",
+      "publisher": "中公新書"
+    },
+    {
+      "title": "五箇条の御誓文 (국립공문서관 디지털 아카이브)",
+      "url": "https://www.digital.archives.go.jp/",
+      "note": "원문 사료"
+    }
+  ]
+}

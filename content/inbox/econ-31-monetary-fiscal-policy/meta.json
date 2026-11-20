@@ -1,0 +1,54 @@
+{
+  "title": "통화 정책과 재정 정책",
+  "subtitle": "유동성 선호 이론과 전달 경로, 양적 완화, 승수 효과와 구축 효과, 안정화 정책 논쟁",
+  "summary": "정부와 중앙은행이 총수요를 어떻게 움직이는지 다룹니다. 2020년 코로나19 위기 때의 금리 인하와 재난지원금으로 시작해, 케인스의 유동성 선호 이론과 통화 정책의 다섯 가지 전달 경로, 제로 금리 하한과 양적 완화를 살펴봅니다. 재정 정책에서는 한계 소비 성향과 지출 승수, 구축 효과, 세금 감면의 효과(긴급재난지원금 분석)를 배우고, 적극적인 안정화 정책을 둘러싼 케인스 학파와 비판자들의 논쟁(시차·정치·예측), 자동 안정화 장치, 그리고 뉴딜은 대공황을 끝냈는가라는 질문을 정리합니다.",
+  "period": "1933–현재",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "유동성 선호 이론으로 단기 이자율이 정해지는 원리를 설명할 수 있다",
+    "통화 정책의 전달 경로와 양적 완화를 이해한다",
+    "지출 승수를 계산하고 승수 효과와 구축 효과를 비교할 수 있다",
+    "적극적인 안정화 정책에 대한 찬반 논거를 설명할 수 있다",
+    "자동 안정화 장치의 원리를 설명할 수 있다"
+  ],
+  "suggestedCourse": {
+    "id": "economics-principles",
+    "title": "경제학원론",
+    "subtitle": "희소성과 선택에서 시장, 경기 변동까지"
+  },
+  "suggestedOrder": 31,
+  "createdAt": "2026-11-20T21:00:00Z",
+  "references": [
+    {
+      "author": "John Maynard Keynes",
+      "year": 1936,
+      "title": "The General Theory of Employment, Interest and Money",
+      "publisher": "Macmillan"
+    },
+    {
+      "author": "Milton Friedman",
+      "year": 1968,
+      "title": "The Role of Monetary Policy",
+      "publisher": "American Economic Review 58(1)"
+    },
+    {
+      "author": "Valerie A. Ramey",
+      "year": 2019,
+      "title": "Ten Years after the Financial Crisis: What Have We Learned from the Renaissance in Fiscal Research?",
+      "publisher": "Journal of Economic Perspectives 33(2)"
+    },
+    {
+      "author": "한국개발연구원(KDI)",
+      "year": 2020,
+      "title": "긴급재난지원금의 소비 효과 분석",
+      "publisher": "KDI"
+    },
+    {
+      "author": "N. Gregory Mankiw",
+      "year": 2024,
+      "title": "Principles of Economics, 10th ed.",
+      "publisher": "Cengage",
+      "note": "34장 통화 정책과 재정 정책이 총수요에 미치는 영향"
+    }
+  ]
+}

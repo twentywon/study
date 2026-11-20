@@ -204,7 +204,8 @@ main { max-width: 1180px; margin: 0 auto; padding: 32px 24px 96px; outline: none
 
 /* 그림 */
 .figure { margin: 32px 0; }
-.figure.wide { margin-left: -60px; margin-right: -60px; }
+/* 넓은 그림: 목차와의 간격(48px) 안에서만 넓힌다. 더 넓히면 고정된 목차가 그림·캡션을 덮는다 */
+.figure.wide { margin-left: -24px; margin-right: -24px; }
 .figure.narrow { max-width: 460px; margin-left: auto; margin-right: auto; }
 .figure .frame { background: var(--surface-2); border-radius: var(--radius); overflow: hidden; display: grid; place-items: center; cursor: zoom-in; }
 .figure img { display: block; max-height: 620px; width: auto; max-width: 100%; }

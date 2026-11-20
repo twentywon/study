@@ -5,7 +5,7 @@
 실제 강의에서는 위키미디어 공용(Wikimedia Commons), 각국 국립도서관·박물관의 공개 자료 등 **출처가 분명한 실물 자료**만 씁니다. 그림을 누르면 크게 볼 수 있습니다.
 
 ```figure
-src: https://commons.wikimedia.org/wiki/Special:FilePath/Tsunami_by_hokusai_19th_century.jpg?width=1280
+src: asset:b99afeb1e3e8261991e02d9737d0e66b
 caption: 가쓰시카 호쿠사이, 「가나가와 앞바다의 큰 파도」(『후가쿠 36경』 중). 목판화.
 credit: 가쓰시카 호쿠사이, 1831년경
 license: Public Domain

@@ -1,0 +1,66 @@
+{
+  "title": "존왕양이와 사쓰마·조슈의 전환",
+  "subtitle": "공무합체에서 시모노세키 전쟁까지 (1860–1864)",
+  "summary": "이이 암살 뒤 정치의 중심이 교토로 옮겨 가는 과정, 존왕양이 사상의 뿌리와 지사들의 활동, 공무합체와 분큐 개혁, 나마무기 사건과 사쓰에이 전쟁, 조슈의 양이 실행과 8·18 정변·금문의 변·시모노세키 전쟁을 거쳐 사쓰마와 조슈가 양이를 버리고 개국·부국강병으로 돌아서는 과정을 살펴봅니다.",
+  "period": "1860–1864",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "존왕양이 사상의 뿌리(미토학·국학)와 지사의 성격을 설명할 수 있다",
+    "공무합체 정책(가즈노미야 혼인, 분큐 개혁)의 목적과 한계를 이해한다",
+    "나마무기 사건·사쓰에이 전쟁이 사쓰마에 남긴 교훈을 정리한다",
+    "8·18 정변, 금문의 변, 시모노세키 전쟁으로 이어진 조슈의 몰락 과정을 안다",
+    "'양이에서 개국으로'의 전환이 막부 타도로 이어지는 논리를 설명할 수 있다"
+  ],
+  "suggestedCourse": {
+    "id": "japan-modern-history",
+    "title": "일본근대사",
+    "subtitle": "흑선에서 패전까지, 1853–1945"
+  },
+  "suggestedOrder": 3,
+  "createdAt": "2026-11-19T22:00:00Z",
+  "references": [
+    {
+      "author": "앤드루 고든",
+      "year": 2005,
+      "title": "현대 일본의 역사: 도쿠가와 시대에서 현대까지",
+      "publisher": "이산 (김우영 옮김)"
+    },
+    {
+      "author": "Marius B. Jansen",
+      "year": 2000,
+      "title": "The Making of Modern Japan",
+      "publisher": "Harvard University Press"
+    },
+    {
+      "author": "井上勝生",
+      "year": 2006,
+      "title": "幕末・維新 (シリーズ日本近現代史 1)",
+      "publisher": "岩波新書"
+    },
+    {
+      "author": "三谷博",
+      "year": 2017,
+      "title": "維新史再考: 公議・王政から集権・脱身分化へ",
+      "publisher": "NHK出版"
+    },
+    {
+      "author": "町田明広",
+      "year": 2010,
+      "title": "攘夷の幕末史",
+      "publisher": "講談社現代新書"
+    },
+    {
+      "author": "Ernest Satow",
+      "year": 1921,
+      "title": "A Diplomat in Japan",
+      "publisher": "Seeley, Service & Co.",
+      "note": "영국 통역관의 막말 회고록"
+    },
+    {
+      "author": "萩原延壽",
+      "year": 2007,
+      "title": "遠い崖: アーネスト・サトウ日記抄",
+      "publisher": "朝日文庫"
+    }
+  ]
+}

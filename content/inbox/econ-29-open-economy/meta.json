@@ -1,0 +1,54 @@
+{
+  "title": "개방 경제",
+  "subtitle": "순수출과 순자본 유출, 국제 수지, 명목·실질 환율, 구매력 평가",
+  "summary": "한 나라가 다른 나라와 물건과 돈을 주고받는 흐름을 다룹니다. 1944년 브레턴우즈 회의로 시작해, 순수출과 그 결정 요인, 해외 직접 투자와 포트폴리오 투자로 이루어진 순자본 유출, 그리고 '순수출 = 순자본 유출'과 '저축 = 국내 투자 + 순자본 유출'이라는 항등식을 살펴봅니다. 한국의 국제 수지(경상 수지와 금융 계정), 명목 환율과 원화 절상·절하, 실질 환율을 정리하고, 일물일가의 법칙과 구매력 평가 이론, 빅맥 지수와 그 한계, 브레턴우즈에서 변동 환율제까지의 국제 통화 제도의 흐름을 배웁니다.",
+  "period": "1944–현재",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "순수출과 순자본 유출이 항상 같은 이유를 설명할 수 있다",
+    "개방 경제에서 저축, 국내 투자, 순자본 유출의 관계를 이해한다",
+    "국제 수지의 구성과 한국의 경상 수지 흑자의 의미를 설명할 수 있다",
+    "명목 환율과 실질 환율을 구분하고 환율 변화의 영향을 설명할 수 있다",
+    "구매력 평가 이론과 빅맥 지수, 그 한계를 설명할 수 있다"
+  ],
+  "suggestedCourse": {
+    "id": "economics-principles",
+    "title": "경제학원론",
+    "subtitle": "희소성과 선택에서 시장, 경기 변동까지"
+  },
+  "suggestedOrder": 29,
+  "createdAt": "2026-11-20T20:00:00Z",
+  "references": [
+    {
+      "author": "Benn Steil",
+      "year": 2013,
+      "title": "The Battle of Bretton Woods",
+      "publisher": "Princeton University Press"
+    },
+    {
+      "author": "Barry Eichengreen",
+      "year": 2019,
+      "title": "Globalizing Capital: A History of the International Monetary System, 3rd ed.",
+      "publisher": "Princeton University Press"
+    },
+    {
+      "author": "The Economist",
+      "year": 2025,
+      "title": "The Big Mac Index",
+      "publisher": "The Economist"
+    },
+    {
+      "author": "한국은행",
+      "year": 2025,
+      "title": "2024년 연간 국제수지(잠정)",
+      "publisher": "한국은행"
+    },
+    {
+      "author": "N. Gregory Mankiw",
+      "year": 2024,
+      "title": "Principles of Economics, 10th ed.",
+      "publisher": "Cengage",
+      "note": "31장 개방 경제의 거시 경제학"
+    }
+  ]
+}

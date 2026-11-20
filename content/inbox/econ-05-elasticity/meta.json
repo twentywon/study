@@ -1,0 +1,54 @@
+{
+  "title": "탄력성",
+  "subtitle": "가격 탄력성과 총수입, 풍년의 역설, 석유 파동, 소득·교차·공급 탄력성",
+  "summary": "수요와 공급이 가격에 '얼마나' 반응하는지를 재는 탄력성을 배웁니다. 중간점 방식의 계산, 탄력적·비탄력적 수요와 그 결정 요인, 탄력성과 총수입의 관계를 익히고, 풍년의 역설과 1933년 미국 농업 조정법, 1970년대 석유 파동과 OPEC, 담뱃세와 마약 단속에 적용합니다. 소득 탄력성·교차 탄력성과 엥겔의 법칙, 공급의 가격 탄력성과 주택 시장도 살펴봅니다.",
+  "period": "1857–현재",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "수요의 가격 탄력성을 정의하고 중간점 방식으로 계산할 수 있다",
+    "탄력성을 결정하는 요인을 예를 들어 설명할 수 있다",
+    "탄력성과 총수입의 관계를 이해하고 풍년의 역설을 설명할 수 있다",
+    "석유 파동과 담뱃세 등 정책 사례를 탄력성으로 분석할 수 있다",
+    "소득 탄력성·교차 탄력성·공급 탄력성의 의미를 안다"
+  ],
+  "suggestedCourse": {
+    "id": "economics-principles",
+    "title": "경제학원론",
+    "subtitle": "희소성과 선택에서 시장, 경기 변동까지"
+  },
+  "suggestedOrder": 5,
+  "createdAt": "2026-11-20T06:30:00Z",
+  "references": [
+    {
+      "author": "Alfred Marshall",
+      "year": 1890,
+      "title": "Principles of Economics",
+      "publisher": "Macmillan",
+      "note": "탄력성 개념의 정식화"
+    },
+    {
+      "author": "Daniel Yergin",
+      "year": 1991,
+      "title": "The Prize: The Epic Quest for Oil, Money, and Power",
+      "publisher": "Simon & Schuster"
+    },
+    {
+      "author": "Jonathan E. Hughes, Christopher R. Knittel, Daniel Sperling",
+      "year": 2008,
+      "title": "Evidence of a Shift in the Short-Run Price Elasticity of Gasoline Demand",
+      "publisher": "The Energy Journal 29(1)"
+    },
+    {
+      "author": "Energy Institute",
+      "year": 2024,
+      "title": "Statistical Review of World Energy",
+      "note": "원유 가격 자료"
+    },
+    {
+      "author": "N. Gregory Mankiw",
+      "year": 2024,
+      "title": "Principles of Economics (10th ed.)",
+      "publisher": "Cengage"
+    }
+  ]
+}

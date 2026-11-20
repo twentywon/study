@@ -1,0 +1,33 @@
+{
+  "title": "흑선의 충격",
+  "subtitle": "막번 체제의 일본과 페리 내항, 미일화친조약까지 (1792–1854)",
+  "summary": "에도 막부의 통치 구조와 '네 개의 창구' 대외 체제를 살펴본 뒤, 러시아·영국·미국의 접근과 아편전쟁의 충격, 페리 함대의 내항(1853)과 미일화친조약(1854)을 따라가며 개국이 막부 정치에 남긴 균열을 정리합니다.",
+  "period": "1603–1855 (중심: 1853–1854)",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "막번 체제의 구조(쇼군·다이묘·석고·산킨코타이)를 설명할 수 있다",
+    "'쇄국'이라는 말의 유래와 '네 개의 창구' 체제를 이해한다",
+    "1792~1846년의 외압과 막부 대외 정책의 변화(타불령→신수급여령)를 정리한다",
+    "미국이 일본 개국을 요구한 배경(태평양 항로, 포경업, 명백한 운명)을 설명할 수 있다",
+    "페리 내항부터 미일화친조약까지의 과정과 조약의 핵심 조항을 안다",
+    "아베 마사히로의 의견 수렴이 막부 정치에 남긴 의미를 평가할 수 있다"
+  ],
+  "suggestedCourse": {
+    "id": "japan-modern-history",
+    "title": "일본근대사",
+    "subtitle": "흑선에서 패전까지, 1853–1945",
+    "description": "페리 내항으로 시작된 개국부터 막부 붕괴와 메이지 유신, 근대 국가 건설, 청일·러일 전쟁과 식민지 지배, 다이쇼 데모크라시, 그리고 아시아·태평양 전쟁의 패전까지 일본 근대 100년을 차례대로 살펴봅니다."
+  },
+  "suggestedOrder": 1,
+  "createdAt": "2026-11-19T17:00:00Z",
+  "references": [
+    { "author": "앤드루 고든", "year": 2005, "title": "현대 일본의 역사: 도쿠가와 시대에서 현대까지", "publisher": "이산 (김우영 옮김; 원서 A Modern History of Japan, Oxford University Press, 2003)" },
+    { "author": "Marius B. Jansen", "year": 2000, "title": "The Making of Modern Japan", "publisher": "Harvard University Press" },
+    { "author": "三谷博", "year": 2003, "title": "ペリー来航", "publisher": "吉川弘文館" },
+    { "author": "加藤祐三", "year": 2012, "title": "幕末外交と開国", "publisher": "講談社学術文庫" },
+    { "author": "井上勝生", "year": 2006, "title": "幕末・維新 (シリーズ日本近現代史 1)", "publisher": "岩波新書" },
+    { "author": "Francis L. Hawks (편)", "year": 1856, "title": "Narrative of the Expedition of an American Squadron to the China Seas and Japan", "publisher": "Washington: A. O. P. Nicholson", "note": "페리 원정의 미국 측 공식 기록" },
+    { "author": "東京大学史料編纂所 (편)", "title": "大日本古文書 幕末外国関係文書", "note": "막부 외교 문서 사료집" },
+    { "title": "日米和親条約 (Convention of Kanagawa) 본문", "url": "https://en.wikisource.org/wiki/Convention_of_Kanagawa", "note": "조약 영문본" }
+  ]
+}

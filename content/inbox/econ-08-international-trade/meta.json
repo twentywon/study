@@ -1,0 +1,53 @@
+{
+  "title": "국제무역",
+  "subtitle": "무역의 이익과 손해, 관세와 수입 할당, 보호 무역의 논리, GATT·WTO·FTA",
+  "summary": "잉여 분석으로 무역의 효과를 따집니다. 세계 가격과 국내 가격의 비교로 수출·수입이 정해지는 원리, 수출국과 수입국에서 소비자·생산자·나라 전체가 얻는 이익과 손해를 살펴보고, 관세와 수입 할당의 자중 손실, 1981년 일본 자동차의 수출 자율 규제와 2015년 한국 쌀 관세화 사례를 분석합니다. 보호 무역의 다섯 가지 논리와 유치산업 보호론, GATT·WTO·FTA의 역사도 정리합니다.",
+  "period": "1791–현재",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "세계 가격과 국내 가격을 비교해 한 나라가 무엇을 수출·수입할지 판단할 수 있다",
+    "무역이 수출국과 수입국의 소비자·생산자·총잉여에 미치는 영향을 설명할 수 있다",
+    "관세와 수입 할당의 효과와 자중 손실을 분석할 수 있다",
+    "보호 무역의 여러 논리와 그 반론을 정리할 수 있다",
+    "GATT·WTO·FTA로 이어지는 무역 협정의 역사와 한국의 사례를 안다"
+  ],
+  "suggestedCourse": {
+    "id": "economics-principles",
+    "title": "경제학원론",
+    "subtitle": "희소성과 선택에서 시장, 경기 변동까지"
+  },
+  "suggestedOrder": 8,
+  "createdAt": "2026-11-20T08:00:00Z",
+  "references": [
+    {
+      "author": "Alexander Hamilton",
+      "year": 1791,
+      "title": "Report on the Subject of Manufactures",
+      "note": "유치산업 보호론"
+    },
+    {
+      "author": "Friedrich List",
+      "year": 1841,
+      "title": "Das nationale System der politischen Ökonomie",
+      "publisher": "Cotta"
+    },
+    {
+      "author": "Robert C. Feenstra",
+      "year": 1988,
+      "title": "Quality Change under Trade Restraints in Japanese Autos",
+      "publisher": "Quarterly Journal of Economics 103(1)"
+    },
+    {
+      "author": "World Trade Organization",
+      "year": 2024,
+      "title": "The GATT years: from Havana to Marrakesh",
+      "note": "무역 협상 표"
+    },
+    {
+      "author": "Douglas A. Irwin",
+      "year": 2020,
+      "title": "Free Trade under Fire (5th ed.)",
+      "publisher": "Princeton University Press"
+    }
+  ]
+}

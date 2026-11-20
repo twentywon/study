@@ -1,0 +1,53 @@
+{
+  "title": "공공재와 공유자원",
+  "subtitle": "배제성과 경합성, 무임승차자 문제, 비용-편익 분석, 공유지의 비극과 오스트롬",
+  "summary": "시장이 실패하는 두 경우인 공공재와 공유자원을 다룹니다. 경제학 교과서의 등대와 코스의 반론으로 시작해, 배제성과 경합성에 따른 재화의 네 가지 분류, 공공재의 무임승차자 문제와 정부의 공급, 비용-편익 분석과 통계적 생명 가치를 살펴봅니다. 공유지의 비극과 들소·대구·명태의 남획, 혼잡 통행료와 개별 양도성 할당제, 엘리너 오스트롬의 공동체 자치 관리도 정리합니다.",
+  "period": "1833–현재",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "배제성과 경합성으로 재화를 네 가지로 분류할 수 있다",
+    "공공재가 시장에서 충분히 공급되지 않는 이유(무임승차자 문제)를 설명할 수 있다",
+    "비용-편익 분석과 통계적 생명 가치의 의미와 한계를 안다",
+    "공유지의 비극을 외부효과로 설명하고 역사적 사례를 들 수 있다",
+    "공유자원 문제를 푸는 규제·요금·재산권·공동체 관리의 방법을 비교할 수 있다"
+  ],
+  "suggestedCourse": {
+    "id": "economics-principles",
+    "title": "경제학원론",
+    "subtitle": "희소성과 선택에서 시장, 경기 변동까지"
+  },
+  "suggestedOrder": 10,
+  "createdAt": "2026-11-20T09:00:00Z",
+  "references": [
+    {
+      "author": "Ronald H. Coase",
+      "year": 1974,
+      "title": "The Lighthouse in Economics",
+      "publisher": "Journal of Law and Economics 17(2)"
+    },
+    {
+      "author": "Garrett Hardin",
+      "year": 1968,
+      "title": "The Tragedy of the Commons",
+      "publisher": "Science 162(3859)"
+    },
+    {
+      "author": "Elinor Ostrom",
+      "year": 1990,
+      "title": "Governing the Commons: The Evolution of Institutions for Collective Action",
+      "publisher": "Cambridge University Press"
+    },
+    {
+      "author": "Paul A. Samuelson",
+      "year": 1954,
+      "title": "The Pure Theory of Public Expenditure",
+      "publisher": "Review of Economics and Statistics 36(4)"
+    },
+    {
+      "author": "William T. Hornaday",
+      "year": 1889,
+      "title": "The Extermination of the American Bison",
+      "publisher": "Smithsonian Institution"
+    }
+  ]
+}

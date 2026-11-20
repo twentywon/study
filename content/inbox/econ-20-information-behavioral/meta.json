@@ -1,0 +1,53 @@
+{
+  "title": "정보 경제학과 행동경제학",
+  "subtitle": "레몬 시장과 역선택, 도덕적 해이, 신호와 선별, 행동경제학과 넛지",
+  "summary": "충분한 정보와 합리성이라는 두 가정을 다시 따져 봅니다. 애컬로프의 「레몬 시장」으로 시작해, 정보의 비대칭이 낳는 역선택과 보험 시장, 도덕적 해이와 주인-대리인 문제, 2008년 금융위기의 '너무 커서 망하게 둘 수 없다' 문제를 살펴보고, 신호 보내기와 선별을 익힙니다. 제한된 합리성, 카너먼과 트버스키의 행동경제학, 손실 회피와 기준점 효과 등 대표적 편향, 넛지와 기본값의 힘도 정리합니다.",
+  "period": "1955–현재",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "정보의 비대칭이 시장 실패를 낳는 과정을 레몬 시장으로 설명할 수 있다",
+    "역선택과 도덕적 해이를 구분하고 각각의 해결책을 예로 들 수 있다",
+    "신호 보내기와 선별의 원리를 설명할 수 있다",
+    "행동경제학이 밝힌 대표적 편향을 일상의 예로 설명할 수 있다",
+    "넛지와 기본값의 원리, 그리고 그 한계를 안다"
+  ],
+  "suggestedCourse": {
+    "id": "economics-principles",
+    "title": "경제학원론",
+    "subtitle": "희소성과 선택에서 시장, 경기 변동까지"
+  },
+  "suggestedOrder": 20,
+  "createdAt": "2026-11-20T14:00:00Z",
+  "references": [
+    {
+      "author": "George A. Akerlof",
+      "year": 1970,
+      "title": "The Market for 'Lemons': Quality Uncertainty and the Market Mechanism",
+      "publisher": "Quarterly Journal of Economics 84(3)"
+    },
+    {
+      "author": "Michael Spence",
+      "year": 1973,
+      "title": "Job Market Signaling",
+      "publisher": "Quarterly Journal of Economics 87(3)"
+    },
+    {
+      "author": "Daniel Kahneman, Amos Tversky",
+      "year": 1979,
+      "title": "Prospect Theory: An Analysis of Decision under Risk",
+      "publisher": "Econometrica 47(2)"
+    },
+    {
+      "author": "Eric J. Johnson, Daniel Goldstein",
+      "year": 2003,
+      "title": "Do Defaults Save Lives?",
+      "publisher": "Science 302(5649)"
+    },
+    {
+      "author": "Richard H. Thaler, Cass R. Sunstein",
+      "year": 2008,
+      "title": "Nudge: Improving Decisions about Health, Wealth, and Happiness",
+      "publisher": "Yale University Press"
+    }
+  ]
+}

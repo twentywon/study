@@ -1,0 +1,53 @@
+{
+  "title": "물가와 생활비의 측정",
+  "subtitle": "소비자 물가 지수, 여러 물가 지수, CPI의 한계, 물가 연동과 실질 이자율",
+  "summary": "'물가가 올랐다'는 말을 정확히 이해합니다. 베이브 루스의 연봉으로 시작해, 소비자 물가 지수를 만드는 다섯 단계와 한국의 물가 상승률, 생활 물가·근원 물가·생산자 물가·GDP 디플레이터를 비교합니다. 대체 편향·새 상품·품질 변화로 인한 CPI의 과대평가와 보스킨 위원회, 체감 물가와 지표 물가의 차이를 살펴보고, 과거 금액을 오늘의 가치로 바꾸는 방법, 물가 연동, 명목 이자율과 실질 이자율(피셔 방정식)을 익힙니다.",
+  "period": "1913–현재",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "소비자 물가 지수를 만드는 과정을 설명하고 간단한 예로 계산할 수 있다",
+    "여러 물가 지수의 차이, CPI와 GDP 디플레이터의 차이를 설명할 수 있다",
+    "CPI가 생활비를 과대평가하는 세 가지 이유를 안다",
+    "물가 지수로 과거의 금액을 오늘의 가치로 바꿀 수 있다",
+    "명목 이자율과 실질 이자율을 구분하고 인플레이션의 재분배 효과를 설명할 수 있다"
+  ],
+  "suggestedCourse": {
+    "id": "economics-principles",
+    "title": "경제학원론",
+    "subtitle": "희소성과 선택에서 시장, 경기 변동까지"
+  },
+  "suggestedOrder": 22,
+  "createdAt": "2026-11-20T15:00:00Z",
+  "references": [
+    {
+      "author": "Irving Fisher",
+      "year": 1930,
+      "title": "The Theory of Interest",
+      "publisher": "Macmillan"
+    },
+    {
+      "author": "Michael J. Boskin 외",
+      "year": 1996,
+      "title": "Toward a More Accurate Measure of the Cost of Living (Boskin Commission Report)",
+      "publisher": "U.S. Senate Finance Committee"
+    },
+    {
+      "author": "U.S. Bureau of Labor Statistics",
+      "year": 2024,
+      "title": "Consumer Price Index Historical Tables",
+      "note": "1930년과 2024년 CPI"
+    },
+    {
+      "author": "통계청",
+      "year": 2024,
+      "title": "소비자물가지수 (2020=100) 해설",
+      "note": "한국 물가 상승률"
+    },
+    {
+      "author": "N. Gregory Mankiw",
+      "year": 2024,
+      "title": "Principles of Economics (10th ed.)",
+      "publisher": "Cengage"
+    }
+  ]
+}

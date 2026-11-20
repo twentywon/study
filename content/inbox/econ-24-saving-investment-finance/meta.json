@@ -1,0 +1,52 @@
+{
+  "title": "저축, 투자와 금융 시스템",
+  "subtitle": "채권과 주식, 은행과 펀드, 국민 저축 = 투자, 대부 자금 시장과 구축 효과",
+  "summary": "저축하는 사람과 투자하는 사람을 잇는 금융 시스템을 살펴봅니다. 1602년 네덜란드 동인도 회사의 주식으로 시작해, 채권과 주식, 은행과 펀드의 역할, 예금자 보호를 익히고, 국민 소득 계정에서 국민 저축 = 투자가 성립하는 이유와 민간 저축·공공 저축을 배웁니다. 대부 자금 시장에서 실질 이자율이 정해지는 원리, 저축·투자 세제 혜택의 효과, 재정 적자의 구축 효과와 국가 채무, 한국 금융의 역사도 정리합니다.",
+  "period": "1602–현재",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "금융 시장과 금융 중개 기관의 역할을 구분하고 대표 상품을 비교할 수 있다",
+    "채권 이자율을 결정하는 요인과 채권·주식의 차이를 설명할 수 있다",
+    "국민 저축 = 투자 항등식과 민간 저축·공공 저축을 설명할 수 있다",
+    "대부 자금 시장에서 이자율이 정해지는 원리를 그래프로 설명할 수 있다",
+    "세제 정책과 재정 적자가 이자율·투자에 미치는 영향(구축 효과)을 분석할 수 있다"
+  ],
+  "suggestedCourse": {
+    "id": "economics-principles",
+    "title": "경제학원론",
+    "subtitle": "희소성과 선택에서 시장, 경기 변동까지"
+  },
+  "suggestedOrder": 24,
+  "createdAt": "2026-11-20T16:00:00Z",
+  "references": [
+    {
+      "author": "Lodewijk Petram",
+      "year": 2014,
+      "title": "The World's First Stock Exchange",
+      "publisher": "Columbia University Press"
+    },
+    {
+      "author": "Niall Ferguson",
+      "year": 2008,
+      "title": "The Ascent of Money",
+      "publisher": "Penguin Press"
+    },
+    {
+      "author": "한국거래소",
+      "year": 2016,
+      "title": "한국 증권시장 60년사"
+    },
+    {
+      "author": "기획재정부",
+      "year": 2025,
+      "title": "국가채무 및 재정 통계",
+      "note": "국가 채무 비율"
+    },
+    {
+      "author": "N. Gregory Mankiw",
+      "year": 2024,
+      "title": "Principles of Economics (10th ed.)",
+      "publisher": "Cengage"
+    }
+  ]
+}

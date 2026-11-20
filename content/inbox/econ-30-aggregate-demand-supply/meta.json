@@ -1,0 +1,54 @@
+{
+  "title": "총수요와 총공급",
+  "subtitle": "경기 변동의 사실, 총수요·총공급 모형, 수요 충격과 공급 충격, 스태그플레이션",
+  "summary": "경제가 호황과 불황을 되풀이하는 단기 경기 변동을 다룹니다. 1973년 석유 파동과 스태그플레이션으로 시작해, 경기 변동의 세 가지 사실(불규칙성, 거시 변수의 동행, 오쿤의 법칙)을 한국 자료로 확인합니다. 총수요 곡선이 오른쪽 아래로 기우는 세 가지 이유(자산·이자율·환율 효과)와 이동 요인, 수직인 장기 총공급 곡선과 오른쪽 위로 기우는 단기 총공급 곡선(임금·가격 경직성, 착각 이론)을 배우고, 총수요 감소와 총공급 감소가 단기와 장기에 생산과 물가에 주는 영향을 대공황, 석유 파동, 3저 호황, 코로나19의 사례로 정리합니다.",
+  "period": "1929–현재",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "경기 변동에 관한 세 가지 사실과 오쿤의 법칙을 설명할 수 있다",
+    "총수요 곡선이 오른쪽 아래로 기우는 세 가지 이유와 이동 요인을 설명할 수 있다",
+    "장기 총공급 곡선과 단기 총공급 곡선의 모양과 그 이유를 이해한다",
+    "총수요 충격과 총공급 충격의 단기·장기 효과를 그래프로 분석할 수 있다",
+    "스태그플레이션이 생기는 원리와 역사 속 사례를 설명할 수 있다"
+  ],
+  "suggestedCourse": {
+    "id": "economics-principles",
+    "title": "경제학원론",
+    "subtitle": "희소성과 선택에서 시장, 경기 변동까지"
+  },
+  "suggestedOrder": 30,
+  "createdAt": "2026-11-20T20:30:00Z",
+  "references": [
+    {
+      "author": "John Maynard Keynes",
+      "year": 1923,
+      "title": "A Tract on Monetary Reform",
+      "publisher": "Macmillan"
+    },
+    {
+      "author": "Arthur M. Okun",
+      "year": 1962,
+      "title": "Potential GNP: Its Measurement and Significance",
+      "publisher": "Proceedings of the Business and Economic Statistics Section, American Statistical Association"
+    },
+    {
+      "author": "Daniel Yergin",
+      "year": 1991,
+      "title": "The Prize: The Epic Quest for Oil, Money, and Power",
+      "publisher": "Simon & Schuster"
+    },
+    {
+      "author": "한국은행",
+      "year": 2025,
+      "title": "국민계정 / 경제통계시스템(ECOS)",
+      "publisher": "한국은행"
+    },
+    {
+      "author": "N. Gregory Mankiw",
+      "year": 2024,
+      "title": "Principles of Economics, 10th ed.",
+      "publisher": "Cengage",
+      "note": "33장 총수요와 총공급"
+    }
+  ]
+}
