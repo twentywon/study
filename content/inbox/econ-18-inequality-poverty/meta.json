@@ -1,0 +1,59 @@
+{
+  "title": "소득 불평등과 빈곤",
+  "subtitle": "지니 계수와 로렌츠 곡선, 절대적·상대적 빈곤, 빈곤의 대물림, 재분배의 철학",
+  "summary": "노동 시장의 결과가 모여 만들어지는 소득 분배를 살펴봅니다. 제이컵 리스의 뉴욕 빈민가 사진으로 시작해, 소득 5분위 배율과 로렌츠 곡선·지니 계수로 불평등을 재고, 한국과 다른 나라의 불평등, 시장 소득과 처분 가능 소득, 자산 불평등을 비교합니다. 절대적·상대적 빈곤과 한국의 높은 노인 빈곤율, 빈곤의 대물림, 1980년대 이후 불평등 확대의 원인, 공리주의·롤스·노직의 재분배 철학과 빈곤 정책을 정리합니다.",
+  "period": "1890–현재",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "소득 5분위 배율, 로렌츠 곡선, 지니 계수로 불평등을 설명할 수 있다",
+    "시장 소득과 처분 가능 소득, 소득과 자산 불평등의 차이를 안다",
+    "절대적 빈곤과 상대적 빈곤을 구분하고 한국의 노인 빈곤 문제를 설명할 수 있다",
+    "빈곤의 대물림과 1980년대 이후 불평등 확대의 원인을 정리할 수 있다",
+    "재분배에 대한 세 가지 철학과 빈곤 정책의 장단점을 비교할 수 있다"
+  ],
+  "suggestedCourse": {
+    "id": "economics-principles",
+    "title": "경제학원론",
+    "subtitle": "희소성과 선택에서 시장, 경기 변동까지"
+  },
+  "suggestedOrder": 18,
+  "createdAt": "2026-11-20T13:00:00Z",
+  "references": [
+    {
+      "author": "Jacob A. Riis",
+      "year": 1890,
+      "title": "How the Other Half Lives",
+      "publisher": "Charles Scribner's Sons"
+    },
+    {
+      "author": "John Rawls",
+      "year": 1971,
+      "title": "A Theory of Justice",
+      "publisher": "Harvard University Press"
+    },
+    {
+      "author": "Robert Nozick",
+      "year": 1974,
+      "title": "Anarchy, State, and Utopia",
+      "publisher": "Basic Books"
+    },
+    {
+      "author": "Thomas Piketty",
+      "year": 2013,
+      "title": "Le Capital au XXIe siècle",
+      "publisher": "Éditions du Seuil"
+    },
+    {
+      "author": "Raj Chetty, Nathaniel Hendren, Lawrence F. Katz",
+      "year": 2016,
+      "title": "The Effects of Exposure to Better Neighborhoods on Children",
+      "publisher": "American Economic Review 106(4)"
+    },
+    {
+      "author": "OECD",
+      "year": 2023,
+      "title": "Pensions at a Glance 2023 / Income Distribution Database",
+      "note": "노인 빈곤율, 지니 계수"
+    }
+  ]
+}
