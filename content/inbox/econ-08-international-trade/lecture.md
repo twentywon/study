@@ -43,14 +43,14 @@
   "height": 380,
   "data": {
     "datasets": [
-      { "label": "국내 수요", "showLine": true, "pointRadius": 0, "data": [{"x":20,"y":160},{"x":110,"y":20}] },
-      { "label": "국내 공급", "showLine": true, "pointRadius": 0, "data": [{"x":0,"y":20},{"x":90,"y":170}] },
+      { "label": "국내 수요", "showLine": true, "pointRadius": 0, "data": [{"x":0,"y":180},{"x":120,"y":20}] },
+      { "label": "국내 공급", "showLine": true, "pointRadius": 0, "data": [{"x":0,"y":20},{"x":120,"y":180}] },
       { "label": "세계 가격 60", "showLine": true, "pointRadius": 0, "borderDash": [6, 4], "data": [{"x":0,"y":60},{"x":120,"y":60}] },
       { "label": "무역 전 균형 (60, 100)", "pointRadius": 7, "pointStyle": "star", "data": [{"x":60,"y":100}] },
       { "label": "무역 후 국내 생산(30)·소비(90)", "pointRadius": 7, "data": [{"x":30,"y":60},{"x":90,"y":60}] }
     ]
   },
-  "options": { "scales": { "x": { "title": { "display": true, "text": "철강 거래량" }, "min": 0, "max": 120 }, "y": { "title": { "display": true, "text": "가격" }, "min": 0, "max": 180 } } }
+  "options": { "scales": { "x": { "title": { "display": true, "text": "철강 거래량" }, "min": 0, "max": 120 }, "y": { "title": { "display": true, "text": "가격" }, "min": 0, "max": 190 } } }
 }
 ```
 
