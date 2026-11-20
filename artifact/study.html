@@ -656,7 +656,7 @@ function viewCourse(cid) {
       <div><h1>${esc(c.title)}</h1>${c.subtitle ? `<p class="sub">${esc(c.subtitle)}</p>` : ''}
         <p class="lead">${esc(c.description)}</p>
         <p class="muted">강의 ${ls.length}개${mins ? ` · 약 ${minutes(mins)}` : ''} · 갱신 ${fmtDate(c.updatedAt)}</p>
-        ${rt ? `<a class="card resume-card" href="#l-${rt.lecture.id}" data-resume="${esc(rt.lecture.id)}" data-section="${esc(rt.section || '')}">
+        ${rt ? `<a class="card resume-card" href="#l-${rt.lecture.id}" data-resume="${esc(rt.lecture.id)}" data-section="${esc(rt.section || '')}" data-block="${rt.block ?? ''}" data-offset="${rt.offset || 0}">
           <span class="resume-label">▶ 이어보기</span>
           <b>${rt.idx + 1}강 ${esc(rt.lecture.title)}</b>
           <span class="resume-note">${esc(rt.note)} · <span class="nowrap">${fmtDate(rt.at)}</span></span></a>` : ''}
@@ -677,7 +677,8 @@ function viewCourse(cid) {
       </li>`).join('')}</ol>`
     : emptyState('아직 강의가 없습니다', '검토함에서 강의를 승인해 이 강좌에 넣으세요.', '<p><a class="btn" href="#inbox">검토함 보기</a></p>')}`;
 
-  $app.querySelector('[data-resume]')?.addEventListener('click', (e) => { S.resume = { lid: e.currentTarget.dataset.resume, section: e.currentTarget.dataset.section || null }; });
+  $app.querySelector('[data-resume]')?.addEventListener('click', (e) => { const d = e.currentTarget.dataset;
+    S.resume = { lid: d.resume, section: d.section || null, block: d.block === '' ? null : Number(d.block), offset: Number(d.offset) || 0 }; });
   $app.querySelectorAll('[data-move]').forEach((b) => b.addEventListener('click', () => {
     const i = Number(b.dataset.move), j = i + Number(b.dataset.dir); const order = ls.map((l) => l.id);
     [order[i], order[j]] = [order[j], order[i]];
@@ -754,7 +755,8 @@ function flushProgress() {
 }
 function recordProgress(cid, entry) {
   const old = P.map[cid];
-  if (old && old.lid === entry.lid && old.section === entry.section && !!old.done === !!entry.done) return;
+  if (old && old.lid === entry.lid && old.section === entry.section && !!old.done === !!entry.done
+    && old.block === entry.block && old.offset === entry.offset) return;
   P.map[cid] = { ...entry, at: now() }; saveProgressLocal(); P.dirty = true;
   clearTimeout(P.timer); P.timer = setTimeout(flushProgress, 4000);
 }
@@ -777,15 +779,37 @@ function resumeTarget(c) {
   const ls = courseLectures(c); const i = ls.findIndex((l) => l.id === e.lid); if (i < 0) return null;
   if (e.done && ls[i + 1]) return { lecture: ls[i + 1], idx: i + 1, section: null, note: `${i + 1}강을 다 읽었습니다. 다음 강의부터`, at: e.at, lastId: e.lid };
   if (e.done) return { lecture: ls[i], idx: i, section: null, note: '마지막 강의까지 다 읽었습니다', at: e.at, lastId: e.lid };
-  return { lecture: ls[i], idx: i, section: e.section || null, note: e.sectionText ? `‘${e.sectionText}’부터` : '처음부터', at: e.at, lastId: e.lid };
+  return { lecture: ls[i], idx: i, section: e.section || null, block: e.block ?? null, offset: e.offset ?? 0,
+    note: e.sectionText ? `‘${e.sectionText}’ 읽던 곳부터` : Number.isInteger(e.block) && e.block > 0 ? '읽던 곳부터' : '처음부터', at: e.at, lastId: e.lid };
 }
-function scrollToSection(id, lid) {
-  const el = document.getElementById(id); if (!el) return;
-  const go = () => el.scrollIntoView({ block: 'start' }); go();
-  // 위쪽 사진이 늦게 로드되며 위치가 밀리면 다시 맞춘다. 읽는 사람이 직접 움직이면 멈춘다.
-  let stop = false; const cancel = () => { stop = true; };
-  ['wheel', 'touchstart', 'keydown', 'mousedown'].forEach((t) => window.addEventListener(t, cancel, { once: true, passive: true }));
-  [350, 1000, 2000].forEach((ms) => setTimeout(() => { if (!stop && currentRoute === 'l-' + lid) go(); }, ms));
+const READ_TOP = 84; // 위쪽 고정 막대 아래, 읽는 위치의 기준선
+/** 지금 화면 맨 위에 걸친 본문 블록(문단·그림·표…)의 번호와 기준선에서 떨어진 거리 */
+function readingAnchor(prose) {
+  const kids = prose.children;
+  for (let i = 0; i < kids.length; i++) {
+    const r = kids[i].getBoundingClientRect();
+    if (r.bottom > READ_TOP + 1) return { block: i, offset: Math.round(r.top - READ_TOP) };
+  }
+  return null;
+}
+/** 저장된 블록 위치로 되돌아간다. 위쪽 사진·도식이 늦게 그려져 높이가 바뀌면
+    그때마다 다시 맞추고, 읽는 사람이 직접 움직이거나 15초가 지나면 멈춘다. */
+function restorePosition(entry, lid) {
+  const prose = $app.querySelector('.prose'); if (!prose) return;
+  const byBlock = Number.isInteger(entry.block) ? prose.children[entry.block] : null;
+  const el = byBlock || (entry.section && document.getElementById(entry.section)); if (!el) return;
+  const off = byBlock ? (Number(entry.offset) || 0) : 0;
+  let stop = false;
+  const evs = ['wheel', 'touchstart', 'keydown', 'mousedown'];
+  const end = () => { if (stop) return; stop = true; ro.disconnect(); evs.forEach((t) => window.removeEventListener(t, end)); };
+  const align = () => {
+    if (stop) return; if (currentRoute !== 'l-' + lid) return end();
+    const d = el.getBoundingClientRect().top - (READ_TOP + off);
+    if (Math.abs(d) > 1) window.scrollBy({ top: d, behavior: 'instant' });
+  };
+  const ro = new ResizeObserver(align); ro.observe(prose);
+  evs.forEach((t) => window.addEventListener(t, end, { passive: true }));
+  align(); setTimeout(end, 15000);
 }
 
 let cleanup = null;
@@ -800,13 +824,19 @@ function trackReading(toc, ctx) {
     if (ctx?.cid) {
       const old = P.map[ctx.cid]; const same = old?.lid === ctx.lid;
       // 같은 강의를 다시 열었을 때 맨 위에 있다는 이유로 읽던 위치를 지우지 않는다
-      if (!(first && same)) recordProgress(ctx.cid, { lid: ctx.lid, section: cur?.id || null, sectionText: cur?.text || null,
-        done: (same && !!old.done) || frac >= 0.95 });
+      if (first && same) { first = false; return; }
+      first = false;
+      clearTimeout(spotTimer);
+      spotTimer = setTimeout(() => {
+        const a = prose ? readingAnchor(prose) : null;
+        recordProgress(ctx.cid, { lid: ctx.lid, section: cur?.id || null, sectionText: cur?.text || null,
+          block: a ? a.block : null, offset: a ? a.offset : 0, done: (same && !!old.done) || frac >= 0.95 });
+      }, 250);
     }
-    first = false;
   };
+  const prose = $app.querySelector('.prose'); let spotTimer = null;
   window.addEventListener('scroll', onScroll, { passive: true }); onScroll();
-  cleanup = () => { window.removeEventListener('scroll', onScroll); bar.style.width = '0'; flushProgress(); };
+  cleanup = () => { window.removeEventListener('scroll', onScroll); bar.style.width = '0'; clearTimeout(spotTimer); flushProgress(); };
 }
 
 /* ================= 화면: 강의 읽기 ================= */
@@ -829,7 +859,7 @@ async function viewLecture(lid) {
   if (currentRoute !== 'l-' + lid) return;
   const toc = await mountBody($app, body);
   const resume = S.resume; S.resume = null;
-  if (resume?.lid === lid && resume.section) scrollToSection(resume.section, lid);
+  if (resume?.lid === lid && (resume.section || Number.isInteger(resume.block))) restorePosition(resume, lid);
   trackReading(toc, c ? { cid: c.id, lid } : null);
 }
 
