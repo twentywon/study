@@ -140,6 +140,8 @@ main { max-width: 1180px; margin: 0 auto; padding-block: 32px 96px;
 .inbox-item h3 { margin: 0 0 2px; font-size: 19px; }
 .inbox-item h3 a { color: var(--ink); text-decoration: none; }
 .inbox-item p { margin: 0; color: var(--ink-2); font-size: 14px; }
+.inbox-actions { display: flex; gap: 8px; flex-wrap: wrap; justify-content: flex-end; }
+.inbox-actions .btn { white-space: nowrap; }
 .stack { display: grid; gap: 12px; }
 .panel-buttons { display: grid; gap: 8px; }
 
@@ -264,6 +266,7 @@ dialog::backdrop { background: rgb(0 0 0 / 45%); }
   .lecture-item { grid-template-columns: 44px minmax(0, 1fr); padding: 12px 14px; gap: 12px; }
   .lecture-tools { grid-column: 1 / -1; justify-content: flex-end; }
   .inbox-item { grid-template-columns: minmax(0, 1fr); }
+  .inbox-actions { justify-content: flex-start; }
   .lecture-head h1 { font-size: 28px; }
   .prose { font-size: 16px; }
   .prose h2 { font-size: 22px; }
@@ -760,8 +763,44 @@ function viewInbox() {
       return `<div class="card inbox-item"><div>
         <div class="eyebrow">${sc ? `제안: ${esc(sc.title || sc.id)}${it.suggestedOrder ? ` ${it.suggestedOrder}강` : ''}${S.courses.has(sc.id) ? '' : ' (새 강좌)'}` : '강좌 미지정'} · ${fmtDate(it.createdAt)}</div>
         <h3><a href="#review-${it.id}">${esc(it.title)}</a></h3><p>${esc(it.subtitle || it.summary)}</p>${statChips(it.stats)}</div>
-        <a class="btn primary" href="#review-${it.id}">검토하기</a></div>`; }).join('')}</div>`
+        <div class="inbox-actions"><a class="btn" href="#review-${it.id}">검토하기</a>${S.canEdit && sc && (sc.id || sc.title)
+          ? `<button class="btn primary" type="button" data-quick="${esc(it.id)}">✓ 승인하기</button>` : ''}</div></div>`; }).join('')}</div>`
     : emptyState('검토할 강의가 없습니다', '새 강의가 생성되면 이곳에 나타납니다.')}`;
+  $app.querySelectorAll('[data-quick]').forEach((b) => b.addEventListener('click', () => quickApprove(b.dataset.quick, b)));
+}
+
+/* 검토함에서 바로 승인: 제안된 강좌의 제안된 순서 자리에 넣는다 */
+async function quickApprove(lid, btn) {
+  const l = S.lectures.get(lid); if (!l || l.status !== 'inbox') return;
+  const sc = l.suggestedCourse || {}; const c = sc.id ? S.courses.get(sc.id) : null;
+  const pubs = c ? courseLectures(c) : [];
+  let idx = pubs.length;
+  if (l.suggestedOrder) { const j = pubs.findIndex((x) => (x.suggestedOrder ?? Infinity) > l.suggestedOrder); if (j >= 0) idx = j; }
+  const courseTitle = c ? c.title : (sc.title || sc.id);
+  if (!await confirmBox('바로 승인', `‘${l.title}’을(를) ‘${courseTitle}’ ${idx + 1}강으로 넣습니다.${c ? '' : ' 이 강좌는 새로 만들어집니다.'}`, '승인하고 넣기')) return;
+  btn.disabled = true;
+  let rep;
+  try { rep = validateLecture(l, await getBody(lid)); } catch (e) { console.error(e); btn.disabled = false; return toast('본문을 불러오지 못했습니다.'); }
+  const errs = rep.issues.filter((i) => i.level === 'error').length;
+  if (errs && !await confirmBox('점검 오류가 있습니다', `자동 점검 오류가 ${errs}건 있습니다. 그래도 승인할까요?`, '그래도 승인')) { btn.disabled = false; return; }
+  const ok = await write(async () => {
+    let cid;
+    if (c) {
+      cid = c.id;
+      const order = (c.order || []).filter((x) => x !== lid && S.lectures.get(x)?.status === 'published');
+      const before = pubs[idx]?.id; const at = before ? order.indexOf(before) : -1;
+      order.splice(at >= 0 ? at : order.length, 0, lid);
+      await S.db.doc('courses/' + cid).update({ order, updatedAt: now() });
+    } else {
+      const title = sc.title || sc.id;
+      cid = uniqueCourseId(sc.id && !S.courses.has(sc.id) ? sc.id : slugify(title));
+      await S.db.doc('courses/' + cid).set({ title, subtitle: sc.subtitle || '', description: sc.description || '', cover: sc.cover || null,
+        order: [lid], createdAt: now(), updatedAt: now() });
+    }
+    await S.db.doc('lectures/' + lid).update({ status: 'published', courseId: cid, publishedAt: now(), reviewNote: null, rejection: null, stats: rep.stats });
+  });
+  if (ok) toast(`‘${l.title}’을(를) ‘${courseTitle}’ ${idx + 1}강으로 게시했습니다.`);
+  else btn.disabled = false;
 }
 
 async function viewDraft(lid, rejected) {
