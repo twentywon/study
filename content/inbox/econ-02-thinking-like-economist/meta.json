@@ -1,0 +1,59 @@
+{
+  "title": "경제학자처럼 생각하기",
+  "subtitle": "과학적 방법과 모형, 경제 순환도, 생산 가능 곡선, 그래프 읽기",
+  "summary": "경제학자들이 세상을 연구하는 방법을 살펴봅니다. 과학적 방법과 자연 실험, 가정과 모형의 역할을 배우고, 가장 기본적인 두 모형인 경제 순환도와 생산 가능 곡선을 익힙니다. 기울기, 곡선 위의 이동과 곡선 자체의 이동, 상관관계와 인과관계 등 그래프 읽는 법과, 정책 조언자로서 경제학자들의 의견이 엇갈리는 이유와 일치하는 지점도 정리합니다.",
+  "period": "1758–현재",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "경제학이 과학적 방법을 어떻게 쓰는지, 자연 실험이 무엇인지 설명할 수 있다",
+    "가정과 모형의 역할, '다른 조건이 같다면'의 의미를 이해한다",
+    "경제 순환도로 가계와 기업, 두 시장 사이의 실물과 돈의 흐름을 설명할 수 있다",
+    "생산 가능 곡선으로 희소성·효율성·기회비용·경제성장을 설명하고, 곡선이 바깥으로 휜 이유를 안다",
+    "그래프의 기울기를 읽고, 곡선 위의 이동과 곡선의 이동, 상관관계와 인과관계를 구분할 수 있다"
+  ],
+  "suggestedCourse": {
+    "id": "economics-principles",
+    "title": "경제학원론",
+    "subtitle": "희소성과 선택에서 시장, 경기 변동까지"
+  },
+  "suggestedOrder": 2,
+  "createdAt": "2026-11-20T04:30:00Z",
+  "references": [
+    {
+      "author": "François Quesnay",
+      "year": 1758,
+      "title": "Tableau économique",
+      "note": "『경제표』"
+    },
+    {
+      "author": "Alfred Marshall",
+      "year": 1890,
+      "title": "Principles of Economics",
+      "publisher": "Macmillan"
+    },
+    {
+      "author": "David Card, Alan B. Krueger",
+      "year": 1994,
+      "title": "Minimum Wages and Employment: A Case Study of the Fast-Food Industry in New Jersey and Pennsylvania",
+      "publisher": "American Economic Review 84(4)"
+    },
+    {
+      "author": "Richard M. Alston, J. R. Kearl, Michael B. Vaughan",
+      "year": 1992,
+      "title": "Is There a Consensus Among Economists in the 1990's?",
+      "publisher": "American Economic Review 82(2)"
+    },
+    {
+      "author": "N. Gregory Mankiw",
+      "year": 2024,
+      "title": "Principles of Economics (10th ed.)",
+      "publisher": "Cengage"
+    },
+    {
+      "author": "Royal Swedish Academy of Sciences",
+      "year": 2021,
+      "title": "Scientific Background: Answering Causal Questions Using Observational Data",
+      "note": "2021 노벨 경제학상 해설"
+    }
+  ]
+}
