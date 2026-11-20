@@ -1,0 +1,53 @@
+{
+  "title": "패전",
+  "subtitle": "가미카제와 공습, 오키나와, 원폭, 8·15 그리고 해방 (1944–1945)",
+  "summary": "레이테만 해전과 특공, 도쿄 대공습과 본토 공습, 이오지마와 오키나와 전투, 고노에 상주문과 소련 중개 공작, 포츠담 선언과 원자 폭탄 투하, 소련의 참전, 어전 회의의 '성단'과 8월 15일 옥음 방송, 미주리호의 항복 조인과 조선의 해방까지 살펴보고, 1853년부터 1945년까지의 강좌 전체를 돌아봅니다.",
+  "period": "1944–1945",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "1944~45년 일본의 패전 과정을 시간 순서대로 설명할 수 있다",
+    "특공과 본토 공습, 오키나와 전투의 실상을 이해한다",
+    "포츠담 선언 수락이 늦어진 이유와 원폭·소련 참전의 영향을 설명할 수 있다",
+    "8월 15일 옥음 방송과 9월 2일 항복 조인의 의미를 안다",
+    "조선의 해방과 분단의 시작을 일본 패전의 흐름 속에서 이해한다"
+  ],
+  "suggestedCourse": {
+    "id": "japan-modern-history",
+    "title": "일본근대사",
+    "subtitle": "흑선에서 패전까지, 1853–1945"
+  },
+  "suggestedOrder": 20,
+  "createdAt": "2026-11-20T06:00:00Z",
+  "references": [
+    {
+      "author": "半藤一利",
+      "year": 1995,
+      "title": "日本のいちばん長い日 (決定版)",
+      "publisher": "文藝春秋"
+    },
+    {
+      "author": "Tsuyoshi Hasegawa",
+      "year": 2005,
+      "title": "Racing the Enemy: Stalin, Truman, and the Surrender of Japan",
+      "publisher": "Harvard University Press"
+    },
+    {
+      "author": "존 다우어",
+      "year": 2009,
+      "title": "패배를 껴안고: 제2차 세계대전 후의 일본과 일본인",
+      "publisher": "민음사 (최은석 옮김)"
+    },
+    {
+      "author": "United States Strategic Bombing Survey",
+      "year": 1946,
+      "title": "The Effects of Atomic Bombs on Hiroshima and Nagasaki",
+      "publisher": "U.S. Government Printing Office"
+    },
+    {
+      "author": "吉田裕",
+      "year": 2007,
+      "title": "アジア・太平洋戦争 (シリーズ日本近現代史 6)",
+      "publisher": "岩波新書"
+    }
+  ]
+}
