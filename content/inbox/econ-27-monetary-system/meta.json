@@ -1,0 +1,54 @@
+{
+  "title": "화폐 제도와 중앙은행",
+  "subtitle": "돈의 역할, 상품 화폐와 명목 화폐, 신용 창조와 뱅크런, 중앙은행의 통화 정책 도구",
+  "summary": "거시 경제의 또 다른 주인공인 돈을 다룹니다. 야프 섬의 돌 돈 이야기로 시작해, 돈의 세 가지 역할(교환의 매개·가치의 척도·가치의 저장)과 유동성, 포로수용소의 담배 돈으로 본 상품 화폐와 오늘날의 명목 화폐, 통화 지표 M1·M2를 살펴봅니다. 부분 지급 준비 제도에서 은행이 대출로 돈을 만드는 신용 창조와 통화 승수, 은행의 레버리지와 자본 요건, 뱅크런과 예금 보험(2025년 1억 원으로 확대)을 정리하고, 한국은행의 역할과 공개 시장 운영·기준금리 같은 통화 정책 도구를 배웁니다.",
+  "period": "기원전 7세기–현재",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "돈의 세 가지 역할과 유동성의 뜻을 설명할 수 있다",
+    "상품 화폐와 명목 화폐를 구분하고 명목 화폐의 가치가 어디서 나오는지 설명할 수 있다",
+    "부분 지급 준비 제도에서 신용 창조와 통화 승수를 계산할 수 있다",
+    "뱅크런이 일어나는 이유와 예금 보험·자본 요건의 역할을 이해한다",
+    "중앙은행의 역할과 공개 시장 운영, 기준금리 등 통화 정책 도구를 설명할 수 있다"
+  ],
+  "suggestedCourse": {
+    "id": "economics-principles",
+    "title": "경제학원론",
+    "subtitle": "희소성과 선택에서 시장, 경기 변동까지"
+  },
+  "suggestedOrder": 27,
+  "createdAt": "2026-11-20T19:00:00Z",
+  "references": [
+    {
+      "author": "Milton Friedman",
+      "year": 1991,
+      "title": "The Island of Stone Money",
+      "publisher": "Hoover Institution Working Papers in Economics E-91-3"
+    },
+    {
+      "author": "R. A. Radford",
+      "year": 1945,
+      "title": "The Economic Organisation of a P.O.W. Camp",
+      "publisher": "Economica 12(48)"
+    },
+    {
+      "author": "Milton Friedman, Anna J. Schwartz",
+      "year": 1963,
+      "title": "A Monetary History of the United States, 1867–1960",
+      "publisher": "Princeton University Press"
+    },
+    {
+      "author": "한국은행",
+      "year": 2024,
+      "title": "알기 쉬운 경제지표해설 / 한국의 통화정책",
+      "publisher": "한국은행"
+    },
+    {
+      "author": "N. Gregory Mankiw",
+      "year": 2024,
+      "title": "Principles of Economics, 10th ed.",
+      "publisher": "Cengage",
+      "note": "29장 화폐 제도"
+    }
+  ]
+}
