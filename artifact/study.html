@@ -150,6 +150,7 @@ main { max-width: 1180px; margin: 0 auto; padding-block: 32px 96px;
 .inbox-item p { margin: 0; color: var(--ink-2); font-size: 14px; }
 .inbox-actions { display: flex; gap: 8px; flex-wrap: wrap; justify-content: flex-end; }
 .inbox-actions .btn { white-space: nowrap; }
+.pos-note { margin: 0; font-size: 15px; } .pos-note b { font-size: 17px; margin-right: 4px; } .pos-note .muted { font-size: 13px; }
 .stack { display: grid; gap: 12px; }
 .panel-buttons { display: grid; gap: 8px; }
 
@@ -991,7 +992,7 @@ async function viewDraft(lid, rejected) {
         `<option value="${c.id}" ${c.id === sc.id ? 'selected' : ''}>${esc(c.title)} (${courseLectures(c).length}강)</option>`).join('')}</select></div></div>
       <div data-pane="new"><div class="field"><label for="ap-title">새 강좌 제목 *</label><input id="ap-title" name="newTitle" value="${esc(target ? '' : sc.title || '')}" placeholder="예: 일본근대사"></div>
         <div class="field"><label for="ap-sub">부제</label><input id="ap-sub" name="newSubtitle" value="${esc(target ? '' : sc.subtitle || '')}"></div></div>
-      <div class="field"><label for="ap-pos">몇 강으로 넣을까요?</label><select id="ap-pos" name="position"></select></div>
+      <div class="field"><label>넣을 자리</label><p class="pos-note" id="ap-pos"></p></div>
       <div class="field"><label for="ap-note">검토 메모 (선택)</label><textarea id="ap-note" name="note" placeholder="수정 요청 등"></textarea></div>
       <div class="panel-buttons"><button class="btn primary" id="approve" type="button">✓ 승인하고 강좌에 넣기</button><button class="btn danger" id="reject" type="button">반려</button></div>`
     : `<h2>검토 대기 중</h2><p class="muted">승인·반려는 편집 권한이 있는 사람만 할 수 있습니다.</p>`;
@@ -1025,10 +1026,18 @@ async function viewDraft(lid, rejected) {
   if (!edit) return;
   const panelEl = $app.querySelector('.review-panel'); const q = (n) => panelEl.querySelector(`[name="${n}"]`);
   let mode = target || (courses.length && !sc.id) ? 'existing' : 'new';
+  // 강의 번호는 고르지 않는다. 제안된 순서(suggestedOrder)에 따라 자리를 정한다.
+  const publishedOrder = (c) => (c.order || []).filter((x) => x !== lid && S.lectures.get(x)?.status === 'published');
+  const posFor = (c) => { if (!c) return 1; const order = publishedOrder(c); placeInOrder(order, lid); return order.indexOf(lid) + 1; };
   const fillPos = () => {
-    const c = mode === 'existing' ? S.courses.get(q('courseId').value) : null; const count = c ? courseLectures(c).length : 0;
-    q('position').innerHTML = Array.from({ length: count + 1 }, (_, i) => `<option value="${i + 1}">${i + 1}강${i === count ? ' (맨 뒤)' : ''}</option>`).join('');
-    const sug = l.suggestedOrder; q('position').value = String(sug && sug <= count + 1 ? sug : count + 1);
+    const c = mode === 'existing' ? S.courses.get(q('courseId').value) : null;
+    const pos = posFor(c), sug = l.suggestedOrder;
+    const why = !c ? '새 강좌의 첫 강의가 됩니다'
+      : !sug ? '제안 순서가 없어 맨 뒤에 넣습니다'
+      : pos === sug ? '제안된 순서대로 넣습니다'
+      : pos < sug ? `제안 순서는 ${sug}강입니다. 앞 강의가 아직 게시되지 않아 지금은 ${pos}강이 되고, 앞 강의를 승인하면 번호가 맞춰집니다`
+      : `제안 순서는 ${sug}강이지만 강좌에 먼저 들어간 강의들 뒤에 놓입니다`;
+    panelEl.querySelector('#ap-pos').innerHTML = `<b>${pos}강</b> <span class="muted">${why}</span>`;
   };
   const setMode = (m) => { mode = m;
     panelEl.querySelectorAll('[data-mode]').forEach((b) => b.classList.toggle('on', b.dataset.mode === m));
@@ -1039,14 +1048,13 @@ async function viewDraft(lid, rejected) {
   document.getElementById('approve').addEventListener('click', async () => {
     const errs = rep.issues.filter((i) => i.level === 'error').length;
     if (errs && !await confirmBox('점검 오류가 있습니다', `자동 점검 오류가 ${errs}건 있습니다. 그래도 승인할까요?`, '그래도 승인')) return;
-    const pos = Number(q('position').value); const note = q('note').value.trim();
+    const note = q('note').value.trim(); let pos = 1;
     if (mode === 'new' && !q('newTitle').value.trim()) return toast('새 강좌 제목을 입력하세요.');
     let cid, courseTitle;
     const ok = await write(async () => {
       if (mode === 'existing') {
         const c = S.courses.get(q('courseId').value); cid = c.id; courseTitle = c.title;
-        const order = (c.order || []).filter((x) => x !== lid && S.lectures.get(x)?.status === 'published');
-        order.splice(Math.min(pos - 1, order.length), 0, lid);
+        const order = publishedOrder(c); placeInOrder(order, lid); pos = order.indexOf(lid) + 1;
         await S.db.doc('courses/' + cid).update({ order, updatedAt: now() });
       } else {
         const title = q('newTitle').value.trim();
