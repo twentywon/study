@@ -866,7 +866,9 @@ async function viewLecture(lid) {
 /* ================= 화면: 검토함 ================= */
 function viewInbox() {
   const items = byStatus('inbox').sort((a, b) => String(a.createdAt).localeCompare(String(b.createdAt)));
-  $app.innerHTML = `<div class="page-head"><div><h1>검토함</h1><p>새로 생성된 강의입니다. 읽어 보고 강좌에 넣을지, 반려할지 정하세요.</p></div></div>
+  const quickable = items.filter((it) => it.suggestedCourse && (it.suggestedCourse.id || it.suggestedCourse.title));
+  $app.innerHTML = `<div class="page-head"><div><h1>검토함</h1><p>새로 생성된 강의입니다. 읽어 보고 강좌에 넣을지, 반려할지 정하세요.</p></div>
+    ${S.canEdit && quickable.length > 1 ? `<button class="btn primary" type="button" id="approve-all">✓ 전체 승인 (${quickable.length}개)</button>` : ''}</div>
     ${items.length ? `<div class="stack">${items.map((it) => { const sc = it.suggestedCourse;
       return `<div class="card inbox-item"><div>
         <div class="eyebrow">${sc ? `제안: ${esc(sc.title || sc.id)}${it.suggestedOrder ? ` ${it.suggestedOrder}강` : ''}${S.courses.has(sc.id) ? '' : ' (새 강좌)'}` : '강좌 미지정'} · ${fmtDate(it.createdAt)}</div>
@@ -875,6 +877,66 @@ function viewInbox() {
           ? `<button class="btn primary" type="button" data-quick="${esc(it.id)}">✓ 승인하기</button>` : ''}</div></div>`; }).join('')}</div>`
     : emptyState('검토할 강의가 없습니다', '새 강의가 생성되면 이곳에 나타납니다.')}`;
   $app.querySelectorAll('[data-quick]').forEach((b) => b.addEventListener('click', () => quickApprove(b.dataset.quick, b)));
+  document.getElementById('approve-all')?.addEventListener('click', (e) => approveAll(quickable.map((it) => it.id), e.currentTarget));
+}
+
+/* 검토함 전체 승인: 강의마다 제안된 강좌의 제안된 순서 자리에 넣는다 */
+const groupKey = (sc) => (sc.id && S.courses.has(sc.id) ? 'c:' + sc.id : 'n:' + (sc.id || sc.title));
+function placeInOrder(order, lid) {
+  const so = S.lectures.get(lid)?.suggestedOrder;
+  const j = so ? order.findIndex((x) => (S.lectures.get(x)?.suggestedOrder ?? Infinity) > so) : -1;
+  order.splice(j >= 0 ? j : order.length, 0, lid);
+}
+async function approveAll(ids, btn) {
+  const ls = ids.map((id) => S.lectures.get(id)).filter((l) => l && l.status === 'inbox' && l.suggestedCourse)
+    .sort((a, b) => (a.suggestedOrder ?? Infinity) - (b.suggestedOrder ?? Infinity));
+  if (!ls.length) return;
+  const groups = new Map();
+  for (const l of ls) { const k = groupKey(l.suggestedCourse); if (!groups.has(k)) groups.set(k, { sc: l.suggestedCourse, items: [] }); groups.get(k).items.push(l); }
+  const lines = [...groups.values()].map(({ sc, items }) => {
+    const c = S.courses.get(sc.id);
+    return `‘${c ? c.title : sc.title || sc.id}’${c ? '' : '(새 강좌)'}에 ${items.length}개`;
+  });
+  if (!await confirmBox('전체 승인', `검토함의 강의 ${ls.length}개를 제안된 강좌의 제안된 순서 자리에 넣습니다. ${lines.join(', ')}.`, `${ls.length}개 모두 승인`)) return;
+  const label = btn.textContent; btn.disabled = true;
+  const reps = new Map(); let errs = 0;
+  try {
+    for (const [i, l] of ls.entries()) {
+      btn.textContent = `점검 중… ${i + 1}/${ls.length}`;
+      const rep = validateLecture(l, await getBody(l.id)); reps.set(l.id, rep);
+      if (rep.issues.some((x) => x.level === 'error')) errs++;
+    }
+  } catch (e) { console.error(e); btn.disabled = false; btn.textContent = label; return toast('본문을 불러오지 못했습니다.'); }
+  if (errs && !await confirmBox('점검 오류가 있습니다', `자동 점검 오류가 있는 강의가 ${errs}개 있습니다. 그래도 모두 승인할까요?`, '그래도 승인')) {
+    btn.disabled = false; btn.textContent = label; return;
+  }
+  let done = 0;
+  const ok = await write(async () => {
+    for (const { sc, items } of groups.values()) {
+      const c = S.courses.get(sc.id);
+      let cid;
+      if (c) {
+        cid = c.id;
+        const order = (c.order || []).filter((x) => !items.some((l) => l.id === x) && S.lectures.get(x)?.status === 'published');
+        for (const l of items) placeInOrder(order, l.id);
+        await S.db.doc('courses/' + cid).update({ order, updatedAt: now() });
+      } else {
+        const title = sc.title || sc.id;
+        cid = uniqueCourseId(sc.id && !S.courses.has(sc.id) ? sc.id : slugify(title));
+        const order = []; for (const l of items) placeInOrder(order, l.id);
+        await S.db.doc('courses/' + cid).set({ title, subtitle: sc.subtitle || '', description: sc.description || '', cover: sc.cover || null,
+          order, createdAt: now(), updatedAt: now() });
+      }
+      // 강좌 순서를 먼저 저장하고 강의를 게시한다. 중간에 멈춰도 게시되지 않은 강의는 강좌에 보이지 않는다.
+      for (const l of items) {
+        btn.textContent = `승인 중… ${done + 1}/${ls.length}`;
+        await S.db.doc('lectures/' + l.id).update({ status: 'published', courseId: cid, publishedAt: now(), reviewNote: null, rejection: null, stats: reps.get(l.id).stats });
+        done++;
+      }
+    }
+  });
+  if (ok) toast(`강의 ${done}개를 승인해 강좌에 넣었습니다.`);
+  else { toast(`${ls.length}개 가운데 ${done}개만 승인했습니다. 다시 시도하면 나머지를 승인합니다.`); btn.disabled = false; btn.textContent = label; }
 }
 
 /* 검토함에서 바로 승인: 제안된 강좌의 제안된 순서 자리에 넣는다 */
