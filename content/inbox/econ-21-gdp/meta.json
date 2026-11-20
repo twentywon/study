@@ -1,0 +1,52 @@
+{
+  "title": "국내총생산",
+  "subtitle": "삼면 등가, GDP의 정의와 구성, 명목·실질 GDP와 경제 성장률, GDP의 한계",
+  "summary": "거시경제학의 첫걸음으로 나라 경제 전체의 크기를 재는 국내총생산(GDP)을 배웁니다. 대공황과 쿠즈네츠의 국민 소득 보고서로 시작해, 생산·지출·소득의 삼면 등가, GDP 정의의 각 부분과 부가가치, 소비·투자·정부 구매·순수출의 구성과 한국의 GDP를 살펴봅니다. 명목 GDP와 실질 GDP, 경제 성장률과 GDP 디플레이터, 1인당 GDP·GNI·구매력 평가, GDP가 놓치는 것과 이스털린의 역설, HDI 같은 보완 지표도 다룹니다.",
+  "period": "1934–현재",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "삼면 등가의 원칙과 GDP의 정의를 설명할 수 있다",
+    "GDP의 지출 구성(C+I+G+NX)과 각 항목에 들어가는 것을 구분할 수 있다",
+    "명목 GDP·실질 GDP·GDP 디플레이터를 계산하고 경제 성장률을 구할 수 있다",
+    "1인당 GDP, GNI, 구매력 평가의 쓰임을 안다",
+    "GDP가 삶의 질을 재는 데 갖는 한계와 보완 지표를 설명할 수 있다"
+  ],
+  "suggestedCourse": {
+    "id": "economics-principles",
+    "title": "경제학원론",
+    "subtitle": "희소성과 선택에서 시장, 경기 변동까지"
+  },
+  "suggestedOrder": 21,
+  "createdAt": "2026-11-20T14:30:00Z",
+  "references": [
+    {
+      "author": "Simon Kuznets",
+      "year": 1934,
+      "title": "National Income, 1929–1932",
+      "publisher": "U.S. Senate Document No. 124"
+    },
+    {
+      "author": "Richard A. Easterlin",
+      "year": 1974,
+      "title": "Does Economic Growth Improve the Human Lot? Some Empirical Evidence",
+      "publisher": "Nations and Households in Economic Growth (Academic Press)"
+    },
+    {
+      "author": "Joseph E. Stiglitz, Amartya Sen, Jean-Paul Fitoussi",
+      "year": 2009,
+      "title": "Report by the Commission on the Measurement of Economic Performance and Social Progress"
+    },
+    {
+      "author": "Diane Coyle",
+      "year": 2014,
+      "title": "GDP: A Brief but Affectionate History",
+      "publisher": "Princeton University Press"
+    },
+    {
+      "author": "한국은행",
+      "year": 2025,
+      "title": "국민 계정 (경제 통계 시스템 ECOS)",
+      "note": "GDP 구성과 성장률"
+    }
+  ]
+}
