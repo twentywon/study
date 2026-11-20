@@ -1,0 +1,59 @@
+{
+  "title": "경제 위기의 역사",
+  "subtitle": "1929년 대공황, 1997년 한국 외환위기, 2008년 세계 금융위기",
+  "summary": "지금까지 배운 도구로 세 가지 큰 경제 위기를 되짚는 마지막 강의입니다. 1998년 금 모으기 운동으로 시작해, 1929년 주가 폭락이 은행 연쇄 파산·통화량 급감·디플레이션·금본위 제도·보호 무역·긴축 재정과 겹쳐 대공황이 된 과정과 루스벨트의 대응을 살펴봅니다. 1997년 한국 외환위기의 배경(재벌의 높은 부채, 단기 외채, 경상 수지 적자)과 전개, IMF 프로그램과 구조 조정을 둘러싼 논쟁, 그리고 2008년 미국 주택 거품과 서브프라임 대출, 증권화와 레버리지, 리먼 브러더스 파산과 각국의 대응(양적 완화, TARP, G20, 한미 통화 스와프)을 정리하고, 세 위기의 공통 구조와 교훈을 비교합니다.",
+  "period": "1929–2012",
+  "estimatedMinutes": 70,
+  "objectives": [
+    "대공황이 깊고 길어진 원인을 은행, 통화량, 금본위 제도, 무역, 재정의 측면에서 설명할 수 있다",
+    "1997년 한국 외환위기의 배경과 전개, IMF 프로그램을 둘러싼 논쟁을 이해한다",
+    "2008년 세계 금융위기의 원인과 각국의 정책 대응을 설명할 수 있다",
+    "세 위기의 공통 구조(빚과 자산 가격의 급증, 뱅크런, 정책 대응)를 비교할 수 있다",
+    "경제 위기가 남긴 제도와 교훈을 말할 수 있다"
+  ],
+  "suggestedCourse": {
+    "id": "economics-principles",
+    "title": "경제학원론",
+    "subtitle": "희소성과 선택에서 시장, 경기 변동까지"
+  },
+  "suggestedOrder": 33,
+  "createdAt": "2026-11-20T22:00:00Z",
+  "references": [
+    {
+      "author": "Milton Friedman, Anna J. Schwartz",
+      "year": 1963,
+      "title": "A Monetary History of the United States, 1867–1960",
+      "publisher": "Princeton University Press"
+    },
+    {
+      "author": "Barry Eichengreen",
+      "year": 1992,
+      "title": "Golden Fetters: The Gold Standard and the Great Depression, 1919–1939",
+      "publisher": "Oxford University Press"
+    },
+    {
+      "author": "Ben S. Bernanke",
+      "year": 2015,
+      "title": "The Courage to Act: A Memoir of a Crisis and Its Aftermath",
+      "publisher": "W. W. Norton"
+    },
+    {
+      "author": "Joseph E. Stiglitz",
+      "year": 2002,
+      "title": "Globalization and Its Discontents",
+      "publisher": "W. W. Norton"
+    },
+    {
+      "author": "한국은행",
+      "year": 2010,
+      "title": "우리나라의 외환위기와 극복 과정 / 글로벌 금융위기 이후 한국은행의 정책 대응",
+      "publisher": "한국은행"
+    },
+    {
+      "author": "Carmen M. Reinhart, Kenneth S. Rogoff",
+      "year": 2009,
+      "title": "This Time Is Different: Eight Centuries of Financial Folly",
+      "publisher": "Princeton University Press"
+    }
+  ]
+}
