@@ -157,7 +157,7 @@ main { max-width: 1180px; margin: 0 auto; padding-block: 32px 96px;
 .reader { display: grid; grid-template-columns: 220px minmax(0, 760px); gap: 48px; justify-content: center; }
 .review-layout .reader { grid-template-columns: minmax(0, 1fr); }
 .review-layout .toc { display: none; }
-.toc { position: sticky; top: calc(84px + env(safe-area-inset-top, 0px)); align-self: start; font-size: 14px; max-height: calc(100vh - 110px); overflow: auto; }
+.toc { position: sticky; z-index: 2; top: calc(84px + env(safe-area-inset-top, 0px)); align-self: start; font-size: 14px; max-height: calc(100vh - 110px); overflow: auto; }
 .toc b { display: block; font-size: 12px; color: var(--ink-3); letter-spacing: .06em; margin-bottom: 8px; }
 .toc a { display: block; padding: 4px 0 4px 12px; color: var(--ink-2); text-decoration: none; border-left: 2px solid var(--line); line-height: 1.45; }
 .toc a.h3 { padding-left: 24px; font-size: 13px; }
@@ -731,7 +731,10 @@ async function mountBody(root, body) {
   const tocEl = root.querySelector('.toc');
   if (tocEl) {
     tocEl.innerHTML = toc.length ? `<b>목차</b>${toc.map((t) => `<a href="#${t.id}" class="h${t.level}" data-target="${t.id}">${esc(t.text)}</a>`).join('')}` : '';
-    tocEl.querySelectorAll('a').forEach((a) => a.addEventListener('click', (e) => { e.preventDefault(); document.getElementById(a.dataset.target)?.scrollIntoView({ behavior: 'smooth' }); }));
+    tocEl.querySelectorAll('a').forEach((a) => a.addEventListener('click', (e) => {
+      e.preventDefault(); const el = document.getElementById(a.dataset.target); if (!el) return;
+      jumpTo(el); tocEl.querySelectorAll('a').forEach((x) => x.classList.toggle('on', x === a));
+    }));
   }
   const figs = [...prose.querySelectorAll('[data-figure]')];
   const slot = root.querySelector('.credits-slot');
@@ -795,6 +798,34 @@ function readingAnchor(prose) {
 }
 /** 저장된 블록 위치로 되돌아간다. 위쪽 사진·도식이 늦게 그려져 높이가 바뀌면
     그때마다 다시 맞추고, 읽는 사람이 직접 움직이거나 15초가 지나면 멈춘다. */
+/* 목차·이어보기 공통: 스크롤 컨테이너를 찾아 요소를 화면 위쪽(READ_TOP)에 맞춘다.
+   scrollIntoView는 아티팩트 화면(iframe) 안에서 무시되는 경우가 있어 직접 스크롤한다. */
+function scrollerOf(el) {
+  for (let n = el.parentElement; n && n !== document.documentElement; n = n.parentElement) {
+    const oy = getComputedStyle(n).overflowY;
+    if ((oy === 'auto' || oy === 'scroll') && n.scrollHeight > n.clientHeight + 1) return n;
+  }
+  return null;
+}
+function scrollByTop(el, d) {
+  const se = document.scrollingElement || document.documentElement; const before = se.scrollTop;
+  window.scrollBy({ top: d, behavior: 'instant' });
+  if (Math.abs(se.scrollTop - before) < 1) { const sc = scrollerOf(el); if (sc) sc.scrollBy({ top: d, behavior: 'instant' }); }
+}
+/* 목차에서 누른 소단원으로 이동한다. 늦게 불러온 그림 때문에 위치가 밀리면 잠깐 동안 다시 맞춘다. */
+function jumpTo(el) {
+  const route = currentRoute; let stop = false;
+  const evs = ['wheel', 'touchstart', 'keydown', 'mousedown'];
+  const end = () => { if (stop) return; stop = true; ro.disconnect(); evs.forEach((t) => window.removeEventListener(t, end)); };
+  const align = () => {
+    if (stop) return; if (currentRoute !== route || !el.isConnected) return end();
+    const d = el.getBoundingClientRect().top - READ_TOP; if (Math.abs(d) > 1) scrollByTop(el, d);
+  };
+  const ro = new ResizeObserver(align); ro.observe(el.closest('.prose') || document.body);
+  evs.forEach((t) => window.addEventListener(t, end, { passive: true }));
+  align(); setTimeout(end, 4000);
+}
+
 function restorePosition(entry, lid) {
   const prose = $app.querySelector('.prose'); if (!prose) return;
   const byBlock = Number.isInteger(entry.block) ? prose.children[entry.block] : null;
@@ -806,7 +837,7 @@ function restorePosition(entry, lid) {
   const align = () => {
     if (stop) return; if (currentRoute !== 'l-' + lid) return end();
     const d = el.getBoundingClientRect().top - (READ_TOP + off);
-    if (Math.abs(d) > 1) window.scrollBy({ top: d, behavior: 'instant' });
+    if (Math.abs(d) > 1) scrollByTop(el, d);
   };
   const ro = new ResizeObserver(align); ro.observe(prose);
   evs.forEach((t) => window.addEventListener(t, end, { passive: true }));
@@ -818,9 +849,12 @@ function trackReading(toc, ctx) {
   const bar = document.getElementById('read-progress'); const links = [...document.querySelectorAll('.toc a')];
   let first = true;
   const onScroll = () => {
-    const h = document.documentElement; const frac = h.scrollTop / Math.max(1, h.scrollHeight - h.clientHeight);
+    const de = document.documentElement, bd = document.body;
+    const h = bd.scrollTop > de.scrollTop ? bd : de; const frac = h.scrollTop / Math.max(1, h.scrollHeight - h.clientHeight);
     bar.style.width = Math.min(100, frac * 100) + '%';
-    let cur = null; for (const t of toc) { const el = document.getElementById(t.id); if (el && el.getBoundingClientRect().top < 120) cur = t; }
+    // 맨 아래까지 내려오면 화면에 보이는 마지막 소단원을 현재 위치로 본다
+    const atEnd = h.scrollTop + h.clientHeight >= h.scrollHeight - 2; const lim = atEnd ? h.clientHeight * 0.6 : 120;
+    let cur = null; for (const t of toc) { const el = document.getElementById(t.id); if (el && el.getBoundingClientRect().top < lim) cur = t; }
     links.forEach((a) => a.classList.toggle('on', a.dataset.target === cur?.id));
     if (ctx?.cid) {
       const old = P.map[ctx.cid]; const same = old?.lid === ctx.lid;
@@ -836,8 +870,9 @@ function trackReading(toc, ctx) {
     }
   };
   const prose = $app.querySelector('.prose'); let spotTimer = null;
-  window.addEventListener('scroll', onScroll, { passive: true }); onScroll();
-  cleanup = () => { window.removeEventListener('scroll', onScroll); bar.style.width = '0'; clearTimeout(spotTimer); flushProgress(); };
+  // 문서가 아닌 안쪽 컨테이너가 스크롤되는 화면도 있어 캡처 단계에서 듣는다
+  document.addEventListener('scroll', onScroll, { passive: true, capture: true }); onScroll();
+  cleanup = () => { document.removeEventListener('scroll', onScroll, { capture: true }); bar.style.width = '0'; clearTimeout(spotTimer); flushProgress(); };
 }
 
 /* ================= 화면: 강의 읽기 ================= */
