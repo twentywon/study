@@ -1,0 +1,53 @@
+{
+  "title": "궁정 혁명의 시대",
+  "subtitle": "예카테리나 1세에서 표트르 3세까지, 근위대와 귀족의 시대 (1725–1762)",
+  "summary": "표트르 대제가 죽은 뒤 37년 동안 여섯 명의 황제가 바뀐 궁정 혁명의 시대를 다룹니다. 1740년 안나 여제의 얼음 궁전 이야기로 시작해, 근위대가 세운 농민 출신 황후 예카테리나 1세와 멘시코프, 표트르 2세와 돌고루키 가문, 최고 추밀원의 '조건'과 이를 찢은 안나 여제, 비론의 시대, 옐리자베타의 쿠데타와 이반 6세의 비극을 따라갑니다. 근위대가 황제를 만든 이유와 귀족이 국가 의무에서 풀려나는 과정(1736년 복무 단축, 1762년 귀족 자유령), 옐리자베타 시대의 라스트렐리 건축과 로모노소프, 모스크바 대학, 7년 전쟁, 그리고 표트르 3세의 짧은 통치와 1762년 예카테리나의 쿠데타를 정리합니다.",
+  "period": "1725–1762",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "궁정 혁명의 시대가 생긴 원인과 근위대의 역할을 설명할 수 있다",
+    "1730년 '조건'의 내용과 그것이 실패한 이유를 이해한다",
+    "이 시대 귀족이 얻은 특권과 농노제의 강화를 정리할 수 있다",
+    "옐리자베타 시대의 문화와 7년 전쟁에서 러시아의 역할을 설명할 수 있다",
+    "1762년 쿠데타의 배경과 과정을 안다"
+  ],
+  "suggestedCourse": {
+    "id": "russia-modern-history",
+    "title": "러시아 근대사",
+    "subtitle": "표트르 대제에서 소련의 탄생까지, 1682–1922"
+  },
+  "suggestedOrder": 4,
+  "createdAt": "2026-11-26T07:00:00Z",
+  "references": [
+    {
+      "author": "Evgenii V. Anisimov",
+      "year": 2004,
+      "title": "Five Empresses: Court Life in Eighteenth-Century Russia",
+      "publisher": "Praeger"
+    },
+    {
+      "author": "Simon Dixon",
+      "year": 1999,
+      "title": "The Modernisation of Russia, 1676–1825",
+      "publisher": "Cambridge University Press"
+    },
+    {
+      "author": "V. O. Klyuchevsky",
+      "year": 1926,
+      "title": "A History of Russia, vol. 4",
+      "publisher": "J. M. Dent"
+    },
+    {
+      "author": "Simon Sebag Montefiore",
+      "year": 2016,
+      "title": "The Romanovs, 1613–1918",
+      "publisher": "Weidenfeld & Nicolson"
+    },
+    {
+      "author": "Nicholas V. Riasanovsky, Mark D. Steinberg",
+      "year": 2019,
+      "title": "A History of Russia, 9th ed.",
+      "publisher": "Oxford University Press"
+    }
+  ]
+}
