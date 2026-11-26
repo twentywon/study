@@ -1,0 +1,53 @@
+{
+  "title": "표트르 대제 1: 대사절단과 북방 전쟁",
+  "subtitle": "스트렐치 반란과 소피야의 섭정, 대사절단, 나르바와 폴타바, 러시아 제국의 선포 (1682–1721)",
+  "summary": "러시아를 유럽의 강대국으로 만든 표트르 대제의 대외 활동을 다룹니다. 1697년 잔담 조선소에 나타난 목수 '표트르 미하일로프'의 이야기로 시작해, 1682년 스트렐치 반란과 소피야의 섭정, 프레오브라젠스코예의 놀이 연대와 독일인 마을, 1689년 권력 장악과 네르친스크 조약, 아조프 원정을 살펴봅니다. 대사절단의 여정(네덜란드·영국)과 귀국 뒤의 스트렐치 처형과 수염 자르기, 그리고 북방 전쟁의 전개(나르바의 패배, 군대 재건, 폴타바의 승리, 프루트강의 위기, 강구트 해전, 뉘스타드 조약)와 러시아 제국의 선포를 정리합니다.",
+  "period": "1682–1721",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "표트르의 성장 환경과 그것이 개혁 구상에 준 영향을 설명할 수 있다",
+    "대사절단의 목적과 성과를 정리할 수 있다",
+    "북방 전쟁의 주요 전투와 러시아가 승리한 이유를 설명할 수 있다",
+    "뉘스타드 조약과 러시아 제국 선포의 의미를 이해한다",
+    "표트르의 전쟁이 러시아 사회에 지운 부담을 평가할 수 있다"
+  ],
+  "suggestedCourse": {
+    "id": "russia-modern-history",
+    "title": "러시아 근대사",
+    "subtitle": "표트르 대제에서 소련의 탄생까지, 1682–1922"
+  },
+  "suggestedOrder": 2,
+  "createdAt": "2026-11-26T04:00:00Z",
+  "references": [
+    {
+      "author": "Lindsey Hughes",
+      "year": 1998,
+      "title": "Russia in the Age of Peter the Great",
+      "publisher": "Yale University Press"
+    },
+    {
+      "author": "Robert K. Massie",
+      "year": 1980,
+      "title": "Peter the Great: His Life and World",
+      "publisher": "Alfred A. Knopf"
+    },
+    {
+      "author": "Peter Englund",
+      "year": 2003,
+      "title": "The Battle That Shook Europe: Poltava and the Birth of the Russian Empire",
+      "publisher": "I. B. Tauris"
+    },
+    {
+      "author": "Paul Bushkovitch",
+      "year": 2001,
+      "title": "Peter the Great: The Struggle for Power, 1671–1725",
+      "publisher": "Cambridge University Press"
+    },
+    {
+      "author": "Nicholas V. Riasanovsky, Mark D. Steinberg",
+      "year": 2019,
+      "title": "A History of Russia, 9th ed.",
+      "publisher": "Oxford University Press"
+    }
+  ]
+}
