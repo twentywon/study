@@ -1,0 +1,53 @@
+{
+  "title": "표트르 대제 2: 개혁과 상트페테르부르크",
+  "subtitle": "새 수도 건설, 원로원과 참의회, 관등표, 인두세, 신성 종무원, 서구화와 알렉세이 황태자 (1700–1725)",
+  "summary": "표트르 대제가 나라 안에서 벌인 개혁을 다룹니다. 1703년 네바강 하구의 늪지에 페트로파블롭스크 요새를 세우는 장면으로 시작해, 강제 노동과 강제 이주로 세운 새 수도 상트페테르부르크, 원로원·참의회·현의 국가 개혁, 관등표와 귀족의 평생 복무, 인두세, 총대주교 대신 신성 종무원을 둔 교회 개혁, 달력·문자·신문·학교·과학 아카데미와 아셈블레야로 대표되는 서구화를 살펴봅니다. 중상주의와 공장 농노, 알렉세이 황태자의 비극과 황위 계승법, 그리고 표트르의 개혁을 둘러싼 평가(서구파와 슬라브파, 푸시킨의 「청동 기마상」)까지 정리합니다.",
+  "period": "1700–1725",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "상트페테르부르크 건설의 목적과 대가를 설명할 수 있다",
+    "원로원·참의회·관등표 등 표트르의 국가 개혁을 정리할 수 있다",
+    "인두세와 신성 종무원의 의미를 이해한다",
+    "표트르의 서구화 정책과 그것이 러시아 사회에 남긴 문화적 분열을 설명할 수 있다",
+    "알렉세이 황태자 사건과 황위 계승법이 이후 정치에 준 영향을 안다"
+  ],
+  "suggestedCourse": {
+    "id": "russia-modern-history",
+    "title": "러시아 근대사",
+    "subtitle": "표트르 대제에서 소련의 탄생까지, 1682–1922"
+  },
+  "suggestedOrder": 3,
+  "createdAt": "2026-11-26T05:00:00Z",
+  "references": [
+    {
+      "author": "Lindsey Hughes",
+      "year": 1998,
+      "title": "Russia in the Age of Peter the Great",
+      "publisher": "Yale University Press"
+    },
+    {
+      "author": "Evgenii V. Anisimov",
+      "year": 1993,
+      "title": "The Reforms of Peter the Great: Progress through Coercion in Russia",
+      "publisher": "M. E. Sharpe"
+    },
+    {
+      "author": "James Cracraft",
+      "year": 2003,
+      "title": "The Revolution of Peter the Great",
+      "publisher": "Harvard University Press"
+    },
+    {
+      "author": "Solomon Volkov",
+      "year": 1995,
+      "title": "St. Petersburg: A Cultural History",
+      "publisher": "Free Press"
+    },
+    {
+      "author": "Robert K. Massie",
+      "year": 1980,
+      "title": "Peter the Great: His Life and World",
+      "publisher": "Alfred A. Knopf"
+    }
+  ]
+}
