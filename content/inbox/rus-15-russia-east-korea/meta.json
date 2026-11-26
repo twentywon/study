@@ -1,0 +1,59 @@
+{
+  "title": "러시아의 동방 진출과 조선",
+  "subtitle": "연해주와 블라디보스토크, 조러 수교와 거문도 사건, 아관파천, 만주 진출과 러일전쟁 (1858–1905)",
+  "summary": "러시아의 동아시아 진출과 그것이 조선(대한제국)의 운명에 미친 영향을 다룹니다. 1896년 2월 고종이 궁녀의 가마를 타고 러시아 공사관으로 옮긴 아관파천으로 시작해, 아이훈 조약과 베이징 조약으로 얻은 연해주와 블라디보스토크, 연해주로 건너간 조선인(고려인의 뿌리), 1884년 조러 수교와 1885년 거문도 사건을 살펴봅니다. 삼국 간섭과 을미사변, 러시아 공사관에서의 1년과 이권 경쟁, 민영환의 대관식 참석과 야마가타-로바노프 협정, 대한제국과 독립 협회의 반대를 정리하고, 동청 철도와 뤼순 조차, 만주 점령과 용암포 사건, 러일전쟁(제물포 해전, 뤼순, 펑톈, 쓰시마)과 포츠머스 조약, 을사늑약, 그리고 하얼빈의 안중근까지 이어 봅니다.",
+  "period": "1858–1909",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "러시아가 연해주를 얻고 조선과 국경을 맞대게 된 과정을 설명할 수 있다",
+    "조러 수교와 거문도 사건의 배경과 의미를 이해한다",
+    "아관파천의 경위와 그 뒤 러시아의 영향력, 독립 협회의 대응을 정리할 수 있다",
+    "러일전쟁의 원인과 전개, 포츠머스 조약의 내용을 설명할 수 있다",
+    "러일전쟁이 대한제국과 러시아에 남긴 결과를 평가할 수 있다"
+  ],
+  "suggestedCourse": {
+    "id": "russia-modern-history",
+    "title": "러시아 근대사",
+    "subtitle": "표트르 대제에서 소련의 탄생까지, 1682–1922"
+  },
+  "suggestedOrder": 15,
+  "createdAt": "2026-11-26T07:00:00Z",
+  "references": [
+    {
+      "author": "Andrew Malozemoff",
+      "year": 1958,
+      "title": "Russian Far Eastern Policy, 1881–1904",
+      "publisher": "University of California Press"
+    },
+    {
+      "author": "Б. Д. Пак (박 보리스)",
+      "year": 1979,
+      "title": "Россия и Корея (러시아와 한국)",
+      "publisher": "Наука"
+    },
+    {
+      "author": "David Schimmelpenninck van der Oye",
+      "year": 2001,
+      "title": "Toward the Rising Sun: Russian Ideologies of Empire and the Path to War with Japan",
+      "publisher": "Northern Illinois University Press"
+    },
+    {
+      "author": "국사편찬위원회",
+      "year": 2002,
+      "title": "신편 한국사 41: 열강의 이권 침탈과 독립협회",
+      "publisher": "국사편찬위원회"
+    },
+    {
+      "author": "John W. Steinberg et al. (eds.)",
+      "year": 2005,
+      "title": "The Russo-Japanese War in Global Perspective: World War Zero",
+      "publisher": "Brill"
+    },
+    {
+      "author": "Rotem Kowner",
+      "year": 2006,
+      "title": "Historical Dictionary of the Russo-Japanese War",
+      "publisher": "Scarecrow Press"
+    }
+  ]
+}
