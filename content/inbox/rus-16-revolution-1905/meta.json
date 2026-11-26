@@ -1,0 +1,53 @@
+{
+  "title": "1905년 혁명과 두마",
+  "subtitle": "피의 일요일, 소비에트와 포톰킨 반란, 10월 선언, 국가 기본법과 두마, 6월 3일 체제 (1904–1907)",
+  "summary": "러시아 최초의 혁명인 1905년 혁명과 두마의 탄생을 다룹니다. 1905년 1월 9일 가퐁 신부가 이끈 행렬과 피의 일요일로 시작해, 산업화와 농촌의 가난, 자유주의 운동과 소수 민족의 불만, 러일전쟁의 패배가 겹친 배경을 살펴봅니다. 파업과 농민 봉기, 이바노보의 첫 소비에트, 전함 포톰킨의 반란, 10월 총파업과 상트페테르부르크 소비에트(트로츠키), 비테가 쓴 10월 선언과 자유주의자의 분열, 포그롬, 모스크바 12월 봉기의 진압을 따라갑니다. 이어서 1906년 국가 기본법, 제1·2 두마와 해산, 1907년 6월 3일 선거법 개정과 지주 중심의 두마 체제, 그리고 1905년 혁명이 남긴 의미를 정리합니다.",
+  "period": "1904–1907",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "1905년 혁명의 배경과 피의 일요일의 의미를 설명할 수 있다",
+    "파업, 농민 봉기, 소비에트, 포톰킨 반란 등 혁명의 전개를 정리할 수 있다",
+    "10월 선언의 내용과 그것이 혁명 세력에 준 영향을 이해한다",
+    "국가 기본법과 두마의 권한, 6월 3일 체제를 설명할 수 있다",
+    "1905년 혁명이 1917년 혁명에 남긴 의미를 평가할 수 있다"
+  ],
+  "suggestedCourse": {
+    "id": "russia-modern-history",
+    "title": "러시아 근대사",
+    "subtitle": "표트르 대제에서 소련의 탄생까지, 1682–1922"
+  },
+  "suggestedOrder": 16,
+  "createdAt": "2026-11-26T07:00:00Z",
+  "references": [
+    {
+      "author": "Abraham Ascher",
+      "year": 1988,
+      "title": "The Revolution of 1905, 2 vols.",
+      "publisher": "Stanford University Press"
+    },
+    {
+      "author": "Walter Sablinsky",
+      "year": 1976,
+      "title": "The Road to Bloody Sunday: Father Gapon and the St. Petersburg Massacre of 1905",
+      "publisher": "Princeton University Press"
+    },
+    {
+      "author": "Orlando Figes",
+      "year": 1996,
+      "title": "A People's Tragedy: The Russian Revolution, 1891–1924",
+      "publisher": "Jonathan Cape"
+    },
+    {
+      "author": "Geoffrey A. Hosking",
+      "year": 1973,
+      "title": "The Russian Constitutional Experiment: Government and Duma, 1907–1914",
+      "publisher": "Cambridge University Press"
+    },
+    {
+      "author": "Leopold H. Haimson",
+      "year": 1964,
+      "title": "The Problem of Social Stability in Urban Russia, 1905–1917",
+      "publisher": "Slavic Review 23(4)"
+    }
+  ]
+}
