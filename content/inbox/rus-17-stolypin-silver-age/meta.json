@@ -1,0 +1,53 @@
+{
+  "title": "스톨리핀과 은의 시대",
+  "subtitle": "야전 군사 법정과 토지 개혁, 시베리아 이주, 스톨리핀의 암살, 은의 시대의 러시아 문화 (1906–1914)",
+  "summary": "1905년 혁명 뒤의 러시아를 다룹니다. 1911년 키이우 오페라 극장에서의 스톨리핀 암살로 시작해, '질서 먼저, 개혁은 그다음'을 내건 총리 스톨리핀의 야전 군사 법정과 '스톨리핀의 넥타이', 미르를 해체하고 개인 소유와 독립 농장을 만들려 한 토지 개혁과 그 성과, 300만 명이 넘는 시베리아 이주, 그리고 그의 고립과 죽음을 살펴봅니다. 이어서 1909~1913년의 경제 호황과 로마노프 300주년, 레나 금광 학살과 파업의 재개, 그리고 체호프·고리키·블로크·칸딘스키·말레비치·스트라빈스키·발레 뤼스·프로쿠딘-고르스키로 대표되는 '은의 시대'의 문화를 정리합니다.",
+  "period": "1906–1914",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "스톨리핀의 정치 노선과 야전 군사 법정을 설명할 수 있다",
+    "스톨리핀 토지 개혁의 목표와 내용, 성과와 한계를 정리할 수 있다",
+    "시베리아 이주 정책의 의미를 이해한다",
+    "1907~1914년 러시아의 경제 성장과 사회적 긴장을 설명할 수 있다",
+    "은의 시대 러시아 문화의 주요 인물과 특징을 안다"
+  ],
+  "suggestedCourse": {
+    "id": "russia-modern-history",
+    "title": "러시아 근대사",
+    "subtitle": "표트르 대제에서 소련의 탄생까지, 1682–1922"
+  },
+  "suggestedOrder": 17,
+  "createdAt": "2026-11-26T07:00:00Z",
+  "references": [
+    {
+      "author": "Abraham Ascher",
+      "year": 2001,
+      "title": "P. A. Stolypin: The Search for Stability in Late Imperial Russia",
+      "publisher": "Stanford University Press"
+    },
+    {
+      "author": "Judith Pallot",
+      "year": 1999,
+      "title": "Land Reform in Russia, 1906–1917: Peasant Responses to Stolypin's Project of Rural Transformation",
+      "publisher": "Oxford University Press"
+    },
+    {
+      "author": "Donald W. Treadgold",
+      "year": 1957,
+      "title": "The Great Siberian Migration",
+      "publisher": "Princeton University Press"
+    },
+    {
+      "author": "Lynn Garafola",
+      "year": 1989,
+      "title": "Diaghilev's Ballets Russes",
+      "publisher": "Oxford University Press"
+    },
+    {
+      "author": "Robert H. Allshouse (ed.)",
+      "year": 1980,
+      "title": "Photographs for the Tsar: The Pioneering Color Photography of Sergei Mikhailovich Prokudin-Gorskii",
+      "publisher": "Dial Press"
+    }
+  ]
+}
