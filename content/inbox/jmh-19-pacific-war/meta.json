@@ -1,0 +1,53 @@
+{
+  "title": "태평양 전쟁의 전개",
+  "subtitle": "남방 점령과 대동아공영권, 미드웨이에서 사이판까지 (1942–1944)",
+  "summary": "개전 초기의 남방 점령과 싱가포르 함락, 대동아공영권과 점령지의 실상(군정, 자원 수탈, 로무샤, 태면 철도, 포로 학대와 조선인 BC급 전범), 미드웨이 해전과 과달카날 전투로 바뀐 전세, 대동아 회의와 카이로 선언, 그리고 임팔 작전과 사이판 함락, 도조 내각의 붕괴를 살펴봅니다.",
+  "period": "1942–1944",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "개전 초기 일본군의 남방 점령 과정을 설명할 수 있다",
+    "대동아공영권의 이념과 점령지의 실상을 비교할 수 있다",
+    "미드웨이 해전과 과달카날 전투가 전세를 바꾼 이유를 안다",
+    "태면 철도와 조선인 BC급 전범 문제를 이해한다",
+    "카이로 선언의 내용과 한국 독립운동의 대응을 정리할 수 있다"
+  ],
+  "suggestedCourse": {
+    "id": "japan-modern-history",
+    "title": "일본근대사",
+    "subtitle": "흑선에서 패전까지, 1853–1945"
+  },
+  "suggestedOrder": 19,
+  "createdAt": "2026-11-20T06:00:00Z",
+  "references": [
+    {
+      "author": "吉田裕",
+      "year": 2017,
+      "title": "日本軍兵士: アジア・太平洋戦争の現実",
+      "publisher": "中公新書"
+    },
+    {
+      "author": "吉田裕",
+      "year": 2007,
+      "title": "アジア・太平洋戦争 (シリーズ日本近現代史 6)",
+      "publisher": "岩波新書"
+    },
+    {
+      "author": "戸部良一 외",
+      "year": 1984,
+      "title": "失敗の本質: 日本軍の組織論的研究",
+      "publisher": "ダイヤモンド社"
+    },
+    {
+      "author": "内海愛子",
+      "year": 1982,
+      "title": "朝鮮人BC級戦犯の記録",
+      "publisher": "勁草書房"
+    },
+    {
+      "author": "John W. Dower",
+      "year": 1986,
+      "title": "War Without Mercy: Race and Power in the Pacific War",
+      "publisher": "Pantheon"
+    }
+  ]
+}

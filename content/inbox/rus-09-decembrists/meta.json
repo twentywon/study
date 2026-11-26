@@ -1,0 +1,53 @@
+{
+  "title": "데카브리스트 반란",
+  "subtitle": "반동의 시대와 비밀 결사, 1825년 12월 14일 원로원 광장, 시베리아로 간 사람들 (1815–1856)",
+  "summary": "러시아 최초의 근대적 혁명 시도인 데카브리스트 반란을 다룹니다. 1825년 12월 14일 원로원 광장에 선 반란군의 하루로 시작해, 유럽에서 돌아온 귀족 장교들의 경험과 알렉산드르 1세 후반기의 반동(아락체예프, 군사 정착지, 세묘노프스키 연대 사건), 북방 결사와 남방 결사의 강령을 비교합니다. 알렉산드르 1세의 죽음과 콘스탄틴·니콜라이 사이의 계승 공백, 원로원 광장과 체르니고프 연대의 봉기와 진압, 다섯 명의 교수형과 시베리아 유배, 남편을 따라간 아내들과 푸시킨의 시, 그리고 데카브리스트가 남긴 유산을 정리합니다.",
+  "period": "1815–1856 (중심: 1825)",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "데카브리스트가 등장한 배경(해외 원정, 반동 정치)을 설명할 수 있다",
+    "북방 결사와 남방 결사의 목표와 차이를 비교할 수 있다",
+    "1825년 12월 14일 반란의 전개와 실패 원인을 이해한다",
+    "재판과 시베리아 유배, 데카브리스트 아내들의 이야기를 안다",
+    "데카브리스트가 러시아 혁명 운동에 남긴 의미를 평가할 수 있다"
+  ],
+  "suggestedCourse": {
+    "id": "russia-modern-history",
+    "title": "러시아 근대사",
+    "subtitle": "표트르 대제에서 소련의 탄생까지, 1682–1922"
+  },
+  "suggestedOrder": 9,
+  "createdAt": "2026-11-26T07:00:00Z",
+  "references": [
+    {
+      "author": "Anatole G. Mazour",
+      "year": 1937,
+      "title": "The First Russian Revolution, 1825: The Decembrist Movement",
+      "publisher": "University of California Press"
+    },
+    {
+      "author": "Marc Raeff",
+      "year": 1966,
+      "title": "The Decembrist Movement",
+      "publisher": "Prentice-Hall"
+    },
+    {
+      "author": "Christine Sutherland",
+      "year": 1984,
+      "title": "The Princess of Siberia: The Story of Maria Volkonsky and the Decembrist Exiles",
+      "publisher": "Farrar, Straus and Giroux"
+    },
+    {
+      "author": "Orlando Figes",
+      "year": 2002,
+      "title": "Natasha's Dance: A Cultural History of Russia",
+      "publisher": "Allen Lane"
+    },
+    {
+      "author": "알렉산드르 게르첸",
+      "year": 1868,
+      "title": "나의 과거와 사상",
+      "publisher": ""
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "title": "비교우위와 교역의 이득",
+  "subtitle": "절대우위와 비교우위, 리카도의 옷감과 포도주, 무역의 이익과 그늘",
+  "summary": "모든 일을 더 잘하는 사람도 거래로 이득을 볼 수 있는 이유를 기회비용과 비교우위로 설명합니다. 가상의 두 사람 예와 생산 가능 곡선, 리카도의 영국·포르투갈 예와 곡물법 논쟁, 비교우위의 원천(기술·생산 요소·규모의 경제), 한국 수출품의 변화를 살펴보고, 무역의 이익과 손해가 어떻게 나뉘는지, 스무트-홀리 관세와 '차이나 쇼크'의 교훈도 정리합니다.",
+  "period": "1776–현재",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "절대우위와 비교우위를 구분하고 기회비용으로 비교우위를 찾을 수 있다",
+    "특화와 교역으로 두 사람(두 나라)이 모두 이득을 보는 과정을 숫자로 설명할 수 있다",
+    "교역이 이득이 되는 교환 비율의 범위를 설명할 수 있다",
+    "리카도의 예와 곡물법 논쟁, 비교우위의 원천을 이해한다",
+    "무역의 이익과 손해가 나뉘는 방식과 보호 무역의 역사적 교훈을 설명할 수 있다"
+  ],
+  "suggestedCourse": {
+    "id": "economics-principles",
+    "title": "경제학원론",
+    "subtitle": "희소성과 선택에서 시장, 경기 변동까지"
+  },
+  "suggestedOrder": 3,
+  "createdAt": "2026-11-20T05:30:00Z",
+  "references": [
+    {
+      "author": "David Ricardo",
+      "year": 1817,
+      "title": "On the Principles of Political Economy and Taxation",
+      "publisher": "John Murray",
+      "note": "제7장 대외 무역"
+    },
+    {
+      "author": "Adam Smith",
+      "year": 1776,
+      "title": "An Inquiry into the Nature and Causes of the Wealth of Nations",
+      "publisher": "W. Strahan and T. Cadell"
+    },
+    {
+      "author": "David H. Autor, David Dorn, Gordon H. Hanson",
+      "year": 2013,
+      "title": "The China Syndrome: Local Labor Market Effects of Import Competition in the United States",
+      "publisher": "American Economic Review 103(6)"
+    },
+    {
+      "author": "Douglas A. Irwin",
+      "year": 2017,
+      "title": "Clashing over Commerce: A History of US Trade Policy",
+      "publisher": "University of Chicago Press"
+    },
+    {
+      "author": "한국무역협회",
+      "year": 2024,
+      "title": "K-stat 무역 통계",
+      "note": "연도별 수출액"
+    },
+    {
+      "author": "N. Gregory Mankiw",
+      "year": 2024,
+      "title": "Principles of Economics (10th ed.)",
+      "publisher": "Cengage"
+    }
+  ]
+}

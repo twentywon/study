@@ -1,0 +1,52 @@
+{
+  "title": "독점",
+  "subtitle": "진입 장벽과 자연 독점, 한계 수입과 독점 가격, 자중 손실, 가격 차별, 경쟁법",
+  "summary": "한 기업이 시장 전체를 차지하는 독점을 다룹니다. 드비어스의 다이아몬드로 시작해, 핵심 자원·정부의 독점권(특허, 조선의 금난전권)·자연 독점이라는 진입 장벽을 살펴보고, 독점 기업의 한계 수입과 가격·생산량 결정, 자중 손실을 숫자와 그래프로 익힙니다. 가격 차별의 조건과 효과, 셔먼법과 스탠더드 오일 해체, 한국 공정거래법, 자연 독점의 규제와 공기업, 신해통공도 정리합니다.",
+  "period": "1624–현재",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "독점의 원인인 진입 장벽 세 가지를 예를 들어 설명할 수 있다",
+    "독점 기업의 한계 수입이 가격보다 작은 이유를 설명하고, 이윤 극대화 가격과 생산량을 구할 수 있다",
+    "독점이 낳는 자중 손실을 경쟁 시장과 비교해 설명할 수 있다",
+    "가격 차별의 조건과 효율성·형평성에 미치는 효과를 안다",
+    "경쟁법·가격 규제·공기업 등 독점에 대한 정부의 대응을 비교할 수 있다"
+  ],
+  "suggestedCourse": {
+    "id": "economics-principles",
+    "title": "경제학원론",
+    "subtitle": "희소성과 선택에서 시장, 경기 변동까지"
+  },
+  "suggestedOrder": 14,
+  "createdAt": "2026-11-20T11:00:00Z",
+  "references": [
+    {
+      "author": "Edward Jay Epstein",
+      "year": 1982,
+      "title": "The Rise and Fall of Diamonds",
+      "publisher": "Simon & Schuster"
+    },
+    {
+      "author": "Ida M. Tarbell",
+      "year": 1904,
+      "title": "The History of the Standard Oil Company",
+      "publisher": "McClure, Phillips & Co."
+    },
+    {
+      "author": "George J. Stigler",
+      "year": 1971,
+      "title": "The Theory of Economic Regulation",
+      "publisher": "Bell Journal of Economics 2(1)"
+    },
+    {
+      "author": "공정거래위원회",
+      "year": 2024,
+      "title": "공정거래위원회 40년사·연차보고서"
+    },
+    {
+      "author": "고동환",
+      "year": 2013,
+      "title": "조선시대 시전상업 연구",
+      "publisher": "지식산업사"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "title": "메이지 6년 정변과 사족의 반란",
+  "subtitle": "정한론 정변에서 세이난 전쟁과 오쿠보 암살까지 (1873–1878)",
+  "summary": "조선 파견 문제로 정부가 쪼개진 메이지 6년 정변, 특권을 잃은 사족들의 반란과 세이난 전쟁, 유신 3걸의 퇴장, 그리고 대만 출병·류큐 처분·사할린-쿠릴 교환·강화도 조약으로 이어진 1870년대 일본의 대외 팽창을 살펴봅니다.",
+  "period": "1873–1879",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "메이지 6년 정변의 쟁점과 결과를 설명할 수 있다",
+    "사족 특권의 해체 과정과 사족 반란의 전개를 정리한다",
+    "세이난 전쟁의 경과와 의미를 이해한다",
+    "대만 출병, 류큐 처분, 강화도 조약 등 1870년대 대외 정책을 안다"
+  ],
+  "suggestedCourse": {
+    "id": "japan-modern-history",
+    "title": "일본근대사",
+    "subtitle": "흑선에서 패전까지, 1853–1945"
+  },
+  "suggestedOrder": 7,
+  "createdAt": "2026-11-20T02:00:00Z",
+  "references": [
+    {
+      "author": "앤드루 고든",
+      "year": 2005,
+      "title": "현대 일본의 역사: 도쿠가와 시대에서 현대까지",
+      "publisher": "이산 (김우영 옮김)"
+    },
+    {
+      "author": "Marius B. Jansen",
+      "year": 2000,
+      "title": "The Making of Modern Japan",
+      "publisher": "Harvard University Press"
+    },
+    {
+      "author": "毛利敏彦",
+      "year": 1978,
+      "title": "明治六年政変の研究",
+      "publisher": "有斐閣"
+    },
+    {
+      "author": "小川原正道",
+      "year": 2007,
+      "title": "西南戦争",
+      "publisher": "中公新書"
+    },
+    {
+      "author": "落合弘樹",
+      "year": 2005,
+      "title": "西郷隆盛と士族",
+      "publisher": "吉川弘文館"
+    },
+    {
+      "author": "강만길 외",
+      "year": 1994,
+      "title": "한국사 11: 근대민족의 형성 1",
+      "publisher": "한길사"
+    }
+  ]
+}

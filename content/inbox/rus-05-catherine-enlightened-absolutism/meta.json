@@ -1,0 +1,59 @@
+{
+  "title": "예카테리나 2세와 계몽 전제",
+  "subtitle": "『훈령』과 법전 편찬 위원회, 귀족의 황금시대, 농노제의 절정과 푸가초프의 반란 (1762–1796)",
+  "summary": "'철학자 여제' 예카테리나 2세의 통치를 다룹니다. 1767년 법전 편찬 위원회에서 낭독된 『훈령』으로 시작해, 안할트체르프스트의 공녀가 러시아 여제가 되기까지, 계몽 전제의 뜻과 볼테르·디드로와의 교류, 몽테스키외와 베카리아를 옮긴 『훈령』과 위원회의 결말을 살펴봅니다. 교회 토지 국유화에서 지방 행정 개혁과 귀족 특권장에 이르는 개혁과 에르미타주, 그리고 농노제의 절정과 자칭 표트르 3세 푸가초프의 반란, 프랑스 혁명 뒤의 계몽의 후퇴와 라디셰프의 유배까지 정리합니다.",
+  "period": "1762–1796",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "계몽 전제의 뜻과 예카테리나 2세가 계몽사상을 받아들인 방식을 설명할 수 있다",
+    "『훈령』과 법전 편찬 위원회의 내용과 한계를 이해한다",
+    "예카테리나의 주요 개혁과 귀족 특권장의 의미를 정리할 수 있다",
+    "푸가초프 반란의 배경과 전개, 결과를 설명할 수 있다",
+    "라디셰프 사건과 프랑스 혁명이 러시아 계몽에 준 영향을 안다"
+  ],
+  "suggestedCourse": {
+    "id": "russia-modern-history",
+    "title": "러시아 근대사",
+    "subtitle": "표트르 대제에서 소련의 탄생까지, 1682–1922"
+  },
+  "suggestedOrder": 5,
+  "createdAt": "2026-11-26T07:00:00Z",
+  "references": [
+    {
+      "author": "Isabel de Madariaga",
+      "year": 1981,
+      "title": "Russia in the Age of Catherine the Great",
+      "publisher": "Yale University Press"
+    },
+    {
+      "author": "John T. Alexander",
+      "year": 1989,
+      "title": "Catherine the Great: Life and Legend",
+      "publisher": "Oxford University Press"
+    },
+    {
+      "author": "Robert K. Massie",
+      "year": 2011,
+      "title": "Catherine the Great: Portrait of a Woman",
+      "publisher": "Random House"
+    },
+    {
+      "author": "W. F. Reddaway (ed.)",
+      "year": 1931,
+      "title": "Documents of Catherine the Great: The Correspondence with Voltaire and the Instruction of 1767",
+      "publisher": "Cambridge University Press"
+    },
+    {
+      "author": "Paul Avrich",
+      "year": 1972,
+      "title": "Russian Rebels, 1600–1800",
+      "publisher": "Schocken Books"
+    },
+    {
+      "author": "알렉산드르 푸시킨",
+      "year": 1836,
+      "title": "대위의 딸",
+      "publisher": ""
+    }
+  ]
+}

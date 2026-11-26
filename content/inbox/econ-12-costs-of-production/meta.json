@@ -1,0 +1,53 @@
+{
+  "title": "생산비용",
+  "subtitle": "경제적 이윤, 생산 함수와 한계 생산 체감, 평균 비용과 한계 비용, 규모의 경제",
+  "summary": "공급 곡선 뒤에 있는 기업의 생산과 비용을 살펴봅니다. 포드 모델 T의 가격 하락으로 시작해, 명시적·암묵적 비용과 회계적·경제적 이윤, 생산 함수와 한계 생산 체감을 배우고, 고정 비용과 가변 비용, 평균 총비용과 한계 비용의 관계와 U자 모양의 비용 곡선을 표와 그래프로 익힙니다. 단기와 장기, 규모의 경제와 불경제, 반도체와 소프트웨어의 비용 구조도 다룹니다.",
+  "period": "1908–현재",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "명시적 비용과 암묵적 비용을 구분하고 회계적 이윤과 경제적 이윤을 계산할 수 있다",
+    "생산 함수와 한계 생산 체감을 설명할 수 있다",
+    "고정 비용·가변 비용·평균 비용·한계 비용을 계산하고 그 관계를 설명할 수 있다",
+    "평균 총비용이 U자 모양인 이유와 효율적 규모의 의미를 안다",
+    "단기와 장기의 차이, 규모의 경제와 불경제를 사례로 설명할 수 있다"
+  ],
+  "suggestedCourse": {
+    "id": "economics-principles",
+    "title": "경제학원론",
+    "subtitle": "희소성과 선택에서 시장, 경기 변동까지"
+  },
+  "suggestedOrder": 12,
+  "createdAt": "2026-11-20T10:00:00Z",
+  "references": [
+    {
+      "author": "Henry Ford, Samuel Crowther",
+      "year": 1922,
+      "title": "My Life and Work",
+      "publisher": "Doubleday, Page & Company"
+    },
+    {
+      "author": "David A. Hounshell",
+      "year": 1984,
+      "title": "From the American System to Mass Production, 1800–1932",
+      "publisher": "Johns Hopkins University Press"
+    },
+    {
+      "author": "Thomas Robert Malthus",
+      "year": 1798,
+      "title": "An Essay on the Principle of Population",
+      "publisher": "J. Johnson"
+    },
+    {
+      "author": "Alfred D. Chandler Jr.",
+      "year": 1990,
+      "title": "Scale and Scope: The Dynamics of Industrial Capitalism",
+      "publisher": "Harvard University Press"
+    },
+    {
+      "author": "N. Gregory Mankiw",
+      "year": 2024,
+      "title": "Principles of Economics (10th ed.)",
+      "publisher": "Cengage"
+    }
+  ]
+}

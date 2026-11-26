@@ -1,0 +1,65 @@
+{
+  "title": "삿초 동맹과 막부의 최후",
+  "subtitle": "조슈의 재기에서 왕정복고까지 (1864–1868)",
+  "summary": "다카스기 신사쿠의 거병으로 되살아난 조슈, 사카모토 료마의 중개로 맺어진 삿초 동맹, 제2차 조슈 정벌의 실패, 마지막 쇼군 요시노부의 개혁과 대정봉환, 그리고 막부를 폐지한 왕정복고의 대호령까지를 따라가며 260년 막부가 무너진 과정을 정리합니다.",
+  "period": "1864–1868",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "조슈 내부의 정변과 군제 개혁(기병대, 오무라 마스지로)의 의미를 설명할 수 있다",
+    "삿초 동맹이 맺어진 배경과 6개조의 내용을 안다",
+    "제2차 조슈 정벌에서 막부가 패한 원인을 정리할 수 있다",
+    "요시노부의 게이오 개혁과 영국·프랑스의 대립 구도를 이해한다",
+    "대정봉환과 왕정복고의 대호령의 차이와 의미를 설명할 수 있다"
+  ],
+  "suggestedCourse": {
+    "id": "japan-modern-history",
+    "title": "일본근대사",
+    "subtitle": "흑선에서 패전까지, 1853–1945"
+  },
+  "suggestedOrder": 4,
+  "createdAt": "2026-11-19T22:00:00Z",
+  "references": [
+    {
+      "author": "앤드루 고든",
+      "year": 2005,
+      "title": "현대 일본의 역사: 도쿠가와 시대에서 현대까지",
+      "publisher": "이산 (김우영 옮김)"
+    },
+    {
+      "author": "Marius B. Jansen",
+      "year": 2000,
+      "title": "The Making of Modern Japan",
+      "publisher": "Harvard University Press"
+    },
+    {
+      "author": "井上勝生",
+      "year": 2006,
+      "title": "幕末・維新 (シリーズ日本近現代史 1)",
+      "publisher": "岩波新書"
+    },
+    {
+      "author": "家近良樹",
+      "year": 2014,
+      "title": "徳川慶喜",
+      "publisher": "吉川弘文館"
+    },
+    {
+      "author": "青山忠正",
+      "year": 2000,
+      "title": "明治維新と国家形成",
+      "publisher": "吉川弘文館"
+    },
+    {
+      "author": "松浦玲",
+      "year": 2008,
+      "title": "坂本龍馬",
+      "publisher": "岩波新書"
+    },
+    {
+      "author": "Ernest Satow",
+      "year": 1921,
+      "title": "A Diplomat in Japan",
+      "publisher": "Seeley, Service & Co."
+    }
+  ]
+}

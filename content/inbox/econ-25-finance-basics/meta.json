@@ -1,0 +1,59 @@
+{
+  "title": "금융의 기초: 현재가치와 위험",
+  "subtitle": "복리와 현재가치, 위험 회피와 보험, 분산 투자, 효율적 시장 가설과 거품",
+  "summary": "금융 시장에서 쓰는 기본 도구를 배웁니다. 1637년 튤립 광풍으로 시작해, 복리와 미래가치, 할인과 현재가치, 그 쓰임(투자 결정, 채권 가격)을 익히고, 위험 회피와 보험, 분산 투자로 줄일 수 있는 개별 위험과 줄일 수 없는 시장 위험, 위험과 수익의 상충을 살펴봅니다. 주식의 기본적 분석, 파마의 효율적 시장 가설과 랜덤 워크, 인덱스 펀드, 실러의 비합리적 거품과 역사 속의 자산 거품도 정리합니다.",
+  "period": "1637–현재",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "복리로 미래가치를, 할인으로 현재가치를 계산할 수 있다",
+    "현재가치가 투자 결정과 채권 가격에 쓰이는 원리를 설명할 수 있다",
+    "위험 회피의 이유와 보험·분산 투자의 원리를 이해한다",
+    "위험과 수익의 상충, 개별 위험과 시장 위험을 구분할 수 있다",
+    "효율적 시장 가설과 거품에 대한 반론, 인덱스 펀드의 의미를 설명할 수 있다"
+  ],
+  "suggestedCourse": {
+    "id": "economics-principles",
+    "title": "경제학원론",
+    "subtitle": "희소성과 선택에서 시장, 경기 변동까지"
+  },
+  "suggestedOrder": 25,
+  "createdAt": "2026-11-20T16:30:00Z",
+  "references": [
+    {
+      "author": "Anne Goldgar",
+      "year": 2007,
+      "title": "Tulipmania: Money, Honor, and Knowledge in the Dutch Golden Age",
+      "publisher": "University of Chicago Press"
+    },
+    {
+      "author": "Harry Markowitz",
+      "year": 1952,
+      "title": "Portfolio Selection",
+      "publisher": "Journal of Finance 7(1)"
+    },
+    {
+      "author": "Eugene F. Fama",
+      "year": 1970,
+      "title": "Efficient Capital Markets: A Review of Theory and Empirical Work",
+      "publisher": "Journal of Finance 25(2)"
+    },
+    {
+      "author": "Burton G. Malkiel",
+      "year": 1973,
+      "title": "A Random Walk Down Wall Street",
+      "publisher": "W. W. Norton"
+    },
+    {
+      "author": "Robert J. Shiller",
+      "year": 2000,
+      "title": "Irrational Exuberance",
+      "publisher": "Princeton University Press"
+    },
+    {
+      "author": "Aswath Damodaran",
+      "year": 2024,
+      "title": "Historical Returns on Stocks, Bonds and Bills: 1928–2023",
+      "note": "위험-수익 표"
+    }
+  ]
+}

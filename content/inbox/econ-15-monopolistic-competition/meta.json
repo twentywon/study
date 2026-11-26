@@ -1,0 +1,53 @@
+{
+  "title": "독점적 경쟁",
+  "subtitle": "상품 차별화, 과잉 설비와 가격 인상분, 광고와 브랜드의 경제학",
+  "summary": "완전경쟁과 독점 사이에 있는 독점적 경쟁시장을 살펴봅니다. 수많은 카페로 시작해, 판매자가 많고 상품이 차별화되며 진입이 자유로운 시장의 특징, 단기의 독점적 행동과 장기의 경제적 이윤 0, 과잉 설비와 가격 > 한계 비용, 상품 다양성과 고객 빼앗기의 외부효과를 익힙니다. 광고를 둘러싼 비판과 옹호, 벤험의 안경값 연구와 품질의 신호, 브랜드의 역할, 호텔링의 해변 모형도 다룹니다.",
+  "period": "1929–현재",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "독점적 경쟁시장의 세 가지 특징을 완전경쟁·독점과 비교할 수 있다",
+    "독점적 경쟁 기업의 단기·장기 행동과 장기 경제적 이윤 0을 설명할 수 있다",
+    "과잉 설비와 가격 > 한계 비용의 의미, 진입의 두 가지 외부효과를 이해한다",
+    "광고에 대한 비판과 옹호의 논리, 광고가 품질의 신호가 되는 이유를 설명할 수 있다",
+    "브랜드의 역할과 호텔링의 최소 차별화 원리를 안다"
+  ],
+  "suggestedCourse": {
+    "id": "economics-principles",
+    "title": "경제학원론",
+    "subtitle": "희소성과 선택에서 시장, 경기 변동까지"
+  },
+  "suggestedOrder": 15,
+  "createdAt": "2026-11-20T11:30:00Z",
+  "references": [
+    {
+      "author": "Edward H. Chamberlin",
+      "year": 1933,
+      "title": "The Theory of Monopolistic Competition",
+      "publisher": "Harvard University Press"
+    },
+    {
+      "author": "Joan Robinson",
+      "year": 1933,
+      "title": "The Economics of Imperfect Competition",
+      "publisher": "Macmillan"
+    },
+    {
+      "author": "Harold Hotelling",
+      "year": 1929,
+      "title": "Stability in Competition",
+      "publisher": "Economic Journal 39(153)"
+    },
+    {
+      "author": "Lee Benham",
+      "year": 1972,
+      "title": "The Effect of Advertising on the Price of Eyeglasses",
+      "publisher": "Journal of Law and Economics 15(2)"
+    },
+    {
+      "author": "Phillip Nelson",
+      "year": 1974,
+      "title": "Advertising as Information",
+      "publisher": "Journal of Political Economy 82(4)"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "title": "10월 혁명",
+  "subtitle": "6월 공세와 7월 사태, 코르닐로프 사건, 겨울 궁전 점령, 소비에트 정부의 포고, 제헌 의회 해산과 브레스트리토프스크 조약 (1917–1918)",
+  "summary": "볼셰비키가 권력을 잡은 10월 혁명을 다룹니다. 1917년 10월 25일 밤 순양함 오로라의 신호와 겨울 궁전 점령으로 시작해, 케렌스키의 6월 공세 실패와 7월 사태, 레닌의 도피, 코르닐로프 사건과 볼셰비키의 부활, 무너지는 나라와 당원의 급증을 살펴봅니다. 레닌의 봉기 독촉과 중앙 위원회의 결의, 트로츠키가 이끈 군사 혁명 위원회의 봉기, 제2차 소비에트 대회와 평화·토지에 관한 포고, 인민 위원 평의회와 새 질서(신분 폐지, 은행 국유화, 체카, 교회 분리, 그레고리력)를 따라가고, 제헌 의회 선거와 하루 만의 해산, 브레스트리토프스크 조약과 모스크바 천도를 정리합니다.",
+  "period": "1917년 6월–1918년 3월",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "임시 정부가 지지를 잃은 과정(6월 공세, 7월 사태, 코르닐로프 사건)을 설명할 수 있다",
+    "볼셰비키가 지지를 얻은 이유와 10월 봉기의 전개를 이해한다",
+    "소비에트 정부의 첫 포고와 새 질서의 내용을 정리할 수 있다",
+    "제헌 의회 선거 결과와 해산의 의미를 설명할 수 있다",
+    "브레스트리토프스크 조약의 내용과 그것이 러시아에 남긴 결과를 평가할 수 있다"
+  ],
+  "suggestedCourse": {
+    "id": "russia-modern-history",
+    "title": "러시아 근대사",
+    "subtitle": "표트르 대제에서 소련의 탄생까지, 1682–1922"
+  },
+  "suggestedOrder": 20,
+  "createdAt": "2026-11-26T07:00:00Z",
+  "references": [
+    {
+      "author": "Alexander Rabinowitch",
+      "year": 1976,
+      "title": "The Bolsheviks Come to Power: The Revolution of 1917 in Petrograd",
+      "publisher": "W. W. Norton"
+    },
+    {
+      "author": "Richard Pipes",
+      "year": 1990,
+      "title": "The Russian Revolution",
+      "publisher": "Alfred A. Knopf"
+    },
+    {
+      "author": "Sheila Fitzpatrick",
+      "year": 2017,
+      "title": "The Russian Revolution, 4th ed.",
+      "publisher": "Oxford University Press"
+    },
+    {
+      "author": "John Reed",
+      "year": 1919,
+      "title": "Ten Days That Shook the World",
+      "publisher": "Boni & Liveright"
+    },
+    {
+      "author": "Oliver H. Radkey",
+      "year": 1990,
+      "title": "Russia Goes to the Polls: The Election to the All-Russian Constituent Assembly, 1917",
+      "publisher": "Cornell University Press"
+    }
+  ]
+}

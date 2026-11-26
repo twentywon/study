@@ -1,0 +1,65 @@
+{
+  "title": "모스크바 대공국에서 로마노프 왕조로",
+  "subtitle": "키예프 루스, 몽골의 지배, 이반 뇌제, 동란 시대와 로마노프 왕조의 출발 (862–1682)",
+  "summary": "러시아 근대사의 무대가 된 러시아가 어떻게 생겨났는지 살펴보는 첫 강의입니다. 1613년 이파티예프 수도원에서 미하일 로마노프가 차르로 추대되는 장면으로 시작해, 바랴그인과 키예프 루스, 988년 정교회 수용, 몽골의 지배('타타르의 멍에')와 모스크바의 성장, 이반 3세와 '제3의 로마', 이반 4세 뇌제와 오프리치니나, 시베리아 진출을 따라갑니다. 이어서 류리크 왕조의 단절과 기근·참칭자·외국 침략이 겹친 동란 시대, 미닌과 포자르스키의 국민 의용군, 로마노프 왕조의 성립을 정리하고, 소보르 법전과 농노제, 교회 분열, 스텐카 라진의 반란, 조선의 나선 정벌까지 17세기 러시아의 모습을 살펴봅니다.",
+  "period": "862–1682 (중심: 1547–1682)",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "키예프 루스의 성립과 정교회 수용이 러시아에 남긴 영향을 설명할 수 있다",
+    "몽골 지배 아래에서 모스크바가 성장한 과정을 이해한다",
+    "이반 3세와 이반 4세의 통치와 '제3의 로마' 사상을 설명할 수 있다",
+    "동란 시대의 원인과 전개, 로마노프 왕조의 성립 과정을 정리할 수 있다",
+    "소보르 법전과 농노제, 교회 분열 등 17세기 러시아 사회의 특징을 안다"
+  ],
+  "suggestedCourse": {
+    "id": "russia-modern-history",
+    "title": "러시아 근대사",
+    "subtitle": "표트르 대제에서 소련의 탄생까지, 1682–1922",
+    "description": "모스크바 대공국에서 출발해 표트르 대제의 서구화 개혁, 예카테리나 2세의 계몽 전제와 팽창, 나폴레옹 전쟁과 데카브리스트, 크림 전쟁과 농노 해방, 혁명 운동과 산업화, 러시아의 동방 진출과 조선, 1905년 혁명과 제1차 세계대전, 1917년의 두 혁명과 내전을 거쳐 소련이 탄생하기까지 러시아 근대 240년을 차례대로 살펴봅니다. 프로쿠딘-고르스키의 컬러 사진을 비롯한 당대의 사진과 판화, 지도, 사료로 시대를 풀어 봅니다.",
+    "cover": {
+      "src": "/_blob/1420d03c2e08fe82022af667559baef9",
+      "credit": "사료 4점을 조합한 표지 · 왼쪽부터 「표트르 대제의 초상」(18세기 전반 유화, 암스테르담 국립미술관, CC0), 포토글로프 사 「상트페테르부르크의 겨울 궁전」(1890년 무렵, 미국 의회도서관, 출판 제한 없음), 세르게이 프로쿠딘-고르스키 「딸기를 든 소녀」(1909, 미국 의회도서관, 출판 제한 없음), 베인 뉴스 서비스 「모스크바, 붉은 군대 사열」(1920년 무렵, 미국 의회도서관, 출판 제한 없음)"
+    }
+  },
+  "suggestedOrder": 1,
+  "createdAt": "2026-11-26T03:00:00Z",
+  "references": [
+    {
+      "author": "Nicholas V. Riasanovsky, Mark D. Steinberg",
+      "year": 2019,
+      "title": "A History of Russia, 9th ed.",
+      "publisher": "Oxford University Press"
+    },
+    {
+      "author": "Janet Martin",
+      "year": 2007,
+      "title": "Medieval Russia, 980–1584, 2nd ed.",
+      "publisher": "Cambridge University Press"
+    },
+    {
+      "author": "Chester S. L. Dunning",
+      "year": 2001,
+      "title": "Russia's First Civil War: The Time of Troubles and the Founding of the Romanov Dynasty",
+      "publisher": "Penn State University Press"
+    },
+    {
+      "author": "Richard Hellie (tr.)",
+      "year": 1988,
+      "title": "The Muscovite Law Code (Ulozhenie) of 1649",
+      "publisher": "Charles Schlacks"
+    },
+    {
+      "author": "Simon Sebag Montefiore",
+      "year": 2016,
+      "title": "The Romanovs, 1613–1918",
+      "publisher": "Weidenfeld & Nicolson"
+    },
+    {
+      "author": "국사편찬위원회",
+      "year": 2013,
+      "title": "신편 한국사 29: 조선 중기의 외침과 그 대응",
+      "publisher": "국사편찬위원회",
+      "note": "나선 정벌"
+    }
+  ]
+}

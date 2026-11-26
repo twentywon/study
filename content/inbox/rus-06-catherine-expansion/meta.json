@@ -1,0 +1,53 @@
+{
+  "title": "예카테리나의 팽창: 크림과 폴란드 분할",
+  "subtitle": "러시아-튀르크 전쟁, 크림 병합과 노보로시야, 세 차례의 폴란드 분할 (1768–1796)",
+  "summary": "예카테리나 2세 시대 러시아의 영토 확장을 다룹니다. 1787년 크림 여행과 '포툠킨 마을' 이야기로 시작해, 1차 러시아-튀르크 전쟁(체슈메·카굴)과 퀴췩카이나르자 조약, 크림 칸국 병합과 포툠킨의 노보로시야 개척(헤르손·세바스토폴·오데사), '그리스 계획', 수보로프의 이즈마일 함락과 야시 조약을 살펴봅니다. 이어서 '황금 자유'로 마비된 폴란드-리투아니아가 1772·1793·1795년 세 차례 분할되어 사라지는 과정과 5월 3일 헌법, 코시치우슈코 봉기, 그리고 분할이 남긴 정착 구역과 폴란드 문제를 정리합니다.",
+  "period": "1768–1796",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "러시아-튀르크 전쟁과 퀴췩카이나르자 조약의 내용과 의미를 설명할 수 있다",
+    "크림 병합과 노보로시야 개척 과정을 이해한다",
+    "폴란드-리투아니아의 정치 체제와 분할의 원인을 설명할 수 있다",
+    "세 차례 폴란드 분할의 과정과 5월 3일 헌법·코시치우슈코 봉기를 정리할 수 있다",
+    "분할이 러시아 제국에 남긴 민족·종교 문제를 안다"
+  ],
+  "suggestedCourse": {
+    "id": "russia-modern-history",
+    "title": "러시아 근대사",
+    "subtitle": "표트르 대제에서 소련의 탄생까지, 1682–1922"
+  },
+  "suggestedOrder": 6,
+  "createdAt": "2026-11-26T07:00:00Z",
+  "references": [
+    {
+      "author": "Isabel de Madariaga",
+      "year": 1981,
+      "title": "Russia in the Age of Catherine the Great",
+      "publisher": "Yale University Press"
+    },
+    {
+      "author": "Simon Sebag Montefiore",
+      "year": 2000,
+      "title": "Prince of Princes: The Life of Potemkin",
+      "publisher": "Weidenfeld & Nicolson"
+    },
+    {
+      "author": "Norman Davies",
+      "year": 2005,
+      "title": "God's Playground: A History of Poland, vol. 1, rev. ed.",
+      "publisher": "Oxford University Press"
+    },
+    {
+      "author": "Jerzy Lukowski",
+      "year": 1999,
+      "title": "The Partitions of Poland: 1772, 1793, 1795",
+      "publisher": "Longman"
+    },
+    {
+      "author": "Alan W. Fisher",
+      "year": 1970,
+      "title": "The Russian Annexation of the Crimea, 1772–1783",
+      "publisher": "Cambridge University Press"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "title": "알렉산드르 3세와 산업화",
+  "subtitle": "흔들림 없는 전제, 러시아화와 포그롬, 비테의 산업화와 시베리아 횡단 철도, 마르크스주의의 등장 (1881–1904)",
+  "summary": "정치적 반동과 급속한 산업화가 함께 진행된 알렉산드르 3세와 니콜라이 2세 초기의 러시아를 다룹니다. 1891년 블라디보스토크에서 황태자 니콜라이가 시베리아 횡단 철도의 첫 삽을 뜨는 장면과 오쓰 사건으로 시작해, 포베도노스체프와 '흔들림 없는 전제', 비상 조치법과 대개혁 되돌리기, 러시아화 정책과 포그롬·5월 법령·유대인 대이주, 러시아-프랑스 동맹을 살펴봅니다. 이어서 비테의 산업화 정책(철도, 보호 관세, 외국 자본, 금본위제, 보드카 독점), 1891년 대기근, 시베리아 횡단 철도와 동청 철도, 바쿠 석유와 돈바스, 공장 노동자의 탄생과 마르크스주의, 볼셰비키·멘셰비키의 분열, 니콜라이 2세의 즉위와 호딘카 참사를 정리합니다.",
+  "period": "1881–1904",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "알렉산드르 3세의 반동 정치와 대개혁을 되돌린 조치를 설명할 수 있다",
+    "러시아화 정책과 유대인 박해(포그롬), 유대인 대이주를 이해한다",
+    "비테의 산업화 정책과 그 성과·비용을 정리할 수 있다",
+    "시베리아 횡단 철도의 건설과 의미를 설명할 수 있다",
+    "공장 노동자의 등장과 러시아 마르크스주의 정당의 형성을 설명할 수 있다"
+  ],
+  "suggestedCourse": {
+    "id": "russia-modern-history",
+    "title": "러시아 근대사",
+    "subtitle": "표트르 대제에서 소련의 탄생까지, 1682–1922"
+  },
+  "suggestedOrder": 14,
+  "createdAt": "2026-11-26T07:00:00Z",
+  "references": [
+    {
+      "author": "Theodore H. Von Laue",
+      "year": 1963,
+      "title": "Sergei Witte and the Industrialization of Russia",
+      "publisher": "Columbia University Press"
+    },
+    {
+      "author": "Steven G. Marks",
+      "year": 1991,
+      "title": "Road to Power: The Trans-Siberian Railroad and the Colonization of Asian Russia, 1850–1917",
+      "publisher": "Cornell University Press"
+    },
+    {
+      "author": "John Doyle Klier",
+      "year": 2011,
+      "title": "Russians, Jews, and the Pogroms of 1881–1882",
+      "publisher": "Cambridge University Press"
+    },
+    {
+      "author": "Peter Gatrell",
+      "year": 1986,
+      "title": "The Tsarist Economy, 1850–1917",
+      "publisher": "Batsford"
+    },
+    {
+      "author": "Orlando Figes",
+      "year": 1996,
+      "title": "A People's Tragedy: The Russian Revolution, 1891–1924",
+      "publisher": "Jonathan Cape"
+    }
+  ]
+}

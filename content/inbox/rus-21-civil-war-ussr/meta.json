@@ -1,0 +1,59 @@
+{
+  "title": "내전과 소련의 탄생",
+  "subtitle": "적군과 백군, 외국의 간섭, 황제 일가의 처형, 전시 공산주의와 테러, 크론시타트와 신경제 정책, 소련의 탄생 (1918–1922)",
+  "summary": "러시아 근대사의 마지막 장인 내전과 소련의 탄생을 다룹니다. 1918년 7월 예카테린부르크 이파티예프 저택에서의 황제 일가 처형으로 시작해, 체코 군단의 반란과 백군(콜차크, 데니킨, 유데니치), 연합국과 일본의 간섭, 트로츠키가 만든 적군, 1919년의 결전과 백군의 패배, 그리고 적군이 이긴 이유를 살펴봅니다. 붉은 테러와 백색 테러, 유대인 학살, 전시 공산주의와 경제의 붕괴, 폴란드 전쟁과 독립한 나라들, 자유시 참변을 정리하고, 크론시타트 반란과 신경제 정책, 1921~1922년 대기근과 미국 구호청, 1922년 12월 30일 소련의 탄생과 레닌의 유언, 그리고 강좌 전체를 돌아보는 맺음말로 마무리합니다.",
+  "period": "1918–1924",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "내전의 주요 세력(적군, 백군, 간섭군)과 전개를 설명할 수 있다",
+    "볼셰비키가 내전에서 이긴 이유를 여러 측면에서 정리할 수 있다",
+    "붉은 테러와 전시 공산주의가 러시아 사회와 경제에 남긴 결과를 이해한다",
+    "크론시타트 반란과 신경제 정책, 대기근의 의미를 설명할 수 있다",
+    "소련의 탄생 과정과 러시아 근대사 전체의 흐름을 돌아볼 수 있다"
+  ],
+  "suggestedCourse": {
+    "id": "russia-modern-history",
+    "title": "러시아 근대사",
+    "subtitle": "표트르 대제에서 소련의 탄생까지, 1682–1922"
+  },
+  "suggestedOrder": 21,
+  "createdAt": "2026-11-26T07:00:00Z",
+  "references": [
+    {
+      "author": "Evan Mawdsley",
+      "year": 2007,
+      "title": "The Russian Civil War",
+      "publisher": "Pegasus Books"
+    },
+    {
+      "author": "W. Bruce Lincoln",
+      "year": 1989,
+      "title": "Red Victory: A History of the Russian Civil War",
+      "publisher": "Simon & Schuster"
+    },
+    {
+      "author": "Orlando Figes",
+      "year": 1996,
+      "title": "A People's Tragedy: The Russian Revolution, 1891–1924",
+      "publisher": "Jonathan Cape"
+    },
+    {
+      "author": "Bertrand M. Patenaude",
+      "year": 2002,
+      "title": "The Big Show in Bololand: The American Relief Expedition to Soviet Russia in the Famine of 1921",
+      "publisher": "Stanford University Press"
+    },
+    {
+      "author": "Mark D. Steinberg, Vladimir M. Khrustalëv",
+      "year": 1995,
+      "title": "The Fall of the Romanovs: Political Dreams and Personal Struggles in a Time of Revolution",
+      "publisher": "Yale University Press"
+    },
+    {
+      "author": "반병률",
+      "year": 1998,
+      "title": "성재 이동휘 일대기",
+      "publisher": "범우사"
+    }
+  ]
+}

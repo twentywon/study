@@ -1,0 +1,54 @@
+{
+  "title": "중일전쟁",
+  "subtitle": "루거우차오 사건에서 난징 대학살, 왕징웨이 정권까지 (1937–1940)",
+  "summary": "루거우차오 사건이 전면 전쟁으로 번진 과정, 상하이 전투와 난징 함락, 난징 대학살과 그 기억, '국민정부를 상대하지 않는다'는 고노에 성명과 장기전, 동아 신질서와 왕징웨이 정권, 그리고 국가총동원법과 전쟁 초기의 국민 생활을 살펴봅니다.",
+  "period": "1937–1940",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "루거우차오 사건이 전면 전쟁으로 확대된 과정을 설명할 수 있다",
+    "난징 대학살의 원인과 경과, 희생자 수를 둘러싼 논쟁을 이해한다",
+    "제1차 고노에 성명이 전쟁의 장기화에 끼친 영향을 설명할 수 있다",
+    "'점과 선'의 점령과 동아 신질서, 왕징웨이 정권의 성격을 안다",
+    "국가총동원법의 내용과 의미를 설명할 수 있다"
+  ],
+  "suggestedCourse": {
+    "id": "japan-modern-history",
+    "title": "일본근대사",
+    "subtitle": "흑선에서 패전까지, 1853–1945"
+  },
+  "suggestedOrder": 16,
+  "createdAt": "2026-11-20T06:00:00Z",
+  "references": [
+    {
+      "author": "加藤陽子",
+      "year": 2007,
+      "title": "満州事変から日中戦争へ (シリーズ日本近現代史 5)",
+      "publisher": "岩波新書"
+    },
+    {
+      "author": "笠原十九司",
+      "year": 1997,
+      "title": "南京事件",
+      "publisher": "岩波新書"
+    },
+    {
+      "author": "小林英夫",
+      "year": 2007,
+      "title": "日中戦争: 殲滅戦から消耗戦へ",
+      "publisher": "講談社現代新書"
+    },
+    {
+      "author": "Rana Mitter",
+      "year": 2013,
+      "title": "Forgotten Ally: China's World War II, 1937–1945",
+      "publisher": "Houghton Mifflin Harcourt"
+    },
+    {
+      "author": "John Rabe",
+      "year": 1997,
+      "title": "The Good Man of Nanking: The Diaries of John Rabe",
+      "publisher": "Knopf",
+      "note": "욘 라베 일기"
+    }
+  ]
+}

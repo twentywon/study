@@ -1,0 +1,53 @@
+{
+  "title": "니콜라이 1세와 공식 국민성",
+  "subtitle": "제3부와 검열, 정교·전제·국민성, 유럽의 헌병, 서구파와 슬라브파, 문학의 황금시대 (1825–1855)",
+  "summary": "'군인 황제' 니콜라이 1세의 30년을 다룹니다. 1836년 차다예프의 「철학 서한」과 그를 '정신병자'로 만든 정부의 대응으로 시작해, 제3부와 헌병대, '주철 법령'이라 불린 검열, 스페란스키의 법전 편찬과 키셀료프의 국유지 농민 개혁, 우바로프의 '정교·전제·국민성'과 글린카의 오페라, 폴란드 봉기와 헝가리 혁명 진압으로 얻은 '유럽의 헌병'이라는 이름을 살펴봅니다. 이어서 서구파와 슬라브파의 논쟁, 게르첸과 벨린스키, 사형대에 선 도스토옙스키, 푸시킨·레르몬토프·고골의 문학, 그리고 산업 혁명에 뒤처진 러시아를 정리합니다.",
+  "period": "1825–1855",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "니콜라이 1세의 통치 방식과 제3부·검열의 역할을 설명할 수 있다",
+    "'공식 국민성'의 세 원칙과 그 의미를 이해한다",
+    "'유럽의 헌병'으로서 러시아의 대외 정책을 정리할 수 있다",
+    "서구파와 슬라브파의 주장을 비교할 수 있다",
+    "니콜라이 시대 문학의 특징과 러시아의 산업적 낙후를 설명할 수 있다"
+  ],
+  "suggestedCourse": {
+    "id": "russia-modern-history",
+    "title": "러시아 근대사",
+    "subtitle": "표트르 대제에서 소련의 탄생까지, 1682–1922"
+  },
+  "suggestedOrder": 10,
+  "createdAt": "2026-11-26T07:00:00Z",
+  "references": [
+    {
+      "author": "Nicholas V. Riasanovsky",
+      "year": 1959,
+      "title": "Nicholas I and Official Nationality in Russia, 1825–1855",
+      "publisher": "University of California Press"
+    },
+    {
+      "author": "W. Bruce Lincoln",
+      "year": 1978,
+      "title": "Nicholas I: Emperor and Autocrat of All the Russias",
+      "publisher": "Indiana University Press"
+    },
+    {
+      "author": "Andrzej Walicki",
+      "year": 1979,
+      "title": "A History of Russian Thought from the Enlightenment to Marxism",
+      "publisher": "Stanford University Press"
+    },
+    {
+      "author": "Isaiah Berlin",
+      "year": 1978,
+      "title": "Russian Thinkers",
+      "publisher": "Hogarth Press"
+    },
+    {
+      "author": "Orlando Figes",
+      "year": 2002,
+      "title": "Natasha's Dance: A Cultural History of Russia",
+      "publisher": "Allen Lane"
+    }
+  ]
+}

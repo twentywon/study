@@ -1,0 +1,55 @@
+{
+  "title": "수요와 공급",
+  "subtitle": "경쟁 시장, 수요 법칙과 공급 법칙, 시장 균형과 그 변화",
+  "summary": "시장 경제의 가장 기본적인 모형인 수요와 공급을 배웁니다. 경쟁 시장과 가격 수용자, 수요 법칙과 수요 곡선을 이동시키는 요인(소득, 대체재·보완재, 기호, 기대), 공급 법칙과 공급 곡선을 이동시키는 요인을 살펴보고, 두 곡선이 만나는 균형과 잉여·부족의 조정 과정, 세 단계 분석법을 2010년 배추 파동과 2020년 마스크 대란에 적용합니다.",
+  "period": "현대",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "경쟁 시장의 특징과 가격 수용자의 의미를 설명할 수 있다",
+    "수요 법칙·공급 법칙을 설명하고, 곡선 위의 이동과 곡선의 이동을 구분할 수 있다",
+    "수요와 공급 곡선을 이동시키는 요인을 예를 들어 설명할 수 있다",
+    "균형, 잉여, 부족의 개념과 시장이 균형을 찾아가는 과정을 이해한다",
+    "세 단계 분석법으로 사건이 균형 가격과 거래량에 미치는 영향을 분석할 수 있다"
+  ],
+  "suggestedCourse": {
+    "id": "economics-principles",
+    "title": "경제학원론",
+    "subtitle": "희소성과 선택에서 시장, 경기 변동까지"
+  },
+  "suggestedOrder": 4,
+  "createdAt": "2026-11-20T06:00:00Z",
+  "references": [
+    {
+      "author": "Alfred Marshall",
+      "year": 1890,
+      "title": "Principles of Economics",
+      "publisher": "Macmillan",
+      "note": "제5편 제3장 '가위의 두 날'"
+    },
+    {
+      "author": "Friedrich A. Hayek",
+      "year": 1945,
+      "title": "The Use of Knowledge in Society",
+      "publisher": "American Economic Review 35(4)"
+    },
+    {
+      "author": "Mordecai Ezekiel",
+      "year": 1938,
+      "title": "The Cobweb Theorem",
+      "publisher": "Quarterly Journal of Economics 52(2)",
+      "note": "거미집 모형"
+    },
+    {
+      "author": "한국농수산식품유통공사(aT)",
+      "year": 2010,
+      "title": "농산물 유통 정보(KAMIS) 배추 소매 가격",
+      "note": "2010년 배추 파동"
+    },
+    {
+      "author": "N. Gregory Mankiw",
+      "year": 2024,
+      "title": "Principles of Economics (10th ed.)",
+      "publisher": "Cengage"
+    }
+  ]
+}

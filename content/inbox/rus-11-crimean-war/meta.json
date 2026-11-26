@@ -1,0 +1,53 @@
+{
+  "title": "크림 전쟁",
+  "subtitle": "성지 분쟁과 동방 문제, 시노프 해전, 세바스토폴 포위전, 파리 조약과 러시아의 반성 (1853–1856)",
+  "summary": "러시아가 영국·프랑스·오스만 제국 연합군에 패한 크림 전쟁을 다룹니다. 1854년 발라클라바의 경기병 여단 돌격으로 시작해, 베들레헴 성탄 교회의 열쇠를 둘러싼 분쟁과 멘시코프의 요구, '유럽의 병자' 오스만 제국과 해협을 둘러싼 동방 문제, 시노프 해전과 영국·프랑스의 참전을 살펴봅니다. 크림 상륙과 알마 전투, 349일의 세바스토폴 포위전과 발라클라바·인케르만, 겨울과 질병, 나이팅게일과 피로고프, 니콜라이 1세의 죽음과 말라호프 함락, 톨스토이의 『세바스토폴 이야기』, 파리 조약과 흑해 중립화, 그리고 근대 전쟁으로서의 크림 전쟁과 러시아가 배운 교훈을 정리합니다.",
+  "period": "1853–1856",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "크림 전쟁의 직접적 원인과 배경(동방 문제)을 설명할 수 있다",
+    "시노프 해전에서 세바스토폴 함락까지 전쟁의 전개를 정리할 수 있다",
+    "나이팅게일과 피로고프의 의료 활동, 종군 기자와 사진 등 전쟁의 새로운 모습을 이해한다",
+    "파리 조약의 내용과 러시아에 준 의미를 설명할 수 있다",
+    "크림 전쟁의 패배가 대개혁으로 이어진 이유를 설명할 수 있다"
+  ],
+  "suggestedCourse": {
+    "id": "russia-modern-history",
+    "title": "러시아 근대사",
+    "subtitle": "표트르 대제에서 소련의 탄생까지, 1682–1922"
+  },
+  "suggestedOrder": 11,
+  "createdAt": "2026-11-26T07:00:00Z",
+  "references": [
+    {
+      "author": "Orlando Figes",
+      "year": 2010,
+      "title": "Crimea: The Last Crusade",
+      "publisher": "Allen Lane"
+    },
+    {
+      "author": "Trevor Royle",
+      "year": 2000,
+      "title": "Crimea: The Great Crimean War, 1854–1856",
+      "publisher": "Little, Brown"
+    },
+    {
+      "author": "Winfried Baumgart",
+      "year": 1999,
+      "title": "The Crimean War, 1853–1856",
+      "publisher": "Arnold"
+    },
+    {
+      "author": "Ulrich Keller",
+      "year": 2001,
+      "title": "The Ultimate Spectacle: A Visual History of the Crimean War",
+      "publisher": "Gordon and Breach"
+    },
+    {
+      "author": "레프 톨스토이",
+      "year": 1855,
+      "title": "세바스토폴 이야기",
+      "publisher": ""
+    }
+  ]
+}

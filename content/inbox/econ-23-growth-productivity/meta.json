@@ -1,0 +1,59 @@
+{
+  "title": "경제성장과 생산성",
+  "subtitle": "70의 법칙, 생산성의 결정 요인, 한계 생산 체감과 따라잡기, 제도와 기술, 한국의 고도성장",
+  "summary": "나라마다 생활 수준이 왜 이렇게 다르고, 어떤 나라는 왜 빠르게 성장하는지 살펴봅니다. 루커스의 질문으로 시작해, 70의 법칙과 남북한의 자연 실험, 생산성을 결정하는 물적 자본·인적 자본·자연 자원·기술 지식을 익힙니다. 저축과 투자, 한계 생산 체감과 따라잡기 효과, 크루그먼의 '아시아 기적의 신화', 교육과 건강, 재산권과 포용적 제도, 자유무역, 연구 개발과 내생적 성장, 인구 문제, 한국의 고도성장과 그 그늘을 정리합니다.",
+  "period": "1956–현재",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "70의 법칙으로 성장률의 차이가 낳는 결과를 계산할 수 있다",
+    "생산성을 결정하는 네 가지 요인을 설명할 수 있다",
+    "한계 생산 체감과 따라잡기 효과, 장기 성장에서 기술 진보의 역할을 이해한다",
+    "재산권·제도·무역·교육·연구 개발 등 성장 정책의 역할을 설명할 수 있다",
+    "한국 고도성장의 요인과 한계를 정리할 수 있다"
+  ],
+  "suggestedCourse": {
+    "id": "economics-principles",
+    "title": "경제학원론",
+    "subtitle": "희소성과 선택에서 시장, 경기 변동까지"
+  },
+  "suggestedOrder": 23,
+  "createdAt": "2026-11-20T15:30:00Z",
+  "references": [
+    {
+      "author": "Robert E. Lucas Jr.",
+      "year": 1988,
+      "title": "On the Mechanics of Economic Development",
+      "publisher": "Journal of Monetary Economics 22(1)"
+    },
+    {
+      "author": "Robert M. Solow",
+      "year": 1956,
+      "title": "A Contribution to the Theory of Economic Growth",
+      "publisher": "Quarterly Journal of Economics 70(1)"
+    },
+    {
+      "author": "Paul M. Romer",
+      "year": 1990,
+      "title": "Endogenous Technological Change",
+      "publisher": "Journal of Political Economy 98(5)"
+    },
+    {
+      "author": "Daron Acemoglu, James A. Robinson",
+      "year": 2012,
+      "title": "Why Nations Fail",
+      "publisher": "Crown Business"
+    },
+    {
+      "author": "Paul Krugman",
+      "year": 1994,
+      "title": "The Myth of Asia's Miracle",
+      "publisher": "Foreign Affairs 73(6)"
+    },
+    {
+      "author": "한국은행",
+      "year": 2024,
+      "title": "2023년 북한 경제성장률 추정 결과",
+      "note": "남북한 1인당 GNI"
+    }
+  ]
+}
