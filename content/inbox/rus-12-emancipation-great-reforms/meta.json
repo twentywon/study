@@ -1,0 +1,53 @@
+{
+  "title": "농노 해방과 대개혁",
+  "subtitle": "1861년 해방령, 토지 상환과 미르, 젬스트보·사법·군사 개혁, 알래스카 매각 (1855–1881)",
+  "summary": "알렉산드르 2세의 농노 해방과 대개혁을 다룹니다. 1861년 3월 교회에서 해방령이 낭독되던 날과 베즈드나 사건으로 시작해, 크림 전쟁 뒤 '위로부터의 해방'을 결심한 황제와 해방 조건을 둘러싼 논쟁, 해방령의 내용(인격의 자유, 임시 의무, 토지 분배와 '잘라 낸 땅', 49년의 토지 상환금, 미르)과 그 그늘을 살펴봅니다. 이어서 젬스트보와 시 의회, 배심원과 변호사를 도입한 사법 개혁, 보편 징병제, 체형 폐지와 대학 자치, 그리고 바뀌지 않은 전제 정치, 1863년 폴란드 봉기, 알래스카 매각과 연해주·블라디보스토크, 중앙아시아 진출을 정리합니다.",
+  "period": "1855–1881",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "알렉산드르 2세가 농노 해방을 결심한 배경을 설명할 수 있다",
+    "1861년 해방령의 주요 내용과 한계를 정리할 수 있다",
+    "젬스트보, 사법 개혁, 군사 개혁의 내용과 의미를 설명할 수 있다",
+    "대개혁이 전제 정치를 바꾸지 못한 이유를 이해한다",
+    "이 시기 러시아의 영토 변화(알래스카, 연해주, 중앙아시아)를 안다"
+  ],
+  "suggestedCourse": {
+    "id": "russia-modern-history",
+    "title": "러시아 근대사",
+    "subtitle": "표트르 대제에서 소련의 탄생까지, 1682–1922"
+  },
+  "suggestedOrder": 12,
+  "createdAt": "2026-11-26T07:00:00Z",
+  "references": [
+    {
+      "author": "Larissa Zakharova",
+      "year": 1994,
+      "title": "Autocracy and the Abolition of Serfdom in Russia, 1856–1861",
+      "publisher": "Russian Studies in History"
+    },
+    {
+      "author": "W. Bruce Lincoln",
+      "year": 1990,
+      "title": "The Great Reforms: Autocracy, Bureaucracy, and the Politics of Change in Imperial Russia",
+      "publisher": "Northern Illinois University Press"
+    },
+    {
+      "author": "Ben Eklof, John Bushnell, Larissa Zakharova (eds.)",
+      "year": 1994,
+      "title": "Russia's Great Reforms, 1855–1881",
+      "publisher": "Indiana University Press"
+    },
+    {
+      "author": "Peter Kolchin",
+      "year": 1987,
+      "title": "Unfree Labor: American Slavery and Russian Serfdom",
+      "publisher": "Harvard University Press"
+    },
+    {
+      "author": "Terence Emmons",
+      "year": 1968,
+      "title": "The Russian Landed Gentry and the Peasant Emancipation of 1861",
+      "publisher": "Cambridge University Press"
+    }
+  ]
+}
