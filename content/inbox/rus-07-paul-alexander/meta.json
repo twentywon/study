@@ -1,0 +1,53 @@
+{
+  "title": "파벨 1세와 알렉산드르 1세",
+  "subtitle": "황위 계승법과 파벨의 암살, 알렉산드르의 개혁 구상과 스페란스키, 틸지트 (1796–1812)",
+  "summary": "예카테리나 2세의 뒤를 이은 두 황제의 시대를 다룹니다. 1801년 미하일롭스키 성의 파벨 1세 암살로 시작해, 어머니를 미워한 아들 파벨의 황위 계승법과 사흘 부역 선언, 군대식 통치와 변덕스러운 외교(몰타 기사단, 수보로프의 알프스 원정, 인도 원정)를 살펴봅니다. 이어서 '북방의 스핑크스' 알렉산드르 1세의 비밀 위원회와 내각 설치, 대학과 리체이, 자유 경작민령, 스페란스키의 헌법안과 그 좌절, 레자노프의 일본 방문, 그리고 아우스터리츠·프리틀란트의 패배와 틸지트 조약, 핀란드·베사라비아 획득과 대륙 봉쇄의 붕괴를 정리합니다.",
+  "period": "1796–1812",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "파벨 1세의 통치와 황위 계승법의 의미를 설명할 수 있다",
+    "파벨 1세가 암살된 배경을 이해한다",
+    "알렉산드르 1세 초기의 개혁(내각, 교육, 자유 경작민령)과 한계를 정리할 수 있다",
+    "스페란스키의 개혁안과 그것이 좌절된 이유를 설명할 수 있다",
+    "아우스터리츠에서 틸지트까지 러시아와 나폴레옹의 관계를 정리할 수 있다"
+  ],
+  "suggestedCourse": {
+    "id": "russia-modern-history",
+    "title": "러시아 근대사",
+    "subtitle": "표트르 대제에서 소련의 탄생까지, 1682–1922"
+  },
+  "suggestedOrder": 7,
+  "createdAt": "2026-11-26T07:00:00Z",
+  "references": [
+    {
+      "author": "Hugh Ragsdale",
+      "year": 1988,
+      "title": "Tsar Paul and the Question of Madness",
+      "publisher": "Greenwood Press"
+    },
+    {
+      "author": "Janet M. Hartley",
+      "year": 1994,
+      "title": "Alexander I",
+      "publisher": "Longman"
+    },
+    {
+      "author": "Marc Raeff",
+      "year": 1957,
+      "title": "Michael Speransky: Statesman of Imperial Russia, 1772–1839",
+      "publisher": "Martinus Nijhoff"
+    },
+    {
+      "author": "Dominic Lieven",
+      "year": 2009,
+      "title": "Russia Against Napoleon",
+      "publisher": "Allen Lane"
+    },
+    {
+      "author": "Nicholas V. Riasanovsky, Mark D. Steinberg",
+      "year": 2019,
+      "title": "A History of Russia, 9th ed.",
+      "publisher": "Oxford University Press"
+    }
+  ]
+}
