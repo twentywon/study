@@ -1,0 +1,59 @@
+{
+  "title": "인텔리겐치아, 나로드니키와 황제 암살",
+  "subtitle": "허무주의자와 『무엇을 할 것인가』, '민중 속으로', 토지와 자유, 인민의 의지와 1881년 3월 1일 (1860–1887)",
+  "summary": "대개혁 시대에 나타난 급진적 지식인과 혁명 운동을 다룹니다. 1881년 3월 1일 예카테리나 운하의 알렉산드르 2세 암살로 시작해, 러시아 특유의 지식인 집단 인텔리겐치아와 잡계급 지식인, 1897년 인구 조사로 본 지식인과 민중의 거리, 투르게네프의 허무주의자와 체르니솁스키의 『무엇을 할 것인가』, 도스토옙스키와 톨스토이를 살펴봅니다. 이어서 미르를 바탕으로 한 사회주의를 꿈꾼 나로드니키(라브로프, 바쿠닌, 트카초프, 네차예프), 1874년 '민중 속으로' 운동의 실패, 토지와 자유와 베라 자술리치 사건, 인민의 의지의 테러와 황제 암살, 그리고 암살이 불러온 반동과 알렉산드르 울랴노프의 처형까지 정리합니다.",
+  "period": "1860–1887",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "인텔리겐치아의 뜻과 러시아 지식인의 특수한 처지를 설명할 수 있다",
+    "허무주의와 나로드니키 사상의 내용을 이해한다",
+    "'민중 속으로' 운동이 실패한 이유를 설명할 수 있다",
+    "토지와 자유, 인민의 의지의 활동과 테러로 나아간 과정을 정리할 수 있다",
+    "알렉산드르 2세 암살의 경과와 그 결과를 평가할 수 있다"
+  ],
+  "suggestedCourse": {
+    "id": "russia-modern-history",
+    "title": "러시아 근대사",
+    "subtitle": "표트르 대제에서 소련의 탄생까지, 1682–1922"
+  },
+  "suggestedOrder": 13,
+  "createdAt": "2026-11-26T07:00:00Z",
+  "references": [
+    {
+      "author": "Franco Venturi",
+      "year": 1960,
+      "title": "Roots of Revolution: A History of the Populist and Socialist Movements in Nineteenth Century Russia",
+      "publisher": "Weidenfeld & Nicolson"
+    },
+    {
+      "author": "Adam B. Ulam",
+      "year": 1977,
+      "title": "In the Name of the People: Prophets and Conspirators in Prerevolutionary Russia",
+      "publisher": "Viking"
+    },
+    {
+      "author": "Isaiah Berlin",
+      "year": 1978,
+      "title": "Russian Thinkers",
+      "publisher": "Hogarth Press"
+    },
+    {
+      "author": "Claudia Verhoeven",
+      "year": 2009,
+      "title": "The Odd Man Karakozov: Imperial Russia, Modernity, and the Birth of Terrorism",
+      "publisher": "Cornell University Press"
+    },
+    {
+      "author": "이반 투르게네프",
+      "year": 1862,
+      "title": "아버지와 아들",
+      "publisher": ""
+    },
+    {
+      "author": "니콜라이 체르니솁스키",
+      "year": 1863,
+      "title": "무엇을 할 것인가",
+      "publisher": ""
+    }
+  ]
+}
