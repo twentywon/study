@@ -1,0 +1,53 @@
+{
+  "title": "제1차 세계대전과 라스푸틴",
+  "subtitle": "총동원령과 탄넨베르크, 대퇴각과 브루실로프 공세, 무너지는 후방, 라스푸틴과 황실의 권위 (1914–1916)",
+  "summary": "제1차 세계대전이 러시아 제국을 무너뜨려 간 과정을 다룹니다. 1916년 12월 유수포프 궁전에서의 라스푸틴 암살로 시작해, 사라예보 사건과 러시아의 총동원령, 애국의 열기와 페트로그라드 개명, 금주령을 살펴봅니다. 탄넨베르크의 패배와 갈리치아의 승리, 1915년 대퇴각과 피란민, 황제의 최고 사령관 취임, 브루실로프 공세를 따라가고, 인플레이션과 빵 줄, 중앙아시아 반란, 황후 알렉산드라와 '장관들의 뜀뛰기', 밀류코프의 '어리석음인가 반역인가' 연설, 그리고 혈우병을 앓는 황태자와 라스푸틴, 소문이 무너뜨린 황실의 권위를 정리합니다.",
+  "period": "1914–1916",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "러시아가 제1차 세계대전에 참전한 배경을 설명할 수 있다",
+    "탄넨베르크, 대퇴각, 브루실로프 공세 등 동부 전선의 전개를 정리할 수 있다",
+    "전쟁이 러시아 후방의 경제와 사회에 준 영향을 이해한다",
+    "황제의 최고 사령관 취임과 황후 알렉산드라의 정치 개입이 낳은 문제를 설명할 수 있다",
+    "라스푸틴의 역할과 그를 둘러싼 소문이 황실의 권위에 미친 영향을 평가할 수 있다"
+  ],
+  "suggestedCourse": {
+    "id": "russia-modern-history",
+    "title": "러시아 근대사",
+    "subtitle": "표트르 대제에서 소련의 탄생까지, 1682–1922"
+  },
+  "suggestedOrder": 18,
+  "createdAt": "2026-11-26T07:00:00Z",
+  "references": [
+    {
+      "author": "Norman Stone",
+      "year": 1975,
+      "title": "The Eastern Front, 1914–1917",
+      "publisher": "Hodder and Stoughton"
+    },
+    {
+      "author": "Dominic Lieven",
+      "year": 2015,
+      "title": "Towards the Flame: Empire, War and the End of Tsarist Russia",
+      "publisher": "Allen Lane"
+    },
+    {
+      "author": "Douglas Smith",
+      "year": 2016,
+      "title": "Rasputin: Faith, Power, and the Twilight of the Romanovs",
+      "publisher": "Farrar, Straus and Giroux"
+    },
+    {
+      "author": "Peter Gatrell",
+      "year": 2005,
+      "title": "Russia's First World War: A Social and Economic History",
+      "publisher": "Pearson Longman"
+    },
+    {
+      "author": "Orlando Figes",
+      "year": 1996,
+      "title": "A People's Tragedy: The Russian Revolution, 1891–1924",
+      "publisher": "Jonathan Cape"
+    }
+  ]
+}
