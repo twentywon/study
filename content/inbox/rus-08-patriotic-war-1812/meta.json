@@ -1,0 +1,53 @@
+{
+  "title": "1812년 조국 전쟁",
+  "subtitle": "나폴레옹의 침공, 보로디노와 모스크바 대화재, 대육군의 퇴각, 파리 입성과 빈 회의 (1812–1815)",
+  "summary": "나폴레옹의 러시아 원정과 그 결과를 다룹니다. 1812년 9월 포클론나야 언덕에서 텅 빈 모스크바를 바라보는 나폴레옹으로 시작해, 20여 개 민족으로 이루어진 대육군의 침공과 바르클라이의 후퇴 전략, 쿠투조프의 등장, 보로디노 전투와 필리 회의, 모스크바 대화재를 살펴봅니다. 옛 스몰렌스크 길의 퇴각과 혹한, 카자크와 유격대와 농민의 '민중 전쟁', 베레지나강 도하와 미나르 도표로 본 대육군의 소멸, 그리고 라이프치히 전투와 파리 입성, 빈 회의와 폴란드 왕국, 신성 동맹, 1812년이 남긴 기억과 질문을 정리합니다.",
+  "period": "1812–1815",
+  "estimatedMinutes": 60,
+  "objectives": [
+    "나폴레옹이 러시아를 침공한 이유와 양쪽의 전략을 설명할 수 있다",
+    "보로디노 전투와 모스크바 포기의 의미를 이해한다",
+    "대육군이 무너진 원인을 여러 측면에서 설명할 수 있다",
+    "파리 입성과 빈 회의, 신성 동맹에서 러시아의 역할을 정리할 수 있다",
+    "1812년 전쟁이 러시아 사회에 남긴 영향을 안다"
+  ],
+  "suggestedCourse": {
+    "id": "russia-modern-history",
+    "title": "러시아 근대사",
+    "subtitle": "표트르 대제에서 소련의 탄생까지, 1682–1922"
+  },
+  "suggestedOrder": 8,
+  "createdAt": "2026-11-26T07:00:00Z",
+  "references": [
+    {
+      "author": "Dominic Lieven",
+      "year": 2009,
+      "title": "Russia Against Napoleon: The Battle for Europe, 1807 to 1814",
+      "publisher": "Allen Lane"
+    },
+    {
+      "author": "Adam Zamoyski",
+      "year": 2004,
+      "title": "1812: Napoleon's Fatal March on Moscow",
+      "publisher": "HarperCollins"
+    },
+    {
+      "author": "Alexander Mikaberidze",
+      "year": 2007,
+      "title": "The Battle of Borodino: Napoleon Against Kutuzov",
+      "publisher": "Pen & Sword"
+    },
+    {
+      "author": "Edward Tufte",
+      "year": 1983,
+      "title": "The Visual Display of Quantitative Information",
+      "publisher": "Graphics Press"
+    },
+    {
+      "author": "레프 톨스토이",
+      "year": 1869,
+      "title": "전쟁과 평화",
+      "publisher": ""
+    }
+  ]
+}
